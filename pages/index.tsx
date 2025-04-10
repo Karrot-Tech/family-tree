@@ -31,10 +31,10 @@ const HomePage: NextPage = () => {
             WhatsApp.
           </span>
           <div className={s.buttonsContainer}>
-            <Button href="/tree" text="Посмотреть дерево" className={s.descriptionItem} />
+            <Button href="/tree" text="👉 View the tree 🌳" className={s.descriptionItem} />
             <Button
               href="https://wa.me/+12242292932?text=Hello%21%20I%E2%80%99m%20writing%20regarding%20the%20DHANI%20project"
-              text="Send a message on WhatsApp"
+              text="📲 on WhatsApp"
               className={s.descriptionItem}
               isSecondary={true}
               newTab={true}
