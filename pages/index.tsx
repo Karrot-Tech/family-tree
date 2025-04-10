@@ -17,26 +17,24 @@ const HomePage: NextPage = () => {
       <div className={s.content}>
         <div className={s.descriptionContainer}>
           <div className={classNames(s.logoContainer, s.descriptionItem)}>
-            <Image src="/LogoBig.png" width={120} height={110} alt="Логотип проекта древо" />
-            <span className={s.logoTitle}>ДРЕВО</span>
+            <Image src="/LogoBig.png" width={120} height={110} alt="The Tree Project" />
+            <span className={s.logoTitle}>Family Tree</span>
           </div>
           <span className={classNames(s.description, s.descriptionItem)}>
-            ДРЕВО – это открытый групповой проект по восстановлению генеалогических связей и сборе информации о
-            происхождении семьи Артемовых и родстве с другими семьями.
+            DHANI is an open group project focused on restoring genealogical connections and collecting information about the origins of the Karkala Pai family and its kinship with other families.
           </span>
           <span className={classNames(s.description, s.descriptionItem)}>
-            Результатом детективно-архивных исследований многих людей является масштабное генеалогическое дерево,
-            уходящее корнями в 19 век.
+            The result of extensive detective-style archival research by many individuals is a large-scale genealogical tree that traces its roots back to the 19th century.
           </span>
           <span className={classNames(s.description, s.descriptionItem)}>
-            Если вы обладаете информацией или материалами и желаете дополнить проект, пожалуйста, свяжитесь с нами в
+            If you have any information or materials and would like to contribute to the project, please contact us at 
             WhatsApp.
           </span>
           <div className={s.buttonsContainer}>
             <Button href="/tree" text="Посмотреть дерево" className={s.descriptionItem} />
             <Button
-              href="https://wa.me/+79853522893?text=Здравствуйте!%20 Пишу%20насчет%20проекта%20ДРЕВО"
-              text="Написать в WhatsApp"
+              href="https://wa.me/+12242292932?text=Hello%21%20I%E2%80%99m%20writing%20regarding%20the%20DHANI%20project"
+              text="Send a message on WhatsApp"
               className={s.descriptionItem}
               isSecondary={true}
               newTab={true}
@@ -44,9 +42,9 @@ const HomePage: NextPage = () => {
           </div>
         </div>
         <div className={s.widgets}>
-          <Widget title="Всего человек в дереве" value={nodesCount.toString()} />
-          <Widget title="Поколений в дереве" value={treeDepth.toString()} />
-          <Widget title="Разных семей в дереве" value={familiesCount.toString()} />
+          <Widget title="Total number of people in the tree" value={nodesCount.toString()} />
+          <Widget title="Number of generations in the tree" value={treeDepth.toString()} />
+          <Widget title="Number of distinct families in the tree" value={familiesCount.toString()} />
         </div>
       </div>
       <div className={s.imageContainer}>
