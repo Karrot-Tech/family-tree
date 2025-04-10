@@ -14,11 +14,11 @@ export type Navigation = {
 };
 
 const navigation: Navigation[] = [
-  { id: 1, title: "О проекте", path: "/" },
-  { id: 2, title: "Дерево", path: "/tree" },
-  { id: 3, title: "Семьи", path: "/families" },
-  { id: 4, title: "Благодарности", path: "/credits" },
-  { id: 5, title: "FAQ", path: "/faq" },
+  { id: 1, title: "About the Project", path: "/" },
+  { id: 2, title: "Tree 🌳", path: "/tree" },
+  { id: 3, title: "Families 👨‍👩‍👧‍👦", path: "/families" },
+  { id: 4, title: "Acknowledgements 🙏", path: "/credits" },
+  { id: 5, title: "FAQ ❔", path: "/faq" },
 ];
 
 const Header: FC = () => {
@@ -45,8 +45,8 @@ const Header: FC = () => {
   return (
     <header className={s.navbar}>
       <div className={s.logoContainer}>
-        <Image src="/favicon.ico" width={40} height={34} alt="Логотип проекта древо" />
-        <span className={s.logoTitle}>ДРЕВО</span>
+        <Image src="/favicon.ico" width={40} height={34} alt="Dhani Project Logo" />
+        <span className={s.logoTitle}>Tree</span>
       </div>
       <nav className={s.navigation}>
         {navigation.map(({ id, title, path }) => {
