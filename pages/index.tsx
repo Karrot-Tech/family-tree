@@ -18,7 +18,7 @@ const HomePage: NextPage = () => {
         <div className={s.descriptionContainer}>
           <div className={classNames(s.logoContainer, s.descriptionItem)}>
             <Image src="/LogoBig.png" width={120} height={110} alt="The Tree Project" />
-            <span className={s.logoTitle}>Family Tree</span>
+            <span className={s.logoTitle}>👨‍👩‍👧‍👦 Family Tree 🌳</span>
           </div>
           <span className={classNames(s.description, s.descriptionItem)}>
             DHANI is an open group project focused on restoring genealogical connections and collecting information about the origins of the Karkala Pai family and its kinship with other families.
