@@ -6,13 +6,11 @@ import type { NextPage } from "next";
 import Image from "next/image";
 
 const credits = [
-  { name: "Каршкову Максиму", description: "за кропотливый сбор информации" },
-  { name: "Крученкову Виктору", description: "за кропотливый сбор информации" },
-  { name: "Иванову Владимиру", description: "за разработку сайта" },
-  { name: "Артемовой Дарье", description: "за разработку сайта" },
+  { name: "Pavan Pai", description: "for painstakingly collecting information" },
+  { name: "Pavan Pai", description: "for website development" },
   {
-    name: "Артемову Сергею",
-    description: "за структуризацию информации для сайта",
+    name: "Pavan Pai",
+    description: "for structuring information for the site",
   },
 ];
 
@@ -23,9 +21,9 @@ const CreditsPage: NextPage = () => {
         <div className={s.descriptionContainer}>
           <div className={classNames(s.titleContainer, s.descriptionItem)}>
             <div className={s.logoContainer}>
-              <Image src="/LogoBig.png" width={120} height={110} alt="Логотип проекта древо" />
+              <Image src="/LogoBig.png" width={120} height={110} alt="Logo of the Dhani Tree" />
             </div>
-            <span className={s.logoTitle}>БЛАГОДАРНОСТИ</span>
+            <span className={s.logoTitle}>Acknowledgements</span>
           </div>
           {credits.map((item, index) => (
             <Credit key={index} name={item.name} description={item.description} />
