@@ -4,7 +4,7 @@ const { getNodesData } = require("./utils/nodesData.js");
 const { getRelations } = require("./utils/relations.js");
 const { getAllFamilies } = require("./utils/families.js");
 
-const PATH_TO_INPUT_CSV = "Узлы фамильного дерева - Люди.csv";
+const PATH_TO_INPUT_CSV = "Family Tree Knots - People.csv";
 
 const parseTree = async () => {
   const inputTreeNodes = await getTransformedNodesFromInputCsv(PATH_TO_INPUT_CSV);
