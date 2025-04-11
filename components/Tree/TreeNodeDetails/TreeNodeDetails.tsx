@@ -9,9 +9,9 @@ import { TreeNodeFamilies } from "./TreeNodeFamilies/TreeNodeFamilies";
 import { getTreeNodeDetails } from "./utils";
 
 const navigation = [
-  { id: 1, title: "Биография" },
-  { id: 2, title: "Галерея" },
-  { id: 3, title: "Семьи" },
+  { id: 1, title: "Biography" },
+  { id: 2, title: "Gallery" },
+  { id: 3, title: "Families" },
 ];
 
 const TreeNodeDetails: FC = () => {
@@ -26,12 +26,12 @@ const TreeNodeDetails: FC = () => {
       <TreeNodeDetailsBio {...nodeDetails} onRelationNodeClick={(id) => selectNode(id)} />
     ) : selectedNavId === 2 ? (
       <>
-        <span className={s.rootItem}>К сожалению, у нас пока нет фотографий этого человека.</span>
+        <span className={s.rootItem}>Unfortunately, we don't have any photos of this person yet.</span>
         <span className={s.rootItem}>
-          Если вы хотите помочь и у вас есть фото, которые вы хотите добавить в галерею, пожалуйста,{" "}
+          If you want to help and have photos you want to add to the gallery, please,{" "}
           <BioLink
-            href="https://wa.me/+79853522893?text=Здравствуйте!%20 Пишу%20насчет%20проекта%20ДРЕВО"
-            text="напишите нам"
+            href="https://wa.me/+12242292932?text=Hello%21%20I%20am%20writing%20regarding%20the%20Dhani%20Tree%20project"
+            text="Contact us on WhatsApp"
             newTab={true}
           />
           .
@@ -50,8 +50,8 @@ const TreeNodeDetails: FC = () => {
         <h2 className={s.name}>{nodeDetails.fullName}</h2>
         {hasSubTree && (
           <span className={s.hasSubTreeNote}>
-            В дереве видны не все предки. <br /> На вкладке Семьи можно посмотреть,
-            <wbr /> от кого происходит {nodeDetails.firstName}.
+            Not all ancestors are visible in the tree. <br /> You can see it on the Families tab,
+            <wbr /> from whom does it come? {nodeDetails.firstName}.
           </span>
         )}
       </div>
