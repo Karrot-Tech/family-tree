@@ -14,11 +14,11 @@ export type Navigation = {
 };
 
 const navigation: Navigation[] = [
-  { id: 1, title: "About the Project", path: "/" },
+  { id: 1, title: "Overview 📘", path: "/" },
   { id: 2, title: "Tree 🌳", path: "/tree" },
   { id: 3, title: "Families 👨‍👩‍👧‍👦", path: "/families" },
   { id: 4, title: "Acknowledgements 🙏", path: "/credits" },
-  { id: 5, title: "FAQ ❔", path: "/faq" },
+  { id: 5, title: "Questions ❔", path: "/faq" },
 ];
 
 const Header: FC = () => {
