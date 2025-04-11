@@ -9,7 +9,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "parseTree": "node ./scripts/parseTreeFromSheet.js"
+    "prepare": "node ./scripts/parseTreeFromSheet.js"
   },
   "dependencies": {
     "@vercel/analytics": "^1.0.1",
