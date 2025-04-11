@@ -36,31 +36,31 @@ export const TreeNodeDetailsBio: FC<TreeNodeDetailsBioProps> = ({
       <div className={classNames(s.bioGrid)}>
         {birthDate && (
           <>
-            <span className={s.gridItemTitle}>Дата рождения</span>
+            <span className={s.gridItemTitle}>Date of birth</span>
             <span className={s.gridItemValue}>{birthDate}</span>
           </>
         )}
         {birthPlace && (
           <>
-            <span className={s.gridItemTitle}>Место рождения</span>
+            <span className={s.gridItemTitle}>Place of birth</span>
             <span className={s.gridItemValue}>{birthPlace}</span>
           </>
         )}
         {deathDate && (
           <>
-            <span className={s.gridItemTitle}>Дата смерти</span>
+            <span className={s.gridItemTitle}>Date of death</span>
             <span className={s.gridItemValue}>{deathDate}</span>
           </>
         )}
         {deathPlace && (
           <>
-            <span className={s.gridItemTitle}>Место смерти</span>
+            <span className={s.gridItemTitle}>Place of death</span>
             <span className={s.gridItemValue}>{deathPlace}</span>
           </>
         )}
         {parents && parents.length > 0 && (
           <>
-            <span className={s.gridItemTitle}>Родители</span>
+            <span className={s.gridItemTitle}>Parents</span>
             <div className={classNames(s.gridItemValue)}>
               <BioRelationButtons onClick={onRelationNodeClick} items={parents} relationType={RelationType.Parents} />
             </div>
@@ -68,7 +68,7 @@ export const TreeNodeDetailsBio: FC<TreeNodeDetailsBioProps> = ({
         )}
         {siblings && siblings.length > 0 && (
           <>
-            <span className={s.gridItemTitle}>Братья и сестры</span>
+            <span className={s.gridItemTitle}>Brothers and sisters</span>
             <div className={classNames(s.gridItemValue)}>
               <BioRelationButtons onClick={onRelationNodeClick} items={siblings} relationType={RelationType.Siblings} />
             </div>
@@ -76,7 +76,7 @@ export const TreeNodeDetailsBio: FC<TreeNodeDetailsBioProps> = ({
         )}
         {spouses && spouses.length > 0 && (
           <>
-            <span className={s.gridItemTitle}>{spouses.length > 1 ? "Супруги" : "Супруг(а)"}</span>
+            <span className={s.gridItemTitle}>{spouses.length > 1 ? "Spouses" : "Spouse"}</span>
             <div className={classNames(s.gridItemValue)}>
               <BioRelationButtons onClick={onRelationNodeClick} items={spouses} relationType={RelationType.Spouses} />
             </div>
@@ -84,7 +84,7 @@ export const TreeNodeDetailsBio: FC<TreeNodeDetailsBioProps> = ({
         )}
         {children && children.length > 0 && (
           <>
-            <span className={s.gridItemTitle}>Дети</span>
+            <span className={s.gridItemTitle}>Children</span>
             <div className={classNames(s.gridItemValue)}>
               <BioRelationButtons onClick={onRelationNodeClick} items={children} relationType={RelationType.Children} />
             </div>
@@ -92,25 +92,25 @@ export const TreeNodeDetailsBio: FC<TreeNodeDetailsBioProps> = ({
         )}
         {nationality && (
           <>
-            <span className={s.gridItemTitle}>Национальность</span>
+            <span className={s.gridItemTitle}>Nationality</span>
             <span className={s.gridItemValue}>{nationality}</span>
           </>
         )}
         {education && (
           <>
-            <span className={s.gridItemTitle}>Образование</span>
+            <span className={s.gridItemTitle}>Education</span>
             <span className={s.gridItemValue}>{education}</span>
           </>
         )}
         {occupation && (
           <>
-            <span className={s.gridItemTitle}>Профессия</span>
+            <span className={s.gridItemTitle}>Occupation</span>
             <span className={s.gridItemValue}>{occupation}</span>
           </>
         )}
         {rewards && (
           <>
-            <span className={s.gridItemTitle}>Награды</span>
+            <span className={s.gridItemTitle}>Awards</span>
             <span className={s.gridItemValue}>{rewards.join(", ")}</span>
           </>
         )}
