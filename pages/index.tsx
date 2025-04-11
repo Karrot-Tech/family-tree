@@ -24,7 +24,7 @@ const HomePage: NextPage = () => {
             Grace of 🙏 Karkala Dhani ✨ has given raise to 👨‍👩‍👧‍👦 Family Tree 🌳... a digital record of Karkala Vasudaiva Kutumbakam.
           </span>
           <span className={classNames(s.description, s.descriptionItem)}>
-            This open group project provides information about the origins of the Konkani family with thier roots from the town of Karkala (Udupi District, Karnataka, India/Bharath). 
+            This open group project provides information about the origins of the Konkani family with thier roots from the Town of Karkala, Udupi District, Karnataka, India (Bharatvarsha). 
           </span>
           <span className={classNames(s.description, s.descriptionItem)}>
             This 🌳 also provides relationship of individuals from Karkala family with other families.
