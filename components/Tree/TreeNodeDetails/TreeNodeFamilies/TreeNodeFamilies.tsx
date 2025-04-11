@@ -11,7 +11,7 @@ export const TreeNodeFamilies: FC<TreeNodeFamiliesProps> = ({ families, fullName
 
   return families.length > 0 ? (
     <>
-      <span className={s.familyLinksTitle}>{`${fullName} является потомком семей:`}</span>
+      <span className={s.familyLinksTitle}>{`${fullName} is a descendant of the families:`}</span>
       <div className={s.familyLinksContainer}>
         {families.map((family) => {
           if (rootId === family.id) {
@@ -19,7 +19,7 @@ export const TreeNodeFamilies: FC<TreeNodeFamiliesProps> = ({ families, fullName
               <span
                 key={family.id}
                 className={classNames(s.selectedFamily, s.familyItem)}
-              >{`${family.lastName} – открыта сейчас`}</span>
+              >{`${family.lastName} – open now`}</span>
             );
           } else {
             return (
@@ -32,6 +32,6 @@ export const TreeNodeFamilies: FC<TreeNodeFamiliesProps> = ({ families, fullName
       </div>
     </>
   ) : (
-    <span className={s.familyLinksTitle}>{`${fullName} является корнем и не имеет других веток.`}</span>
+    <span className={s.familyLinksTitle}>{`${fullName} is the root and has no other branches.`}</span>
   );
 };
