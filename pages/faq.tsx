@@ -151,7 +151,7 @@ const FaqPage: NextPage = () => (
         </div>
         <div className={classNames(s.subtitleContainer, s.descriptionItem)}>
           <span>
-            Didn't find the answer to your question?{" "}
+            Didnt find the answer to your question?{" "}
             <BioLink
               href="https://wa.me/+12242292932?text=Hello%21%20I%20am%20writing%20regarding%20the%20Dhani%20-%20Tree%20project"
               text="Contact us on WhatsApp"
