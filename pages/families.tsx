@@ -17,12 +17,13 @@ const FamiliesPage: NextPage = () => {
             <div className={s.logoContainer}>
               <Image src="/LogoBig.png" width={120} height={110} alt="Логотип проекта древо" />
             </div>
-            <span className={s.logoTitle}>СЕМЬИ В ПРОЕКТЕ</span>
+            <span className={s.logoTitle}>Families in the Dhani - Tree</span>
           </div>
         </div>
         <div className={s.familiesContainer}>
           {familiesMap
             .filter((family) => !family.lastName.startsWith("от ("))
+            .filter((family) => !family.lastName.startsWith("from ("))
             .map((family, index) => (
               <FamilyLink key={index} href={`/tree?root=${family.id}`} familyName={family.lastName} />
             ))}
