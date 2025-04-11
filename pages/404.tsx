@@ -7,10 +7,10 @@ import type { NextPage } from "next";
 const ErrorPage: NextPage = () => (
   <div className={s.pageContainer}>
     <div className={s.content}>
-      <span className={classNames(s.descriptionItem, s.title)}>Упс! Такая страница не найдена</span>
+      <span className={classNames(s.descriptionItem, s.title)}>Oops! Such page not found</span>
       <div className={s.buttonsContainer}>
-        <Button href="/tree" text="Посмотреть дерево" className={s.descriptionItem} />
-        <Button href="/" text="Почитать о проекте" className={s.descriptionItem} isSecondary={true} />
+        <Button href="/tree" text="View tree" className={s.descriptionItem} />
+        <Button href="/" text="Read about Dhani Tree project" className={s.descriptionItem} isSecondary={true} />
       </div>
     </div>
     <div className={s.imageContainer}>
