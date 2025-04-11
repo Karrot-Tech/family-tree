@@ -21,7 +21,7 @@ const HomePage: NextPage = () => {
             <span className={s.logoTitle}>👨‍👩‍👧‍👦 Family Tree 🌳</span>
           </div>
           <span className={classNames(s.description, s.descriptionItem)}>
-            Grace of 🙏 Karkala Dhani ✨ has given raise to 👨‍👩‍👧‍👦 Family Tree 🌳 - a digital record 📝 of Karkala Vasudaiva Kutumbakam 🧑‍🧑‍🧒‍🧒.
+            Grace of 🙏 Karkala Dhani ✨ has given raise to 👨‍👩‍👧‍👦 Family Tree 🌳... a digital record of Karkala Vasudaiva Kutumbakam.
           </span>
           <span className={classNames(s.description, s.descriptionItem)}>
             This open group project provides information about the origins of the Konkani family with thier roots from the town of Karkala (Udupi District, Karnataka, India/Bharath). 
