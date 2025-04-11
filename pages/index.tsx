@@ -22,11 +22,15 @@ const HomePage: NextPage = () => {
           </div>
           <span className={classNames(s.description, s.descriptionItem)}>
             Grace of 🙏 Karkala Dhani ✨ has given raise to 👨‍👩‍👧‍👦 Family Tree 🌳 - a digital record 📝 of Karkala Vasudaiva Kutumbakam 🧑‍🧑‍🧒‍🧒.
-            This is an open group project to restore genealogical connections and collect information about the origins of the Konkani family with thier roots from the town of Karkala (Udupi District, Karnataka, India/Bharath). 
-            This also provides relationship of individuals from Karkala family with other families.
           </span>
           <span className={classNames(s.description, s.descriptionItem)}>
-            The result of extensive detective-style archival research by many individuals and efforts from our ancestors to preserve information about thier loved family members is a large-scale genealogical tree that traces its roots back to the 19th century.
+            This open group project provides information about the origins of the Konkani family with thier roots from the town of Karkala (Udupi District, Karnataka, India/Bharath). 
+          </span>
+          <span className={classNames(s.description, s.descriptionItem)}>
+            This 🌳 also provides relationship of individuals from Karkala family with other families.
+          </span>
+          <span className={classNames(s.description, s.descriptionItem)}>
+            The result of extensive detective-style archival research by many individuals and grace of our ancestors is a large-scale genealogical tree that traces its roots back to the 18th century.
           </span>
           <span className={classNames(s.description, s.descriptionItem)}>
             If you have any information or materials and would like to contribute to the project, please contact us on WhatsApp.
