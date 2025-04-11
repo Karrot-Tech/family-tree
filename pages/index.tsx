@@ -21,10 +21,10 @@ const HomePage: NextPage = () => {
             <span className={s.logoTitle}>👨‍👩‍👧‍👦 Family Tree 🌳</span>
           </div>
           <span className={classNames(s.description, s.descriptionItem)}>
-            🙏 Karkala Dhani ✨ is an open group project to restore genealogical connections and collect information about the origins of the Karkala Konkani family and their relationship with other families.
+            Grace of 🙏 Karkala Dhani ✨ has given raise to 👨‍👩‍👧‍👦 Family Tree 🌳. This is an open group project to restore genealogical connections and collect information about the origins of the Konkani family and their relationship with other families.
           </span>
           <span className={classNames(s.description, s.descriptionItem)}>
-            The result of extensive detective-style archival research by many individuals is a large-scale genealogical tree that traces its roots back to the 19th century.
+            The result of extensive detective-style archival research by many individuals and efforts from our ancestors to preserve information about thier loved family members is a large-scale genealogical tree that traces its roots back to the 19th century.
           </span>
           <span className={classNames(s.description, s.descriptionItem)}>
             If you have any information or materials and would like to contribute to the project, please contact us on WhatsApp.
