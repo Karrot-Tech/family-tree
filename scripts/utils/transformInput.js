@@ -4,31 +4,31 @@ const path = require("path");
 
 const TransformKeyMap = {
   id: "id",
-  фамилия: "lastName",
-  имя: "firstName",
-  отчество: "patronym",
-  пол: "gender",
-  мать: "motherId",
-  отец: "fatherId",
-  мачеха: "stepMotherId",
-  отчим: "stepFatherId",
-  супруг: "spouseId",
-  "Год свадьбы": "weddingYear",
-  "Месяц свадьбы": "weddingMonth",
-  "День свадьбы": "weddingDay",
-  "Год рождения": "birthYear",
-  "Месяц рождения": "birthMonth",
-  "День рождения": "birthDay",
-  "Город рождения": "birthPlace",
-  "Год смерти": "deathYear",
-  "Месяц смерти": "deathMonth",
-  "День смерти": "deathDay",
-  "Город смерти": "deathPlace",
-  Национальность: "nationality",
-  Образование: "education",
-  Профессия: "occupation",
-  Награды: "rewards",
-  Биография: "bio",
+  lastname: "lastName",
+  name: "firstName",
+  surname: "patronym",
+  gender: "gender",
+  mother: "motherId",
+  father: "fatherId",
+  stepmother: "stepMotherId",
+  stepfather: "stepFatherId",
+  spouse: "spouseId",
+  "Wedding year": "weddingYear",
+  "Wedding month": "weddingMonth",
+  "Wedding day": "weddingDay",
+  "Year of birth": "birthYear",
+  "Month of birth": "birthMonth",
+  "Birthday": "birthDay",
+  "City of birth": "birthPlace",
+  "Year of death": "deathYear",
+  "Month of death": "deathMonth",
+  "Day of death": "deathDay",
+  "City of death": "deathPlace",
+  Nationality: "nationality",
+  Education: "education",
+  Profession: "occupation",
+  Awards: "rewards",
+  Biography: "bio",
 };
 
 const getOutKey = (key) => {
@@ -37,7 +37,7 @@ const getOutKey = (key) => {
   }
 };
 
-const getGender = (str) => (str === "м" ? "male" : "female");
+const getGender = (str) => (str === "m" ? "male" : "female");
 
 const getTransformedNodesFromInputCsv = async (pathToInputCsv) => {
   const inputTreeNodes = await csvToJson().fromFile(
