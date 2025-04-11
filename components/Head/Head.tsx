@@ -7,7 +7,7 @@ const description = `Dhani is an open group project to restore genealogical conn
 export const PageHead = () => (
   <>
     <NextHead>
-      <title>Dhani-Tree</title>
+      <title>🙏 Karkala Dhani ✨</title>
       <meta name="description" content={description} />
       <meta name="viewport" content="width=device-width, initial-scale=1" key="viewport" />
       <meta property="og:image" content="/share.jpg" />
