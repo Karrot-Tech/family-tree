@@ -17,7 +17,7 @@ const questions = [
       <span>
         No, the tree is not indexed, so no one will find this site by entering your full name in the search bar. But if you are worried about your data being in the tree,{" "}
         <BioLink
-          href="https://wa.me/+12242292932?text=Hello%21%20I%20am%20writing%20regarding%20the%20Dhani%20-%20Tree%20project"
+          href="https://wa.me/+12242292932?text=Hello%21%20I%20am%20writing%20regarding%20the%20Dhani%20Tree%20project"
           text="Contact us on WhatsApp"
           newTab={true}
         />{" "}
@@ -29,7 +29,7 @@ const questions = [
     question: "I want to add/delete/correct information. How do I do this?",
     answer: (
       <BioLink
-        href="https://wa.me/+12242292932?text=Hello%21%20I%20am%20writing%20regarding%20the%20Dhani%20-%20Tree%20project"
+        href="https://wa.me/+12242292932?text=Hello%21%20I%20am%20writing%20regarding%20the%20Dhani%20Tree%20project"
         text="Contact us on WhatsApp"
         newTab={true}
       />
@@ -43,7 +43,7 @@ const questions = [
         Each family name in this list is a link that you can follow to view the tree of this family. 
         Some trees are large, some are still small. If you suddenly want to help us and add to the tree,{" "}
         <BioLink
-          href="https://wa.me/+12242292932?text=Hello%21%20I%20am%20writing%20regarding%20the%20Dhani%20-%20Tree%20project"
+          href="https://wa.me/+12242292932?text=Hello%21%20I%20am%20writing%20regarding%20the%20Dhani%20Tree%20project"
           text="Contact us on WhatsApp"
           newTab={true}
         />
