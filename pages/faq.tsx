@@ -81,7 +81,7 @@ const questions = [
     answer: (
       <span>
         At <BioLink href="/tree" text="Tree page" newTab={true} /> you can see the family tree. The tree consists of nodes in the form of balls. 
-        Each ball displays the person's full name and years of life, if we know them.
+        Each ball displays the person&apos;s full name and years of life, if we know them.
         <br />
         <br />
         <div className={s.pictureWrapper}>
