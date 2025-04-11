@@ -9,7 +9,7 @@ const description = `ДРЕВО – это открытый групповой �
 export const PageHead = () => (
   <>
     <NextHead>
-      <title>Древо</title>
+      <title>Dhani-Tree</title>
       <meta name="description" content={description} />
       <meta name="viewport" content="width=device-width, initial-scale=1" key="viewport" />
       <meta property="og:image" content="/share.jpg" />
