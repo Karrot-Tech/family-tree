@@ -26,7 +26,7 @@ const TreeNodeDetails: FC = () => {
       <TreeNodeDetailsBio {...nodeDetails} onRelationNodeClick={(id) => selectNode(id)} />
     ) : selectedNavId === 2 ? (
       <>
-        <span className={s.rootItem}>Unfortunately, we don't have any photos of this person yet.</span>
+        <span className={s.rootItem}>Unfortunately, we dont have any photos of this person yet.</span>
         <span className={s.rootItem}>
           If you want to help and have photos you want to add to the gallery, please,{" "}
           <BioLink
