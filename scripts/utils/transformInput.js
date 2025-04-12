@@ -4,7 +4,7 @@ const path = require("path");
 
 const TransformKeyMap = {
   id: "id",
-  lastname: "lastName",
+  "Last name": "lastName",
   name: "firstName",
   surname: "patronym",
   gender: "gender",
@@ -12,7 +12,7 @@ const TransformKeyMap = {
   father: "fatherId",
   stepmother: "stepMotherId",
   stepfather: "stepFatherId",
-  spouses: "spouseId",
+  spouse: "spouseId",
   "Wedding year": "weddingYear",
   "Wedding month": "weddingMonth",
   "Wedding day": "weddingDay",
