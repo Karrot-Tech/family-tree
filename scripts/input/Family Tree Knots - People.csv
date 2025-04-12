@@ -1,6 +1,6 @@
 Id,"Last name
 (maiden name for women)",Name,Surname,"Gender 
-(m or f)",Mother,Father,Stepmother,Stepfather,Spouse,Wedding year,Wedding month,"Wedding day
+(m or f)",Mother,Father,Stepmother,Stepfather,spouses,Wedding year,Wedding month,"Wedding day
 ",Year of birth,Month of birth,Birthday,City of birth,Year of death,Month of death,Day of death,City of death,Nationality,Education,Profession,Awards,"Biography (free text, any notable facts)"
 1,Devu,Venkatramana,Dhani,m,,,,,2,,,,,,,Karkala (Padutirupati),,,,,Indian,,,,
 2,Devi,Laxmi,Dhani,f,,,,,1,,,,,,,Karkala (Padutirupati),,,,,Indian,,,,
