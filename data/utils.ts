@@ -16,10 +16,10 @@ export const readNodesFromJson = (): TreeNode[] => {
         ...data,
         fullName: getFullName(data),
         families: data.families.sort((a, b) => {
-          if (a.lastName > b.lastName) {
+          if (a.firstName > b.firstName) {
             return 1;
           }
-          if (a.lastName < b.lastName) {
+          if (a.firstName < b.firstName) {
             return -1;
           }
           return 0;
