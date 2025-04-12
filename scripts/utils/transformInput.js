@@ -12,7 +12,7 @@ const TransformKeyMap = {
   father: "fatherId",
   stepmother: "stepMotherId",
   stepfather: "stepFatherId",
-  spouse: "spouseId",
+  spouses: "spouseId",
   "Wedding year": "weddingYear",
   "Wedding month": "weddingMonth",
   "Wedding day": "weddingDay",
