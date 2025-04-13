@@ -87,8 +87,7 @@ const getNodesWithFamilies = (nodes, relationsMap) => {
 };
 
 const getAllFamilies = (nodesData) => {
-  console.log("getAllFamilies nodes ->",nodes);
-  console.log("getAllFamilies relationsMap ->",relationsMap);
+  console.log("getAllFamilies nodesData ->",nodesData);
   return _.uniqBy(
     nodesData.flatMap((n) => n.families),
     (f) => f.id
