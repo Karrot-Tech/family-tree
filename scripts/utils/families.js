@@ -73,9 +73,8 @@ const getFamilies = (node, relationsMap) => {
 };
 
 const getNodesWithFamilies = (nodes, relationsMap) => {
-  console.log("getNodesWithFamilies nodes ->",nodes);
-  console.log("getNodesWithFamilies relationsMap ->",relationsMap);
   return nodes.map((node) => {
+    relationsMap.filter(({ node }) => node.gender !== "male");
     const families = getFamilies(node, relationsMap);
 
     return {
@@ -87,7 +86,6 @@ const getNodesWithFamilies = (nodes, relationsMap) => {
 };
 
 const getAllFamilies = (nodesData) => {
-  console.log("getAllFamilies nodesData ->",nodesData);
   return _.uniqBy(
     nodesData.flatMap((n) => n.families),
     (f) => f.id
