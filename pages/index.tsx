@@ -24,13 +24,10 @@ const HomePage: NextPage = () => {
             Grace of 🙏 Karkala Dhani ✨ has given raise to 👨‍👩‍👧‍👦 Family Tree 🌳... a digital record of Karkala Vasudaiva Kutumbakam.
           </span>
           <span className={classNames(s.description, s.descriptionItem)}>
-            This open group project provides information about the origins of the Konkani family with thier roots from the Town of Karkala, Udupi District, Karnataka, India (Bharatvarsha). 
+            This open group project provides information about the origins of the Gaud Saraswat Brahmins (GSBs) family from the Town of Karkala, Udupi District, Karnataka, India (Bharatvarsha). 
           </span>
           <span className={classNames(s.description, s.descriptionItem)}>
             This 🌳 also provides relationship of individuals from Karkala family with other families.
-          </span>
-          <span className={classNames(s.description, s.descriptionItem)}>
-            The result of extensive detective-style archival research by many individuals and grace of our ancestors is a large-scale genealogical tree that traces its roots back to the 18th century.
           </span>
           <span className={classNames(s.description, s.descriptionItem)}>
             If you have any information or materials and would like to contribute to the project, please contact us on WhatsApp.
