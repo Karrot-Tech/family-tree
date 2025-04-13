@@ -3,7 +3,7 @@ Id,"Фамилия
 (м или ж)",Мать,Отец,Мачеха,Отчим,Супруг(а),Год свадьбы,Месяц свадьбы,День свадьбы,Год рождения,Месяц рождения,День рождения,"Город рождения (село, деревня...) например: г. Ишимбай, с. Ишимбаево",Год смерти,Месяц смерти,День смерти,"Город смерти (село, деревня...) например: г. Ишимбай, с. Ишимбаево",Национальность?,Образование?,Профессия?,Награды?,Биография (свободным текстом любые примечательные факты),
 1,Venkatramana,Devu,Dhani,m,,,,,2,,,,,,,Karkala (Padutirupati),,,,,Indian,,,,LORD,
 2,Laxmi,Devi,Dhani,f,,,,,1,,,,,,,Karkala (Padutirupati),,,,,Indian,,,,LORD,
-3,Keshav,K,Pai,m,2,1,,,,,,,,,,,,,,,Indian,,,,,
+3,Keshav, ,Pai,m,2,1,,,,,,,,,,,,,,,Indian,,,,,
 4,Ramakrishna,K,Pai,m,2,3,,,,,,,,,,,,,,,Indian,,,,,
 5,Narashihma,K,Pai,m,2,4,,,6,,,,1908,3,23,Karkala (Padutirupati),1986,8,26,Karkala (Padutirupati),Indian,,Book Binder,,,
 6,Sanjeevini,Vedavati,Pai,f,,,,,5,,,,1920,3,21,,2009,3,30,Karkala (Padutirupati),Indian,,House Maker,,,
