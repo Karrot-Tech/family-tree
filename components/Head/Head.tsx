@@ -10,7 +10,7 @@ export const PageHead = () => (
       <title>🙏 Karkala Dhani ✨</title>
       <meta name="description" content={description} />
       <meta name="viewport" content="width=device-width, initial-scale=1" key="viewport" />
-      <meta property="og:image" content="/share.png" />
+      <meta property="og:image" content="/share.jpg" />
     </NextHead>
     {process.env.NODE_ENV === "production" && process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID && <GoogleAnalytics />}
   </>
