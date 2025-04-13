@@ -56,9 +56,14 @@ const getRelations = (transformedNodes) => {
       console.log("currentNode -->", currentNode);
       console.log("currentNode.spouses -->", currentNode.spouses);
       currentNode.spouses = addSpouse(currentNode.spouses, node.spouseId);
-      console.log("done");
+      console.log("done....");
       const spouseNode = nodesMap.get(node.spouseId);
+
+      console.log("spouseNode -->", spouseNode);
+      console.log("spouseNode.spouses -->", spouseNode.spouses);
+      
       spouseNode.spouses = addSpouse(spouseNode.spouses, node.id);
+      console.log("spouseNode.spouses 1 -->", spouseNode.spouses);
       nodesMap.set(spouseNode.id, spouseNode);
     }
 
