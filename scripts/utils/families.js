@@ -39,7 +39,7 @@ const getFamilyLastName = (rel, relationsMap) => {
 
   const firstName = node?.firstName ?? "";
   const patronym = node?.patronym ?? "";
-  return ${[firstName, patronym].join(" ");
+  return [firstName, patronym].join(" ");
 };
 
 const getFamilies = (node, relationsMap) => {
