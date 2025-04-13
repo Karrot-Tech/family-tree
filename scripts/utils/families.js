@@ -48,11 +48,12 @@ const getFamilies = (node, relationsMap) => {
   const families = [];
 
   const parents = getParents(node, relationsMap);
-
+  
   if (parents.length === 0) {
     return families;
   }
 
+  parents.filter(({ parNode }) => relationsMap.get(parNode.id) !== "male"));
   const queue = [...parents];
 
   while (queue.length > 0) {
@@ -74,7 +75,6 @@ const getFamilies = (node, relationsMap) => {
 
 const getNodesWithFamilies = (nodes, relationsMap) => {
   return nodes.map((node) => {
-    relationsMap.filter(({ node }) => node.gender !== "male");
     const families = getFamilies(node, relationsMap);
 
     return {
