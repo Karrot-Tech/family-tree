@@ -1,4 +1,7 @@
-Id,"Фамилия Id,"Last name (maiden name for women)",Name,Surname,"Gender (m or f)",Mother,Father,Stepmother,Stepfather,spouses,"Wedding year","Wedding month","Wedding day","Year of birth","Month of birth",Birthday,"City of birth","Year of death","Month of death","Day of death","City of death",Nationality,Education,Profession,Awards,"Biography (free text, any notable facts)",
+Id,"Last name
+(maiden name for women)",Name,Surname,"Gender 
+(m or f)",Mother,Father,Stepmother,Stepfather,Spouse,Wedding year,Wedding month,"Wedding day
+",Year of birth,Month of birth,Birthday,City of birth,Year of death,Month of death,Day of death,City of death,Nationality,Education,Profession,Awards,"Biography (free text, any notable facts)"
 1,Артемов,Максим,Васильевич,м,,,,,2,1887,1,30,1868,,,"д.Локтионово, Курская губерния",1929,,,д.Озерковка,русский,,,,,
 2,Докукина,Акилина,Федоровна,ж,,,,,1,1887,1,30,1867,,,"д.Нижний Любаж, Курская губерния",1920,2,14,д.Озерковка,русская,,,,,
 3,Артемов,Михаил,Максимович,м,2,1,,,4,1908,1,28,1887,11,21,"д.Локтионово, Курская губерния",1975,2,14,г.Ишимбай,русский,,,,,
