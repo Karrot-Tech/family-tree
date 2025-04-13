@@ -25,7 +25,7 @@ const FamiliesPage: NextPage = () => {
             .filter((family) => !family.lastName.startsWith("от ("))
             .filter((family) => !family.lastName.startsWith("from ("))
             .map((family, index) => (
-              <FamilyLink key={index} href={`/tree?root=${family.id}`} familyName={family.lastName}-{family.patronym} />
+              <FamilyLink key={index} href={`/tree?root=${family.id}`} familyName={family.patronym} />
             ))}
         </div>
       </div>
