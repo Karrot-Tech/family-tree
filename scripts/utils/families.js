@@ -3,7 +3,6 @@ const _ = require("lodash");
 const getParents = (rel, relationsMap) => {
   let temp = relationsMap.get(rel.id)?.parents;
   console.log("temp ->",temp);
-  console.log("temp?.gender ->",temp?.gender);
   return relationsMap.get(rel.id)?.parents ?? [];
 };
 
@@ -74,6 +73,8 @@ const getFamilies = (node, relationsMap) => {
 };
 
 const getNodesWithFamilies = (nodes, relationsMap) => {
+  console.log("getNodesWithFamilies nodes ->",nodes);
+  console.log("getNodesWithFamilies relationsMap ->",relationsMap);
   return nodes.map((node) => {
     const families = getFamilies(node, relationsMap);
 
@@ -86,6 +87,8 @@ const getNodesWithFamilies = (nodes, relationsMap) => {
 };
 
 const getAllFamilies = (nodesData) => {
+  console.log("getAllFamilies nodes ->",nodes);
+  console.log("getAllFamilies relationsMap ->",relationsMap);
   return _.uniqBy(
     nodesData.flatMap((n) => n.families),
     (f) => f.id
