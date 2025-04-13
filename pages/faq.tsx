@@ -66,12 +66,12 @@ const questions = [
         </div>
         <br />
         By default, the Karkala Pai family tree is shown, but you can also see trees for other families.{" "}
-        <BioLink href="/families" text="Family page" newTab={true} />you can see a list of links to trees of other families. 
+        <BioLink href="/families" text="Family page" newTab={true} /> you can see a list of links to trees of other families. 
         And on the card with detailed information about a person there is a Family tab with a list of those families of which this person is a descendant.
         <br />
         <br />
         <div className={s.pictureWrapper}>
-          <Image src={personCard2} layout="responsive" />
+          <Image src={personCard} layout="responsive" />
         </div>
       </span>
     ),
@@ -108,27 +108,27 @@ const questions = [
       </span>
     ),
   },
-  {
-    question: "Why do some balloons have a yellow ring?",
-    answer: (
-      <span>
-        This is how we mark people whose parents are not shown in the tree being viewed. 
-        We deliberately do not show everyone in one tree, because such a tree is not only difficult to build, but also difficult to read…
-        <br />
-        <br />
-        <div className={s.pictureWrapper}>
-          <Image src={yellowCircle} layout="responsive" />
-        </div>
-        <br />
-        But you can open the card of a person with such a ball, go to the Families tab and see which families he is a descendant of. Each surname there is a link to the tree of this family.
-        <br />
-        <br />
-        <div className={s.pictureWrapper}>
-          <Image src={personCard2} layout="responsive" />
-        </div>
-      </span>
-    ),
-  },
+  // {
+  //   question: "Why do some balloons have a yellow ring?",
+  //   answer: (
+  //     <span>
+  //       This is how we mark people whose parents are not shown in the tree being viewed. 
+  //       We deliberately do not show everyone in one tree, because such a tree is not only difficult to build, but also difficult to read…
+  //       <br />
+  //       <br />
+  //       <div className={s.pictureWrapper}>
+  //         <Image src={yellowCircle} layout="responsive" />
+  //       </div>
+  //       <br />
+  //       But you can open the card of a person with such a ball, go to the Families tab and see which families he is a descendant of. Each surname there is a link to the tree of this family.
+  //       <br />
+  //       <br />
+  //       <div className={s.pictureWrapper}>
+  //         <Image src={personCard2} layout="responsive" />
+  //       </div>
+  //     </span>
+  //   ),
+  // },
   {
     question: "Can I share a link to a specific tree?",
     answer: (
@@ -145,7 +145,7 @@ const FaqPage: NextPage = () => (
       <div className={s.descriptionContainer}>
         <div className={classNames(s.titleContainer, s.descriptionItem)}>
           <div className={s.logoContainer}>
-            <Image src="/LogoBig.png" width={120} height={110} alt="Логотип проекта древо" />
+            <Image src="/LogoBig.png" width={120} height={110} alt="Logo of the Dhani Tree" />
           </div>
           <span className={s.logoTitle}>FAQ</span>
         </div>
