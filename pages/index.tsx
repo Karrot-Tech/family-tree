@@ -21,10 +21,10 @@ const HomePage: NextPage = () => {
             <span className={s.logoTitle}>👨‍👩‍👧‍👦 Family Tree 🌳</span>
           </div>
           <span className={classNames(s.description, s.descriptionItem)}>
-            Grace of 🙏 Karkala Dhani ✨ has given raise to 👨‍👩‍👧‍👦 Family Tree 🌳... a digital record of Karkala Vasudaiva Kutumbakam.
+            Grace of 🙏 Karkala Dhani ✨ has given raise to 👨‍👩‍👧‍👦 Family Tree 🌳 (Vaṁśa Vṛkṣam)... a digital record of Karkala Vasudaiva Kutumbakam.
           </span>
           <span className={classNames(s.description, s.descriptionItem)}>
-            This open group project provides information about the origins of the Gaud Saraswat Brahmin&apos;s Pai family from the Town of Karkala, Udupi District, Karnataka, India (Bharatvarsha). 
+            This open group project provides information about the origins of the Gaud Saraswat Brahmin&apos;s Pai family from the Town of Karkala (Padutirupati), Udupi District, Karnataka, India (Bharatvarsha). 
           </span>
           <span className={classNames(s.description, s.descriptionItem)}>
             This 🌳 also provides relationship of individuals from Karkala family with other families.
