@@ -1,6 +1,9 @@
 const _ = require("lodash");
 
 const getParents = (rel, relationsMap) => {
+  let temp = relationsMap.get(rel.id)?.parents;
+  console.log("temp ->",temp);
+  console.log("temp?.gender ->",temp?.gender);
   return relationsMap.get(rel.id)?.parents ?? [];
 };
 
