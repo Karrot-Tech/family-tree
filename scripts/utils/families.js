@@ -53,7 +53,7 @@ const getFamilies = (node, relationsMap) => {
     return families;
   }
 
-  parents.filter(({ parNode }) => relationsMap.get(parNode.id) !== "male"));
+  parents.filter(({ parNode }) => relationsMap.get(parNode.id) !== "male");
   const queue = [...parents];
 
   while (queue.length > 0) {
