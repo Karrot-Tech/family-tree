@@ -51,9 +51,12 @@ const getRelations = (transformedNodes) => {
     currentNode.siblings = siblings;
     // Own spouses
     if (node.spouseId) {
+      console.log("node -->", node);
+      console.log("node.spouseId -->", node.spouseId);
       console.log("currentNode -->", currentNode);
+      console.log("currentNode.spouses -->", currentNode.spouses);
       currentNode.spouses = addSpouse(currentNode.spouses, node.spouseId);
-
+      console.log("done");
       const spouseNode = nodesMap.get(node.spouseId);
       spouseNode.spouses = addSpouse(spouseNode.spouses, node.id);
       nodesMap.set(spouseNode.id, spouseNode);
