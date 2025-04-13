@@ -25,19 +25,21 @@ const getDeclinedLastName = (lastName) => {
 
 const getFamilyLastName = (rel, relationsMap) => {
   const node = relationsMap.get(rel.id);
-  const lastName = node?.lastName ?? "";
+  // const lastName = node?.lastName ?? "";
 
-  let name = "";
+  // let name = "";
 
-  if (!lastName) {
-    const firstName = node?.firstName ?? "";
-    const patronym = node?.patronym ?? "";
-    name = `от (${[firstName, patronym].join(" ").trim()})`;
-  } else {
-    name = getDeclinedLastName(lastName);
-  }
+  // if (!lastName) {
+  //   const firstName = node?.firstName ?? "";
+  //   const patronym = node?.patronym ?? "";
+  //   name = `от (${[firstName, patronym].join(" ").trim()})`;
+  // } else {
+  //   name = getDeclinedLastName(lastName);
+  // }
 
-  return name;
+  const firstName = node?.firstName ?? "";
+  const patronym = node?.patronym ?? "";
+  return ${[firstName, patronym].join(" ");
 };
 
 const getFamilies = (node, relationsMap) => {
