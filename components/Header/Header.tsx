@@ -45,8 +45,8 @@ const Header: FC = () => {
   return (
     <header className={s.navbar}>
       <div className={s.logoContainer}>
-        <Link href="/"><a><Image src="/favicon.ico" width={40} height={34} alt="Dhani Project Logo" />
-        <span className={s.logoTitle}>🙏 Karkala Dhani ✨</span></a></Link>
+        <Image src="/favicon.ico" width={40} height={34} alt="Dhani Project Logo" />
+        <Link href="/"><a><span className={s.logoTitle}>🙏 Karkala Dhani ✨</span></a></Link>
       </div>
       <nav className={s.navigation}>
         {navigation.map(({ id, title, path }) => {
