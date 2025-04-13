@@ -15,7 +15,7 @@ interface TreeNodeProps {
 
 const TreeNode: FC<TreeNodeProps> = ({ isSelected, node, onClick, width, height }) => {
   const { data, gender } = node;
-  const { firstName, lastName, birthYear, deathYear } = data;
+  const { firstName, lastName, patronym, birthYear, deathYear } = data;
 
   const [isMouseOver, setMouseOver] = useState(false);
 
@@ -47,6 +47,7 @@ const TreeNode: FC<TreeNodeProps> = ({ isSelected, node, onClick, width, height 
           <div className={s.fullName}>
             <span className={s.firstName}>{firstName}</span>
             <span className={s.lastName}>{lastName}</span>
+            <span className={s.patronym}>{patronym}</span>
           </div>
           <TreeNodeYears birthYear={birthYear} deathYear={deathYear} />
         </button>
