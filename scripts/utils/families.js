@@ -2,7 +2,7 @@ const _ = require("lodash");
 
 const getParents = (rel, relationsMap) => {
   let temp = relationsMap.get(rel.id)?.parents ?? [];
-  return temp.filter(({ node }) => node.gender !== male)
+  return temp.filter(({ node }) => node.gender !== "male");
 };
 
 // 1. -ь, -т, -ан , -о, -ц— не менять
