@@ -27,7 +27,7 @@ const HomePage: NextPage = () => {
             This open group project provides information about the origins of the Gaud Saraswat Brahmin&apos;s Pai family from the Town of Karkala (Padutirupati), Udupi District, Karnataka, India (Bharatvarsha). 
           </span>
           <span className={classNames(s.description, s.descriptionItem)}>
-            This 🌳 also provides relationship of individuals from Karkala family with other families.
+            This 🌳 also provides relationship of individuals from Karkala Pai family with other families.
           </span>
           <span className={classNames(s.description, s.descriptionItem)}>
             If you have any information or materials and would like to contribute to the project, please contact us on WhatsApp.
