@@ -864,7 +864,8 @@
     "patronym": "Bhat",
     "gender": "male",
     "nationality": "Indian",
-    "occupation": "Bank Clerk & House Maker",
+    "occupation": "Bank Clerk & Priest",
+    "bio": "Manjeshwar Ananteshwara Temple Pradhana Archaka",
     "families": [],
     "isFamilyRoot": true
   },
@@ -875,8 +876,7 @@
     "patronym": "Bhat",
     "gender": "female",
     "nationality": "Indian",
-    "occupation": "Bank Clerk & Priest",
-    "bio": "Manjeshwar Ananteshwara Temple Pradhana Archaka",
+    "occupation": "Bank Clerk & House Maker",
     "families": [
       {
         "id": "66",
