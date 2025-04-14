@@ -1796,9 +1796,28 @@
   },
   {
     "id": "57",
-    "parents": [],
-    "ancestors": [],
-    "siblings": [],
+    "parents": [
+      {
+        "type": "blood",
+        "id": "74"
+      },
+      {
+        "type": "blood",
+        "id": "73"
+      }
+    ],
+    "ancestors": [
+      {
+        "type": "blood",
+        "id": "73"
+      }
+    ],
+    "siblings": [
+      {
+        "type": "blood",
+        "id": "75"
+      }
+    ],
     "spouses": [
       {
         "type": "married",
@@ -2224,6 +2243,135 @@
       {
         "type": "married",
         "id": "69"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "73",
+    "parents": [],
+    "ancestors": [],
+    "siblings": [],
+    "spouses": [],
+    "children": [
+      {
+        "type": "blood",
+        "id": "57"
+      },
+      {
+        "type": "blood",
+        "id": "75"
+      }
+    ]
+  },
+  {
+    "id": "74",
+    "parents": [],
+    "ancestors": [],
+    "siblings": [],
+    "spouses": [],
+    "children": [
+      {
+        "type": "blood",
+        "id": "57"
+      },
+      {
+        "type": "blood",
+        "id": "75"
+      }
+    ]
+  },
+  {
+    "id": "75",
+    "parents": [
+      {
+        "type": "blood",
+        "id": "74"
+      },
+      {
+        "type": "blood",
+        "id": "73"
+      }
+    ],
+    "ancestors": [
+      {
+        "type": "blood",
+        "id": "73"
+      }
+    ],
+    "siblings": [
+      {
+        "type": "blood",
+        "id": "57"
+      }
+    ],
+    "spouses": [
+      {
+        "type": "married",
+        "id": "76"
+      }
+    ],
+    "children": [
+      {
+        "type": "blood",
+        "id": "77"
+      }
+    ]
+  },
+  {
+    "id": "76",
+    "parents": [],
+    "ancestors": [],
+    "siblings": [],
+    "spouses": [
+      {
+        "type": "married",
+        "id": "75"
+      }
+    ],
+    "children": [
+      {
+        "type": "blood",
+        "id": "77"
+      }
+    ]
+  },
+  {
+    "id": "77",
+    "parents": [
+      {
+        "type": "blood",
+        "id": "76"
+      },
+      {
+        "type": "blood",
+        "id": "75"
+      }
+    ],
+    "ancestors": [
+      {
+        "type": "blood",
+        "id": "75"
+      }
+    ],
+    "siblings": [],
+    "spouses": [
+      {
+        "type": "married",
+        "id": "78"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "78",
+    "parents": [],
+    "ancestors": [],
+    "siblings": [],
+    "spouses": [
+      {
+        "type": "married",
+        "id": "77"
       }
     ],
     "children": []

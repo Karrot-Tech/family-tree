@@ -866,8 +866,13 @@
     "nationality": "Indian",
     "occupation": "Bank Clerk & Priest",
     "bio": "Manjeshwar Ananteshwara Temple Pradhana Archaka",
-    "families": [],
-    "isFamilyRoot": true
+    "families": [
+      {
+        "id": "73",
+        "lastName": "Raghuveer Bhat"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "58",
@@ -1075,6 +1080,83 @@
     "gender": "male",
     "nationality": "Indian",
     "occupation": "Business (hotel)",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "73",
+    "lastName": "Dad",
+    "firstName": "Raghuveer",
+    "patronym": "Bhat",
+    "gender": "male",
+    "nationality": "Indian",
+    "occupation": "Priest",
+    "bio": "Manjeshwar Ananteshwara Temple Pradhana Archaka",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "74",
+    "lastName": "Mom",
+    "firstName": "Raghuveer",
+    "patronym": "Bhat",
+    "gender": "female",
+    "nationality": "Indian",
+    "occupation": "House Maker",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "75",
+    "lastName": "Manjeshwar",
+    "firstName": "Suresh",
+    "patronym": "Bhat",
+    "gender": "male",
+    "nationality": "Indian",
+    "occupation": "Priest",
+    "bio": "Manjeshwar Ananteshwara Temple Pradhana Archaka",
+    "families": [
+      {
+        "id": "73",
+        "lastName": "Raghuveer Bhat"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "76",
+    "lastName": "Wife",
+    "firstName": "Suresh",
+    "patronym": "Bhat",
+    "gender": "female",
+    "nationality": "Indian",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "77",
+    "lastName": "Bhat",
+    "firstName": "Vaman",
+    "patronym": "Sharma",
+    "gender": "male",
+    "nationality": "Indian",
+    "occupation": "Bank Officer & Priest",
+    "bio": "Manjeshwar Ananteshwara Temple Pradhana Archaka",
+    "families": [
+      {
+        "id": "75",
+        "lastName": "Suresh Bhat"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "78",
+    "lastName": "Wife",
+    "firstName": "Vaman",
+    "patronym": "Sharma",
+    "gender": "female",
+    "nationality": "Indian",
     "families": [],
     "isFamilyRoot": true
   }
