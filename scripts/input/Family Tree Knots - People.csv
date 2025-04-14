@@ -55,7 +55,7 @@ Id,Last name,Name,patronym,Gender,Mother,Father,Stepmother,Stepfather,spouses,We
 54,Wife,Giridhar,Pai?,f,,,,,53,,,,,,,,,,,,Indian,,Customer Support - Swapna Book House,,
 55,Suratkal,Chinmay,Pai?,m,25,24,,,,,,,,,,,,,,,Indian,,,,
 56,Son,Giridhar,Pai?,m,54,53,,,,,,,,,,Mudubidre,,,,,Indian,,,,
-57,Majeshwar,Raghuveer,Bhat,m,,,,,58,,,,,,,,,,,,Indian,,Bank Clerk & Priest,,Manjeshwar Ananteshwara Temple Pradhana Archaka
+57,Majeshwar,Raghuveer,Bhat,m,74,73,,,58,,,,,,,,,,,,Indian,,Bank Clerk & Priest,,Manjeshwar Ananteshwara Temple Pradhana Archaka
 58,Nayak,Geetha,Bhat,f,67,66,,,57,,,,,,,,,,,,Indian,,Bank Clerk & House Maker,,
 59,Bhat,Shilpa,Mallya,f,58,57,,,60,,,,,,,Mangalore,,,,,Indian,BE,Engineer,,
 60,M,Pritheesh,Mallya,m,63,62,,,59,,,,,,,,,,,,Indian,BE,Engineer,,
@@ -71,3 +71,9 @@ Id,Last name,Name,patronym,Gender,Mother,Father,Stepmother,Stepfather,spouses,We
 70,Husband,Jaya,?,m,,,,,68,,,,,,,,,,,,Indian,,Bank Officer,,
 71,Son,Jaya,?,m,68,70,,,,,,,,,,,,,,,Indian,BE,,,
 72,Husband,Maya,?,m,,,,,69,,,,,,,,,,,,Indian,,Business (hotel),,
+73,Dad,Raghuveer,Bhat,m,,,,,,,,,,,,,,,,,Indian,,Priest,,Manjeshwar Ananteshwara Temple Pradhana Archaka
+74,Mom,Raghuveer,Bhat,f,,,,,,,,,,,,,,,,,Indian,,House Maker,,
+75,Manjeshwar,Suresh,Bhat,m,74,73,,,76,,,,,,,,,,,,Indian,,Priest,,Manjeshwar Ananteshwara Temple Pradhana Archaka
+76,Wife,Suresh,Bhat,f,,,,,75,,,,,,,,,,,,Indian,,,,
+77,Bhat,Vaman,Sharma,m,76,75,,,78,,,,,,,,,,,,Indian,,Bank Officer & Priest,,Manjeshwar Ananteshwara Temple Pradhana Archaka
+78,Wife,Vaman,Sharma,f,,,,,77,,,,,,,,,,,,Indian,,,,
