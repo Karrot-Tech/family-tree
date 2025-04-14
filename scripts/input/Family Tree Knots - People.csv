@@ -71,8 +71,8 @@ Id,Last name,Name,patronym,Gender,Mother,Father,Stepmother,Stepfather,spouses,We
 70,Husband,Jaya,?,m,,,,,68,,,,,,,,,,,,Indian,,Bank Officer,,
 71,Son,Jaya,?,m,68,70,,,,,,,,,,,,,,,Indian,BE,,,
 72,Husband,Maya,?,m,,,,,69,,,,,,,,,,,,Indian,,Business (hotel),,
-73,Dad,Raghuveer,Bhat,m,,,,,,,,,,,,,,,,,Indian,,Priest,,Manjeshwar Ananteshwara Temple Pradhana Archaka
-74,Mom,Raghuveer,Bhat,f,,,,,,,,,,,,,,,,,Indian,,House Maker,,
+73,Bhat,Vaman,Sharma,m,105,104,,,74,,,,,,,,,,,,Indian,,Priest,,Manjeshwar Ananteshwara Temple Pradhana Archaka
+74,Ajji,Vaman Wife,Sharma,f,,,,,73,,,,,,,,,,,,Indian,,House Maker,,
 75,Manjeshwar,Suresh,Bhat,m,74,73,,,76,,,,,,,,,,,,Indian,,Priest,,Manjeshwar Ananteshwara Temple Pradhana Archaka
 76,Wife,Suresh,Bhat,f,,,,,75,,,,,,,,,,,,Indian,,,,
 77,Bhat,Vaman,Sharma,m,76,75,,,78,,,,,,,,,,,,Indian,,Bank Officer & Priest,,Manjeshwar Ananteshwara Temple Pradhana Archaka
@@ -96,3 +96,11 @@ Id,Last name,Name,patronym,Gender,Mother,Father,Stepmother,Stepfather,spouses,We
 95,Ganesh,Vivek,Kamath,m,87,84,,,96,,,,,,,,,,,,American (USA),,Veterinary Doctor,,
 96,Roach,Gina,Kamath,f,,,,,95,,,,,,,,,,,,American (USA),,,,
 97,Vivek,Javeed,Kamath,m,96,95,,,,,,,,,,,,,,,American (USA),,,,
+98,M,Yogesh,Bhat,m,74,73,,,100,,,,,,,,,,,,,,,,
+99,M,Dinesh,Bhat,m,74,73,,,101,,,,,,,,,,,,,,,,
+100,M,Vinaya,Bhat,f,,,,,98,,,,,,,,,,,,,,,,
+101,M,Deepa,Bhat,f,,,,,99,,,,,,,,,,,,,,,,
+102,M,Kanthi,Bhat,f,74,73,,,,,,,,,,,,,,,,,,,
+103,M,Shobha,Bhat,f,74,73,,,,,,,,,,,,,,,,,,,
+104,Bhat,Raghuveer,Sharma,m,,,,,105,,,,,,,,,,,,,,,,
+105,Pijji,Raghuveer Wife,Sharma,f,,,,,104,,,,,,,,,,,,,,,,

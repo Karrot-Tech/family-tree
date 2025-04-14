@@ -874,7 +874,7 @@
     "families": [
       {
         "id": "73",
-        "lastName": "Raghuveer Bhat"
+        "lastName": "Vaman Sharma"
       }
     ],
     "isFamilyRoot": false
@@ -1099,21 +1099,26 @@
   },
   {
     "id": "73",
-    "lastName": "Dad",
-    "firstName": "Raghuveer",
-    "patronym": "Bhat",
+    "lastName": "Bhat",
+    "firstName": "Vaman",
+    "patronym": "Sharma",
     "gender": "male",
     "nationality": "Indian",
     "occupation": "Priest",
     "bio": "Manjeshwar Ananteshwara Temple Pradhana Archaka",
-    "families": [],
-    "isFamilyRoot": true
+    "families": [
+      {
+        "id": "104",
+        "lastName": "Raghuveer Sharma"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "74",
-    "lastName": "Mom",
-    "firstName": "Raghuveer",
-    "patronym": "Bhat",
+    "lastName": "Ajji",
+    "firstName": "Vaman Wife",
+    "patronym": "Sharma",
     "gender": "female",
     "nationality": "Indian",
     "occupation": "House Maker",
@@ -1132,7 +1137,7 @@
     "families": [
       {
         "id": "73",
-        "lastName": "Raghuveer Bhat"
+        "lastName": "Vaman Sharma"
       }
     ],
     "isFamilyRoot": false
@@ -1438,5 +1443,97 @@
       }
     ],
     "isFamilyRoot": false
+  },
+  {
+    "id": "98",
+    "lastName": "M",
+    "firstName": "Yogesh",
+    "patronym": "Bhat",
+    "gender": "male",
+    "families": [
+      {
+        "id": "73",
+        "lastName": "Vaman Sharma"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "99",
+    "lastName": "M",
+    "firstName": "Dinesh",
+    "patronym": "Bhat",
+    "gender": "male",
+    "families": [
+      {
+        "id": "73",
+        "lastName": "Vaman Sharma"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "100",
+    "lastName": "M",
+    "firstName": "Vinaya",
+    "patronym": "Bhat",
+    "gender": "female",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "101",
+    "lastName": "M",
+    "firstName": "Deepa",
+    "patronym": "Bhat",
+    "gender": "female",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "102",
+    "lastName": "M",
+    "firstName": "Kanthi",
+    "patronym": "Bhat",
+    "gender": "female",
+    "families": [
+      {
+        "id": "73",
+        "lastName": "Vaman Sharma"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "103",
+    "lastName": "M",
+    "firstName": "Shobha",
+    "patronym": "Bhat",
+    "gender": "female",
+    "families": [
+      {
+        "id": "73",
+        "lastName": "Vaman Sharma"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "104",
+    "lastName": "Bhat",
+    "firstName": "Raghuveer",
+    "patronym": "Sharma",
+    "gender": "male",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "105",
+    "lastName": "Pijji",
+    "firstName": "Raghuveer Wife",
+    "patronym": "Sharma",
+    "gender": "female",
+    "families": [],
+    "isFamilyRoot": true
   }
 ]

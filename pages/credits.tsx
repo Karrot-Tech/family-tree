@@ -6,12 +6,13 @@ import type { NextPage } from "next";
 import Image from "next/image";
 
 const credits = [
-  { name: "Pavan Pai", description: "for painstakingly collecting information" },
-  { name: "Pavan Pai", description: "for website development" },
-  {
-    name: "Pavan Pai",
-    description: "for structuring information for the site",
+  { name: "Ramakrishana K Pai", description: "for the vision of Vasudaiva Kutumbakam" },
+  { 
+    name: "Pavan K Pai", 
+    description: "for engineering & building the digital tree" 
+
   },
+  { name: "Ved P Pai", description: "for the spirit of eternal Vasudaiva Kutumbakam" },
 ];
 
 const CreditsPage: NextPage = () => {
