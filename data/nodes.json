@@ -468,9 +468,14 @@
     "birthPlace": "Mangalore",
     "nationality": "Indian",
     "education": "MTech - Electronics & Communication",
-    "occupation": "House Maker",
-    "families": [],
-    "isFamilyRoot": true
+    "occupation": "Engineer",
+    "families": [
+      {
+        "id": "57",
+        "lastName": "Raghuveer Bhat"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "30",
@@ -851,5 +856,226 @@
       }
     ],
     "isFamilyRoot": false
+  },
+  {
+    "id": "57",
+    "lastName": "Majeshwar",
+    "firstName": "Raghuveer",
+    "patronym": "Bhat",
+    "gender": "male",
+    "nationality": "Indian",
+    "occupation": "Bank Clerk & House Maker",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "58",
+    "lastName": "Nayak",
+    "firstName": "Geetha",
+    "patronym": "Bhat",
+    "gender": "female",
+    "nationality": "Indian",
+    "occupation": "Bank Clerk & Priest",
+    "bio": "Manjeshwar Ananteshwara Temple Pradhana Archaka",
+    "families": [
+      {
+        "id": "66",
+        "lastName": "Gundraya Nayak"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "59",
+    "lastName": "Bhat",
+    "firstName": "Shilpa",
+    "patronym": "Mallya",
+    "gender": "female",
+    "birthPlace": "Mangalore",
+    "nationality": "Indian",
+    "education": "BE",
+    "occupation": "Engineer",
+    "families": [
+      {
+        "id": "57",
+        "lastName": "Raghuveer Bhat"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "60",
+    "lastName": "M",
+    "firstName": "Preethish",
+    "patronym": "Mallya",
+    "gender": "male",
+    "nationality": "Indian",
+    "education": "BE",
+    "occupation": "Engineer",
+    "families": [
+      {
+        "id": "62",
+        "lastName": "Preethish Mallya"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "61",
+    "lastName": "P",
+    "firstName": "Samarth",
+    "patronym": "Mallya",
+    "gender": "male",
+    "birthPlace": "Mangalore",
+    "nationality": "Indian",
+    "families": [
+      {
+        "id": "60",
+        "lastName": "Preethish Mallya"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "62",
+    "lastName": "Dad",
+    "firstName": "Preethish",
+    "patronym": "Mallya",
+    "gender": "male",
+    "nationality": "Indian",
+    "occupation": "Business",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "63",
+    "lastName": "Mom",
+    "firstName": "Preethish",
+    "patronym": "Mallya",
+    "gender": "female",
+    "nationality": "Indian",
+    "occupation": "House Maker",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "64",
+    "lastName": "M",
+    "firstName": "Rakesh",
+    "patronym": "Mallya",
+    "gender": "male",
+    "nationality": "Indian",
+    "education": "BE",
+    "occupation": "Assistant Professor in Engineering",
+    "families": [
+      {
+        "id": "62",
+        "lastName": "Preethish Mallya"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "65",
+    "lastName": "Wife",
+    "firstName": "Rakesh",
+    "patronym": "Mallya",
+    "gender": "female",
+    "nationality": "Indian",
+    "occupation": "Bank Officer",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "66",
+    "lastName": "Mangalore",
+    "firstName": "Gundraya",
+    "patronym": "Nayak",
+    "gender": "male",
+    "nationality": "Indian",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "67",
+    "lastName": "Wife",
+    "firstName": "Gundraya",
+    "patronym": "Nayak",
+    "gender": "female",
+    "nationality": "Indian",
+    "occupation": "House Maker",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "68",
+    "lastName": "Nayak",
+    "firstName": "Jaya",
+    "patronym": "?",
+    "gender": "female",
+    "birthPlace": "Mangalore",
+    "nationality": "Indian",
+    "families": [
+      {
+        "id": "66",
+        "lastName": "Gundraya Nayak"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "69",
+    "lastName": "Nayak",
+    "firstName": "Maya",
+    "patronym": "?",
+    "gender": "female",
+    "birthPlace": "Mangalore",
+    "nationality": "Indian",
+    "occupation": "House Maker",
+    "families": [
+      {
+        "id": "66",
+        "lastName": "Gundraya Nayak"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "70",
+    "lastName": "Husband",
+    "firstName": "Jaya",
+    "patronym": "?",
+    "gender": "male",
+    "nationality": "Indian",
+    "occupation": "Bank Officer",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "71",
+    "lastName": "Son",
+    "firstName": "Jaya",
+    "patronym": "?",
+    "gender": "male",
+    "nationality": "Indian",
+    "education": "BE",
+    "families": [
+      {
+        "id": "70",
+        "lastName": "Jaya ?"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "72",
+    "lastName": "Husband",
+    "firstName": "Maya",
+    "patronym": "?",
+    "gender": "male",
+    "nationality": "Indian",
+    "occupation": "Business (hotel)",
+    "families": [],
+    "isFamilyRoot": true
   }
 ]
