@@ -63,7 +63,7 @@ Id,Last name,Name,patronym,Gender,Mother,Father,Stepmother,Stepfather,spouses,We
 62,Perdoor,Ganesh,Mallya,m,,,,,63,,,,1954,8,22,,,,,,Indian,,Business,,
 63,Perdoor,Malathi,Mallya,f,,,,,62,,,,1961,3,28,,,,,,Indian,,House Maker,,
 64,Perdoor,Rakesh,Mallya,m,63,62,,,65,,,,,,,,,,,,Indian,BE,Assistant Professor in Engineering,,
-65,R,Vijetha,Mallya,f,,,,,64,,,,1987,2,1,,,,,,Indian,,Bank Officer,,
+65,Rakesh,Vijetha,Mallya,f,,,,,64,,,,1987,2,1,,,,,,Indian,,Bank Officer,,
 66,Mangalore,Gundraya,Nayak,m,,,,,67,,,,,,,,,,,,Indian,,,,
 67,Wife,Gundraya,Nayak,f,,,,,66,,,,,,,,,,,,Indian,,House Maker,,
 68,Nayak,Jaya,?,f,67,66,,,70,,,,,,,Mangalore,,,,,Indian,,,,
@@ -77,3 +77,4 @@ Id,Last name,Name,patronym,Gender,Mother,Father,Stepmother,Stepfather,spouses,We
 76,Wife,Suresh,Bhat,f,,,,,75,,,,,,,,,,,,Indian,,,,
 77,Bhat,Vaman,Sharma,m,76,75,,,78,,,,,,,,,,,,Indian,,Bank Officer & Priest,,Manjeshwar Ananteshwara Temple Pradhana Archaka
 78,Wife,Vaman,Sharma,f,,,,,77,,,,,,,,,,,,Indian,,,,
+79,Perdoor,Shravani,Mallya,f,65,64,,,,,,,2014,8,1,,,,,,Indian,,,,

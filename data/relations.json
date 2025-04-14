@@ -2050,7 +2050,12 @@
         "id": "65"
       }
     ],
-    "children": []
+    "children": [
+      {
+        "type": "blood",
+        "id": "79"
+      }
+    ]
   },
   {
     "id": "65",
@@ -2063,7 +2068,12 @@
         "id": "64"
       }
     ],
-    "children": []
+    "children": [
+      {
+        "type": "blood",
+        "id": "79"
+      }
+    ]
   },
   {
     "id": "66",
@@ -2374,6 +2384,28 @@
         "id": "77"
       }
     ],
+    "children": []
+  },
+  {
+    "id": "79",
+    "parents": [
+      {
+        "type": "blood",
+        "id": "65"
+      },
+      {
+        "type": "blood",
+        "id": "64"
+      }
+    ],
+    "ancestors": [
+      {
+        "type": "blood",
+        "id": "64"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
     "children": []
   }
 ]
