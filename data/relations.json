@@ -2051,7 +2051,12 @@
     "parents": [],
     "ancestors": [],
     "siblings": [],
-    "spouses": [],
+    "spouses": [
+      {
+        "type": "married",
+        "id": "67"
+      }
+    ],
     "children": [
       {
         "type": "blood",
@@ -2072,7 +2077,12 @@
     "parents": [],
     "ancestors": [],
     "siblings": [],
-    "spouses": [],
+    "spouses": [
+      {
+        "type": "married",
+        "id": "66"
+      }
+    ],
     "children": [
       {
         "type": "blood",

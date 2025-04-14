@@ -906,7 +906,7 @@
   {
     "id": "60",
     "lastName": "M",
-    "firstName": "Preethish",
+    "firstName": "Pritheesh",
     "patronym": "Mallya",
     "gender": "male",
     "nationality": "Indian",
@@ -915,7 +915,7 @@
     "families": [
       {
         "id": "62",
-        "lastName": "Preethish Mallya"
+        "lastName": "Pritheesh Mallya"
       }
     ],
     "isFamilyRoot": false
@@ -931,7 +931,7 @@
     "families": [
       {
         "id": "60",
-        "lastName": "Preethish Mallya"
+        "lastName": "Pritheesh Mallya"
       }
     ],
     "isFamilyRoot": false
@@ -939,7 +939,7 @@
   {
     "id": "62",
     "lastName": "Dad",
-    "firstName": "Preethish",
+    "firstName": "Pritheesh",
     "patronym": "Mallya",
     "gender": "male",
     "nationality": "Indian",
@@ -950,7 +950,7 @@
   {
     "id": "63",
     "lastName": "Mom",
-    "firstName": "Preethish",
+    "firstName": "Pritheesh",
     "patronym": "Mallya",
     "gender": "female",
     "nationality": "Indian",
@@ -970,7 +970,7 @@
     "families": [
       {
         "id": "62",
-        "lastName": "Preethish Mallya"
+        "lastName": "Pritheesh Mallya"
       }
     ],
     "isFamilyRoot": false
