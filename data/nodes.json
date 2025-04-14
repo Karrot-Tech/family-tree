@@ -284,7 +284,7 @@
   {
     "id": "20",
     "lastName": "K",
-    "firstName": "Sarwothma",
+    "firstName": "Sarvothma",
     "patronym": "Pai",
     "gender": "male",
     "birthYear": 1954,
@@ -493,13 +493,19 @@
     "firstName": "Naveen",
     "patronym": "Pai",
     "gender": "male",
+    "weddingYear": "2019",
+    "weddingMonth": "7",
+    "weddingDay": "19",
+    "birthYear": 1989,
+    "birthMonth": 12,
+    "birthDay": 20,
     "nationality": "Indian",
     "education": "MCA",
     "occupation": "Engineer",
     "families": [
       {
         "id": "20",
-        "lastName": "Sarwothma Pai"
+        "lastName": "Sarvothma Pai"
       }
     ],
     "isFamilyRoot": false
@@ -507,9 +513,12 @@
   {
     "id": "32",
     "lastName": "K",
-    "firstName": "Naveen wife",
+    "firstName": "Shravya",
     "patronym": "Pai",
     "gender": "female",
+    "weddingYear": "2019",
+    "weddingMonth": "7",
+    "weddingDay": "19",
     "nationality": "Indian",
     "families": [],
     "isFamilyRoot": true
@@ -520,6 +529,10 @@
     "firstName": "Anvyay",
     "patronym": "Pai",
     "gender": "male",
+    "birthYear": 2022,
+    "birthMonth": 5,
+    "birthDay": 6,
+    "birthPlace": "Karkala (Padutirupati)",
     "nationality": "Indian",
     "families": [
       {
@@ -533,7 +546,7 @@
     "id": "34",
     "lastName": "K",
     "firstName": "Nayana Husband",
-    "patronym": "Pai?",
+    "patronym": "Mallya",
     "gender": "male",
     "nationality": "Indian",
     "occupation": "Photographer (Business)",
@@ -544,14 +557,14 @@
     "id": "35",
     "lastName": "Pai",
     "firstName": "Nayana",
-    "patronym": "Pai?",
+    "patronym": "Mallya",
     "gender": "female",
     "nationality": "Indian",
     "occupation": "House Maker",
     "families": [
       {
         "id": "20",
-        "lastName": "Sarwothma Pai"
+        "lastName": "Sarvothma Pai"
       }
     ],
     "isFamilyRoot": false
@@ -560,12 +573,12 @@
     "id": "36",
     "lastName": "K",
     "firstName": "Nayana Kid1",
-    "patronym": "Pai?",
+    "patronym": "Mallya",
     "nationality": "Indian",
     "families": [
       {
         "id": "34",
-        "lastName": "Nayana Husband Pai?"
+        "lastName": "Nayana Husband Mallya"
       }
     ],
     "isFamilyRoot": false
@@ -574,12 +587,12 @@
     "id": "37",
     "lastName": "K",
     "firstName": "Nayana Kid2",
-    "patronym": "Pai?",
+    "patronym": "Mallya",
     "nationality": "Indian",
     "families": [
       {
         "id": "34",
-        "lastName": "Nayana Husband Pai?"
+        "lastName": "Nayana Husband Mallya"
       }
     ],
     "isFamilyRoot": false
@@ -713,7 +726,7 @@
     "id": "47",
     "lastName": "N",
     "firstName": "Roopashree",
-    "patronym": "Pai?",
+    "patronym": "Bhat",
     "gender": "female",
     "nationality": "Indian",
     "families": [
@@ -732,13 +745,8 @@
     "gender": "male",
     "nationality": "Indian",
     "occupation": "Business",
-    "families": [
-      {
-        "id": "14",
-        "lastName": "Mittabail Pai?"
-      }
-    ],
-    "isFamilyRoot": false
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "49",
@@ -824,6 +832,22 @@
       {
         "id": "24",
         "lastName": "Chinnule Anu Pai?"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "56",
+    "lastName": "Son",
+    "firstName": "Giridhar",
+    "patronym": "Pai?",
+    "gender": "male",
+    "birthPlace": "Mudubidre",
+    "nationality": "Indian",
+    "families": [
+      {
+        "id": "53",
+        "lastName": "Giridhar Pai?"
       }
     ],
     "isFamilyRoot": false
