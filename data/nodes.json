@@ -316,8 +316,13 @@
     "birthPlace": "Manjeshwar",
     "nationality": "Indian",
     "occupation": "House Maker",
-    "families": [],
-    "isFamilyRoot": true
+    "families": [
+      {
+        "id": "80",
+        "lastName": "Giridhar Kamath"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "19",
@@ -1183,6 +1188,253 @@
       {
         "id": "64",
         "lastName": "Rakesh Mallya"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "80",
+    "lastName": "Ram",
+    "firstName": "Giridhar",
+    "patronym": "Kamath",
+    "gender": "male",
+    "nationality": "Indian",
+    "occupation": "School Teacher",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "81",
+    "lastName": "Bai",
+    "firstName": "Meera",
+    "patronym": "Kamath",
+    "gender": "female",
+    "nationality": "Indian",
+    "occupation": "House Maker",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "82",
+    "lastName": "Udupi",
+    "firstName": "Venkatesh",
+    "patronym": "Kamath",
+    "gender": "male",
+    "nationality": "Indian",
+    "occupation": "Bank Officer",
+    "families": [
+      {
+        "id": "80",
+        "lastName": "Giridhar Kamath"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "83",
+    "lastName": "M",
+    "firstName": "Srinivas",
+    "patronym": "Kamath",
+    "gender": "male",
+    "nationality": "Indian",
+    "occupation": "Bank Manager",
+    "families": [
+      {
+        "id": "80",
+        "lastName": "Giridhar Kamath"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "84",
+    "lastName": "M",
+    "firstName": "Ganesh",
+    "patronym": "Kamath",
+    "gender": "male",
+    "nationality": "Indian, American (USA)",
+    "education": "Btech - Chemical ENgineering, MS & PHD",
+    "occupation": "Engineer & Teacher",
+    "families": [
+      {
+        "id": "80",
+        "lastName": "Giridhar Kamath"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "85",
+    "lastName": "Bai",
+    "firstName": "Saku",
+    "patronym": "Kamath",
+    "gender": "female",
+    "nationality": "Indian",
+    "occupation": "Bank Clerk",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "86",
+    "lastName": "Mayi",
+    "firstName": "Srinivas",
+    "patronym": "Kamath",
+    "gender": "female",
+    "nationality": "Indian",
+    "occupation": "House Maker",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "87",
+    "lastName": "Baliga",
+    "firstName": "Lakshmi",
+    "patronym": "Kamath",
+    "gender": "female",
+    "nationality": "Indian, American (USA)",
+    "occupation": "Chemist",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "88",
+    "lastName": "Kamath",
+    "firstName": "Vidyarani",
+    "patronym": "?",
+    "gender": "female",
+    "nationality": "Indian, American (USA)",
+    "education": "BTech-Architecture",
+    "occupation": "Architect",
+    "families": [
+      {
+        "id": "82",
+        "lastName": "Venkatesh Kamath"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "89",
+    "lastName": "Husband",
+    "firstName": "Vidyarani",
+    "patronym": "?",
+    "gender": "male",
+    "nationality": "Indian, American (USA)",
+    "education": "BE",
+    "occupation": "Engineer",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "90",
+    "lastName": "Sister",
+    "firstName": "Nikku",
+    "patronym": "?",
+    "gender": "female",
+    "nationality": "Indian",
+    "families": [
+      {
+        "id": "89",
+        "lastName": "Vidyarani ?"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "91",
+    "lastName": "boy",
+    "firstName": "Nikku",
+    "patronym": "?",
+    "gender": "male",
+    "nationality": "Indian",
+    "families": [
+      {
+        "id": "89",
+        "lastName": "Vidyarani ?"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "92",
+    "lastName": "Kamath",
+    "firstName": "Sahana",
+    "patronym": "Pai",
+    "gender": "female",
+    "nationality": "Indian",
+    "education": "2*PHD",
+    "occupation": "Assistant Professor",
+    "families": [
+      {
+        "id": "83",
+        "lastName": "Srinivas Kamath"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "93",
+    "lastName": "M",
+    "firstName": "Girish",
+    "patronym": "Pai",
+    "gender": "male",
+    "nationality": "Indian",
+    "occupation": "Teacher",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "94",
+    "lastName": "Srinivas",
+    "firstName": "Saketh",
+    "patronym": "Kamath",
+    "gender": "male",
+    "nationality": "Indian",
+    "families": [
+      {
+        "id": "83",
+        "lastName": "Srinivas Kamath"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "95",
+    "lastName": "Ganesh",
+    "firstName": "Vivek",
+    "patronym": "Kamath",
+    "gender": "male",
+    "nationality": "American (USA)",
+    "occupation": "Veterinary Doctor",
+    "families": [
+      {
+        "id": "84",
+        "lastName": "Ganesh Kamath"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "96",
+    "lastName": "Roach",
+    "firstName": "Gina",
+    "patronym": "Kamath",
+    "gender": "female",
+    "nationality": "American (USA)",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "97",
+    "lastName": "Vivek",
+    "firstName": "Javeed",
+    "patronym": "Kamath",
+    "gender": "male",
+    "nationality": "American (USA)",
+    "families": [
+      {
+        "id": "95",
+        "lastName": "Vivek Kamath"
       }
     ],
     "isFamilyRoot": false
