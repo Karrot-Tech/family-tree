@@ -7,6 +7,7 @@ import f from "@/components/FamilyLink/FamilyLink.module.css";
 import classNames from "classnames";
 import type { NextPage } from "next";
 import Image from "next/image";
+import Link from 'next/link'
 
 const HomePage: NextPage = () => {
   const nodesCount = getNodesCount();
@@ -28,7 +29,7 @@ const HomePage: NextPage = () => {
             This open group project provides information about the origins of Konkani speaking Gaud Saraswat Brahmin&apos;s family from the Town of Karkala (Padutirupati), Udupi District, Karnataka, India (Bharatvarsha). 
           </span>
           <span className={classNames(s.description, s.descriptionItem)}>
-            This 🌳 also provides relationship of individuals from Karkala family with other<a href="/families" className={f.familyLink} style={{paddingLeft: '0.5rem', fontSize: '2.4rem'}}>Families</a>.
+            This 🌳 also provides relationship of individuals from Karkala family with other<Link href="/families"><a className={f.familyLink} style={{paddingLeft: '0.5rem', fontSize: '2.4rem'}}>Families</a></Link>.
           </span>
           <span className={classNames(s.description, s.descriptionItem)}>
             If you have any information or materials and would like to contribute to the project, please contact us on WhatsApp.
