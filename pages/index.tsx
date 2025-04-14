@@ -3,6 +3,7 @@ import { getFamiliesCount, getNodesCount, getTreeDepth } from "@/components/Widg
 import Widget from "@/components/Widget/Widget";
 import ballS from "@/styles/Ball.module.css";
 import s from "@/styles/HomePage.module.css";
+import f from "@/components/FamilyLink/FamilyLink.module.css";
 import classNames from "classnames";
 import type { NextPage } from "next";
 import Image from "next/image";
@@ -24,10 +25,10 @@ const HomePage: NextPage = () => {
             Grace of 🙏 Karkala Dhani ✨ has given raise to 👨‍👩‍👧‍👦 Family Tree 🌳 (Vamsa Vruksham)... a digital record of Karkala Vasudaiva Kutumbakam.
           </span>
           <span className={classNames(s.description, s.descriptionItem)}>
-            This open group project provides information about the origins of the Gaud Saraswat Brahmin&apos;s Pai family from the Town of Karkala (Padutirupati), Udupi District, Karnataka, India (Bharatvarsha). 
+            This open group project provides information about the origins of Konkani speaking Gaud Saraswat Brahmin&apos;s family from the Town of Karkala (Padutirupati), Udupi District, Karnataka, India (Bharatvarsha). 
           </span>
           <span className={classNames(s.description, s.descriptionItem)}>
-            This 🌳 also provides relationship of individuals from Karkala Pai family with other families.
+            This 🌳 also provides relationship of individuals from Karkala family with other<a href="/families" className={f.familyLink} style={{paddingLeft: '0.5rem', fontSize: '2.4rem'}}>Families</a>.
           </span>
           <span className={classNames(s.description, s.descriptionItem)}>
             If you have any information or materials and would like to contribute to the project, please contact us on WhatsApp.

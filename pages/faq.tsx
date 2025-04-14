@@ -108,27 +108,27 @@ const questions = [
       </span>
     ),
   },
-  // {
-  //   question: "Why do some balloons have a yellow ring?",
-  //   answer: (
-  //     <span>
-  //       This is how we mark people whose parents are not shown in the tree being viewed. 
-  //       We deliberately do not show everyone in one tree, because such a tree is not only difficult to build, but also difficult to read…
-  //       <br />
-  //       <br />
-  //       <div className={s.pictureWrapper}>
-  //         <Image src={yellowCircle} layout="responsive" />
-  //       </div>
-  //       <br />
-  //       But you can open the card of a person with such a ball, go to the Families tab and see which families he is a descendant of. Each surname there is a link to the tree of this family.
-  //       <br />
-  //       <br />
-  //       <div className={s.pictureWrapper}>
-  //         <Image src={personCard2} layout="responsive" />
-  //       </div>
-  //     </span>
-  //   ),
-  // },
+  {
+    question: "Why do some balloons have a yellow ring?",
+    answer: (
+      <span>
+        This is how we mark people whose parents are not shown in the tree being viewed. 
+        We deliberately do not show everyone in one tree, because such a tree is not only difficult to build, but also difficult to read.
+        <br />
+        <br />
+        <div className={s.pictureWrapper}>
+          <Image src={yellowCircle} layout="responsive" />
+        </div>
+        <br />
+        But you can open the card of a person with such a ball, go to the Families tab and see which families he is a descendant of. Each surname there is a link to the tree of this family.
+        <br />
+        <br />
+        <div className={s.pictureWrapper}>
+          <Image src={personCard2} layout="responsive" />
+        </div>
+      </span>
+    ),
+  },
   {
     question: "Can I share a link to a specific tree?",
     answer: (
