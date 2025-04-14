@@ -143,6 +143,7 @@
     "id": "10",
     "lastName": "Mamu",
     "firstName": "Niddodi",
+    "patronym": "Pai?",
     "gender": "male",
     "nationality": "Indian",
     "occupation": "Shop Owner (Business)",
@@ -150,7 +151,35 @@
     "isFamilyRoot": true
   },
   {
+    "id": "11",
+    "lastName": "Pai",
+    "firstName": "Anasuya",
+    "patronym": "Pai?",
+    "gender": "female",
+    "birthYear": 1943,
+    "birthMonth": 7,
+    "birthDay": 27,
+    "nationality": "Indian",
+    "occupation": "House Maker",
+    "families": [
+      {
+        "id": "7",
+        "lastName": "Narashihma Pai"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
     "id": "12",
+    "lastName": "Husband",
+    "firstName": "Saguna",
+    "patronym": "Pai?",
+    "gender": "male",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "13",
     "lastName": "K",
     "firstName": "Saguna",
     "patronym": "Pai",
@@ -173,27 +202,10 @@
     "isFamilyRoot": false
   },
   {
-    "id": "11",
-    "lastName": "Pai",
-    "firstName": "Anasuya",
-    "gender": "female",
-    "birthYear": 1943,
-    "birthMonth": 7,
-    "birthDay": 27,
-    "nationality": "Indian",
-    "occupation": "House Maker",
-    "families": [
-      {
-        "id": "7",
-        "lastName": "Narashihma Pai"
-      }
-    ],
-    "isFamilyRoot": false
-  },
-  {
-    "id": "13",
+    "id": "14",
     "lastName": "Mamu",
     "firstName": "Mittabail",
+    "patronym": "Pai?",
     "gender": "male",
     "nationality": "Indian",
     "occupation": "Shop Owner (Business)",
@@ -201,9 +213,10 @@
     "isFamilyRoot": true
   },
   {
-    "id": "14",
+    "id": "15",
     "lastName": "Pai",
     "firstName": "Sumitra",
+    "patronym": "Pai?",
     "gender": "female",
     "birthYear": 1946,
     "birthMonth": 5,
@@ -220,7 +233,7 @@
     "isFamilyRoot": false
   },
   {
-    "id": "15",
+    "id": "16",
     "lastName": "K",
     "firstName": "Ramakrishna",
     "patronym": "Pai",
@@ -229,9 +242,6 @@
     "birthMonth": 4,
     "birthDay": 8,
     "birthPlace": "Karkala (Padutirupati)",
-    "deathYear": 2013,
-    "deathMonth": 11,
-    "deathDay": 2,
     "nationality": "Indian",
     "occupation": "Bank Manager",
     "families": [
@@ -243,7 +253,7 @@
     "isFamilyRoot": false
   },
   {
-    "id": "17",
+    "id": "18",
     "lastName": "K",
     "firstName": "Suresh",
     "patronym": "Pai",
@@ -263,7 +273,7 @@
     "isFamilyRoot": false
   },
   {
-    "id": "19",
+    "id": "20",
     "lastName": "K",
     "firstName": "Sarwothma",
     "patronym": "Pai",
@@ -283,7 +293,7 @@
     "isFamilyRoot": false
   },
   {
-    "id": "16",
+    "id": "17",
     "lastName": "Manjula",
     "firstName": "Nirupama",
     "patronym": "Pai",
@@ -297,9 +307,10 @@
     "isFamilyRoot": true
   },
   {
-    "id": "18",
+    "id": "19",
     "lastName": "K",
     "firstName": "Pachhi 1",
+    "patronym": "Pai?",
     "gender": "female",
     "nationality": "Indian",
     "occupation": "House Maker",
@@ -307,9 +318,10 @@
     "isFamilyRoot": true
   },
   {
-    "id": "20",
+    "id": "21",
     "lastName": "K",
     "firstName": "Pachhi 2",
+    "patronym": "Pai?",
     "gender": "female",
     "nationality": "Indian",
     "occupation": "Mataji (School Teacher)",
@@ -317,9 +329,10 @@
     "isFamilyRoot": true
   },
   {
-    "id": "21",
+    "id": "22",
     "lastName": "Mamu",
     "firstName": "Losonu",
+    "patronym": "Pai?",
     "gender": "male",
     "nationality": "Indian",
     "occupation": "Professional Cook (Catering Business)",
@@ -327,9 +340,10 @@
     "isFamilyRoot": true
   },
   {
-    "id": "22",
+    "id": "23",
     "lastName": "Pai",
     "firstName": "Ranjani",
+    "patronym": "Pai?",
     "gender": "female",
     "birthYear": 1957,
     "birthMonth": 4,
@@ -346,9 +360,10 @@
     "isFamilyRoot": false
   },
   {
-    "id": "23",
+    "id": "24",
     "lastName": "Mamu",
     "firstName": "Chinnule Anu",
+    "patronym": "Pai?",
     "gender": "male",
     "nationality": "Indian",
     "occupation": "Shop Owner (Business)",
@@ -356,9 +371,10 @@
     "isFamilyRoot": true
   },
   {
-    "id": "24",
+    "id": "25",
     "lastName": "Pai",
     "firstName": "Premalatha",
+    "patronym": "Pai?",
     "gender": "female",
     "birthYear": 1961,
     "birthMonth": 5,
@@ -375,7 +391,7 @@
     "isFamilyRoot": false
   },
   {
-    "id": "25",
+    "id": "26",
     "lastName": "K",
     "firstName": "Laxminarayana",
     "patronym": "Pai",
@@ -385,17 +401,18 @@
     "birthDay": 14,
     "birthPlace": "Manjeshwar",
     "nationality": "Indian",
+    "education": "BTech - Electronics & Communication",
     "occupation": "Engineer",
     "families": [
       {
-        "id": "15",
+        "id": "16",
         "lastName": "Ramakrishna Pai"
       }
     ],
     "isFamilyRoot": false
   },
   {
-    "id": "26",
+    "id": "27",
     "lastName": "Baliga",
     "firstName": "Ashwini",
     "patronym": "Pai",
@@ -406,7 +423,7 @@
     "isFamilyRoot": true
   },
   {
-    "id": "27",
+    "id": "28",
     "lastName": "K",
     "firstName": "Pavan",
     "patronym": "Pai",
@@ -416,17 +433,18 @@
     "birthDay": 8,
     "birthPlace": "Manjeshwar",
     "nationality": "Indian",
+    "education": "BE - Electronics & Communication",
     "occupation": "Engineer",
     "families": [
       {
-        "id": "15",
+        "id": "16",
         "lastName": "Ramakrishna Pai"
       }
     ],
     "isFamilyRoot": false
   },
   {
-    "id": "28",
+    "id": "29",
     "lastName": "Bhat",
     "firstName": "Laxmi",
     "patronym": "Pai",
@@ -436,12 +454,13 @@
     "birthDay": 29,
     "birthPlace": "Mangalore",
     "nationality": "Indian",
+    "education": "MTech - Electronics & Communication",
     "occupation": "House Maker",
     "families": [],
     "isFamilyRoot": true
   },
   {
-    "id": "29",
+    "id": "30",
     "lastName": "K",
     "firstName": "Tiya",
     "patronym": "Pai",
@@ -449,30 +468,31 @@
     "nationality": "Indian",
     "families": [
       {
-        "id": "25",
+        "id": "26",
         "lastName": "Laxminarayana Pai"
       }
     ],
     "isFamilyRoot": false
   },
   {
-    "id": "30",
+    "id": "31",
     "lastName": "K",
     "firstName": "Naveen",
     "patronym": "Pai",
     "gender": "male",
     "nationality": "Indian",
+    "education": "MCA",
     "occupation": "Engineer",
     "families": [
       {
-        "id": "19",
+        "id": "20",
         "lastName": "Sarwothma Pai"
       }
     ],
     "isFamilyRoot": false
   },
   {
-    "id": "31",
+    "id": "32",
     "lastName": "K",
     "firstName": "Naveen wife",
     "patronym": "Pai",
@@ -482,7 +502,7 @@
     "isFamilyRoot": true
   },
   {
-    "id": "32",
+    "id": "33",
     "lastName": "K",
     "firstName": "Anvyay",
     "patronym": "Pai",
@@ -490,16 +510,17 @@
     "nationality": "Indian",
     "families": [
       {
-        "id": "30",
+        "id": "31",
         "lastName": "Naveen Pai"
       }
     ],
     "isFamilyRoot": false
   },
   {
-    "id": "33",
+    "id": "34",
     "lastName": "K",
     "firstName": "Nayana Husband",
+    "patronym": "Pai?",
     "gender": "male",
     "nationality": "Indian",
     "occupation": "Photographer (Business)",
@@ -507,29 +528,17 @@
     "isFamilyRoot": true
   },
   {
-    "id": "34",
+    "id": "35",
     "lastName": "Pai",
     "firstName": "Nayana",
+    "patronym": "Pai?",
     "gender": "female",
     "nationality": "Indian",
     "occupation": "House Maker",
     "families": [
       {
-        "id": "19",
+        "id": "20",
         "lastName": "Sarwothma Pai"
-      }
-    ],
-    "isFamilyRoot": false
-  },
-  {
-    "id": "35",
-    "lastName": "K",
-    "firstName": "Nayana Kid1",
-    "nationality": "Indian",
-    "families": [
-      {
-        "id": "33",
-        "lastName": "Nayana Husband "
       }
     ],
     "isFamilyRoot": false
@@ -537,18 +546,33 @@
   {
     "id": "36",
     "lastName": "K",
-    "firstName": "Nayana Kid2",
+    "firstName": "Nayana Kid1",
+    "patronym": "Pai?",
     "nationality": "Indian",
     "families": [
       {
-        "id": "33",
-        "lastName": "Nayana Husband "
+        "id": "34",
+        "lastName": "Nayana Husband Pai?"
       }
     ],
     "isFamilyRoot": false
   },
   {
     "id": "37",
+    "lastName": "K",
+    "firstName": "Nayana Kid2",
+    "patronym": "Pai?",
+    "nationality": "Indian",
+    "families": [
+      {
+        "id": "34",
+        "lastName": "Nayana Husband Pai?"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "38",
     "lastName": "K",
     "firstName": "Ashwini Husband",
     "patronym": "Rao",
@@ -559,7 +583,7 @@
     "isFamilyRoot": true
   },
   {
-    "id": "38",
+    "id": "39",
     "lastName": "Pai",
     "firstName": "Ashwini",
     "patronym": "Rao",
@@ -568,21 +592,225 @@
     "occupation": "Clerk",
     "families": [
       {
-        "id": "17",
+        "id": "18",
         "lastName": "Suresh Pai"
       }
     ],
     "isFamilyRoot": false
   },
   {
-    "id": "39",
+    "id": "40",
     "lastName": "K",
     "firstName": "Ashwini Kid1",
     "patronym": "Rao",
+    "nationality": "Indian",
     "families": [
       {
-        "id": "37",
+        "id": "38",
         "lastName": "Ashwini Husband Rao"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "41",
+    "lastName": "Akka",
+    "firstName": "Gayatri",
+    "patronym": "Pai?",
+    "gender": "female",
+    "birthPlace": "Karkala (Padutirupati)",
+    "nationality": "Indian",
+    "families": [
+      {
+        "id": "12",
+        "lastName": "Saguna Pai?"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "42",
+    "lastName": "Akka",
+    "firstName": "Savitri",
+    "patronym": "Pai?",
+    "gender": "female",
+    "birthPlace": "Karkala (Padutirupati)",
+    "nationality": "Indian",
+    "families": [
+      {
+        "id": "12",
+        "lastName": "Saguna Pai?"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "43",
+    "lastName": "Husband",
+    "firstName": "Gayatri",
+    "patronym": "Pai?",
+    "gender": "male",
+    "nationality": "Indian",
+    "occupation": "Business",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "44",
+    "lastName": "Husband",
+    "firstName": "Savitri",
+    "patronym": "Pai?",
+    "gender": "male",
+    "nationality": "Indian",
+    "occupation": "Farmer",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "45",
+    "lastName": "N",
+    "firstName": "Jayashshree",
+    "patronym": "Pai?",
+    "gender": "female",
+    "nationality": "Indian",
+    "families": [
+      {
+        "id": "14",
+        "lastName": "Mittabail Pai?"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "46",
+    "lastName": "N",
+    "firstName": "Rajashree",
+    "patronym": "Pai?",
+    "gender": "female",
+    "nationality": "Indian",
+    "families": [
+      {
+        "id": "14",
+        "lastName": "Mittabail Pai?"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "47",
+    "lastName": "N",
+    "firstName": "Roopashree",
+    "patronym": "Pai?",
+    "gender": "female",
+    "nationality": "Indian",
+    "families": [
+      {
+        "id": "14",
+        "lastName": "Mittabail Pai?"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "48",
+    "lastName": "Husband",
+    "firstName": "Jayashshree",
+    "patronym": "Pai?",
+    "gender": "male",
+    "nationality": "Indian",
+    "occupation": "Business",
+    "families": [
+      {
+        "id": "14",
+        "lastName": "Mittabail Pai?"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "49",
+    "lastName": "Husband",
+    "firstName": "Rajashree",
+    "patronym": "Pai?",
+    "gender": "male",
+    "nationality": "Indian",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "50",
+    "lastName": "Mamu",
+    "firstName": "Roopashree",
+    "patronym": "Bhat",
+    "gender": "male",
+    "nationality": "Indian",
+    "occupation": "Priest",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "51",
+    "lastName": "Losonu",
+    "firstName": "Lakshmi",
+    "patronym": "Pai?",
+    "gender": "female",
+    "nationality": "Indian",
+    "families": [
+      {
+        "id": "22",
+        "lastName": "Losonu Pai?"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "52",
+    "lastName": "Husband",
+    "firstName": "Lakshmi",
+    "patronym": "Pai?",
+    "gender": "male",
+    "nationality": "Indian",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "53",
+    "lastName": "Losonu",
+    "firstName": "Giridhar",
+    "patronym": "Pai?",
+    "gender": "male",
+    "nationality": "Indian",
+    "occupation": "Customer Support - Swapna Book House",
+    "families": [
+      {
+        "id": "22",
+        "lastName": "Losonu Pai?"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "54",
+    "lastName": "Wife",
+    "firstName": "Giridhar",
+    "patronym": "Pai?",
+    "gender": "female",
+    "nationality": "Indian",
+    "occupation": "Customer Support - Swapna Book House",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "55",
+    "lastName": "Suratkal",
+    "firstName": "Chinmay",
+    "patronym": "Pai?",
+    "gender": "male",
+    "nationality": "Indian",
+    "families": [
+      {
+        "id": "24",
+        "lastName": "Chinnule Anu Pai?"
       }
     ],
     "isFamilyRoot": false
