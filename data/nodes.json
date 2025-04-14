@@ -910,7 +910,7 @@
   },
   {
     "id": "60",
-    "lastName": "M",
+    "lastName": "Perdoor",
     "firstName": "Pritheesh",
     "patronym": "Mallya",
     "gender": "male",
@@ -920,14 +920,14 @@
     "families": [
       {
         "id": "62",
-        "lastName": "Pritheesh Mallya"
+        "lastName": "Ganesh Mallya"
       }
     ],
     "isFamilyRoot": false
   },
   {
     "id": "61",
-    "lastName": "P",
+    "lastName": "Perdoor",
     "firstName": "Samarth",
     "patronym": "Mallya",
     "gender": "male",
@@ -943,10 +943,13 @@
   },
   {
     "id": "62",
-    "lastName": "Dad",
-    "firstName": "Pritheesh",
+    "lastName": "Perdoor",
+    "firstName": "Ganesh",
     "patronym": "Mallya",
     "gender": "male",
+    "birthYear": 1954,
+    "birthMonth": 8,
+    "birthDay": 22,
     "nationality": "Indian",
     "occupation": "Business",
     "families": [],
@@ -954,10 +957,13 @@
   },
   {
     "id": "63",
-    "lastName": "Mom",
-    "firstName": "Pritheesh",
+    "lastName": "Perdoor",
+    "firstName": "Malathi",
     "patronym": "Mallya",
     "gender": "female",
+    "birthYear": 1961,
+    "birthMonth": 3,
+    "birthDay": 28,
     "nationality": "Indian",
     "occupation": "House Maker",
     "families": [],
@@ -965,7 +971,7 @@
   },
   {
     "id": "64",
-    "lastName": "M",
+    "lastName": "Perdoor",
     "firstName": "Rakesh",
     "patronym": "Mallya",
     "gender": "male",
@@ -975,17 +981,20 @@
     "families": [
       {
         "id": "62",
-        "lastName": "Pritheesh Mallya"
+        "lastName": "Ganesh Mallya"
       }
     ],
     "isFamilyRoot": false
   },
   {
     "id": "65",
-    "lastName": "Wife",
-    "firstName": "Rakesh",
+    "lastName": "R",
+    "firstName": "Vijetha",
     "patronym": "Mallya",
     "gender": "female",
+    "birthYear": 1987,
+    "birthMonth": 2,
+    "birthDay": 1,
     "nationality": "Indian",
     "occupation": "Bank Officer",
     "families": [],
