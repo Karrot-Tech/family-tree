@@ -39,7 +39,7 @@ const questions = [
     question: "What families already have information about them in the project?",
     answer: (
       <span>
-        На <BioLink href="/families" text="Family page" newTab={true} /> a complete list of families available at the moment is presented. 
+        At <BioLink href="/families" text="Family page" newTab={true} /> a complete list of families available at the moment is presented. 
         Each family name in this list is a link that you can follow to view the tree of this family. 
         Some trees are large, some are still small. If you suddenly want to help us and add to the tree,{" "}
         <BioLink
@@ -130,6 +130,25 @@ const questions = [
     ),
   },
   {
+    question: "Whom is reposible for this network?",
+    answer: (
+      <span>
+        Acknowledgements 🙏🏽
+        <nav>
+          <li>
+          Ramakrishana K Pai for the vision of Vasudaiva Kutumbakam
+          </li>
+          <li>
+          Pavan K Pai for engineering & building the digital tree
+          </li>
+          <li>
+          Ved P Pai for the spirit of eternal Vasudaiva Kutumbakam
+          </li>
+        </nav>
+      </span>
+    ),
+  },
+  {
     question: "Can I share a link to a specific tree?",
     answer: (
       <span>
@@ -145,7 +164,7 @@ const FaqPage: NextPage = () => (
       <div className={s.descriptionContainer}>
         <div className={classNames(s.titleContainer, s.descriptionItem)}>
           <div className={s.logoContainer}>
-            <Image src="/LogoBig.png" width={120} height={110} alt="Logo of the Dhani Tree" />
+            <Image src="/LogoBig.png" width={120} height={110} alt="Family Tree" />
           </div>
           <span className={s.logoTitle}>FAQ</span>
         </div>

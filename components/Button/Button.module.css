@@ -3,8 +3,8 @@
   padding: 2rem 6rem;
   font-size: 1.8rem;
   white-space: nowrap;
-  color: var(--main-font-color);
-  background-color: #00239d;
+  color: #fff;
+  background-color: #4da1ff;
   border: none;
   border-radius: 100px;
   cursor: pointer;
@@ -13,21 +13,21 @@
 }
 .button:hover,
 .button:focus {
-  background-color: #023aff;
+  background-color: #1976d2;
 }
 .button:not(:last-child) {
-  margin-right: 60px;
+  margin-right: 30px;
 }
 .secondaryButton {
-  color: #a1a8c2;
+  color: #4da1ff;
   background-color: transparent;
-  border: 2px solid #00239d;
+  border: 2px solid #4da1ff;
 }
 .secondaryButton:hover,
 .secondaryButton:focus {
-  color: var(--main-font-color);
-  background-color: transparent;
-  border: 2px solid #023aff;
+  color: #1976d2;
+  background-color: #e3f2fd;
+  border: 2px solid #1976d2;
 }
 
 @media (max-width: 700px) {
@@ -38,5 +38,8 @@
   }
   .button:not(:last-child) {
     margin-right: 0;
+  }
+  .button:not(:last-child) {
+    margin-right: 60px;
   }
 }

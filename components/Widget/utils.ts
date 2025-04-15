@@ -8,9 +8,9 @@ export const getNodesCount = (): number => {
 };
 
 export const getFamiliesCount = (): number => {
-  const families = getFamiliesArray();
-
-  return families.filter((family) => !family.lastName.startsWith("от (")).length;
+  // const families = getFamiliesArray();
+  // return families.filter((family) => !family.lastName.startsWith("от (")).length;
+  return getFamiliesArray().length;
 };
 
 export const getTreeDepth = (): number => {

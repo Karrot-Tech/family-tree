@@ -37,7 +37,12 @@ const getOutKey = (key) => {
   }
 };
 
-const getGender = (str) => ((str === "м" || str === "m") ? "male" : "female");
+const getGender = (str) => {
+  const val = String(str).toLowerCase();
+  if (val === "m" || val === "male") return "male";
+  if (val === "f" || val === "female") return "female";
+  return "";
+};
 
 const getTransformedNodesFromInputCsv = async (pathToInputCsv) => {
   const inputTreeNodes = await csvToJson().fromFile(

@@ -15,9 +15,9 @@ const FamiliesPage: NextPage = () => {
         <div className={s.descriptionContainer}>
           <div className={classNames(s.titleContainer, s.descriptionItem)}>
             <div className={s.logoContainer}>
-              <Image src="/LogoBig.png" width={120} height={110} alt="Logo of the Dhani Tree" />
+              <Image src="/LogoBig.png" width={120} height={110} alt="Family Tree" />
             </div>
-            <span className={s.logoTitle}>Families 👨‍👩‍👧‍👦 in 🌳</span>
+            <span className={s.logoTitle}>Families</span>
           </div>
         </div>
         <div className={s.familiesContainer}>

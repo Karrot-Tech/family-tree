@@ -7,7 +7,7 @@ const description = `🙏 Karkala Dhani ✨ is an open group project to restore 
 export const PageHead = () => (
   <>
     <NextHead>
-      <title>🙏 Karkala Dhani ✨</title>
+      <title>Vamsa Vruksham</title>
       <meta name="description" content={description} />
       <meta name="viewport" content="width=device-width, initial-scale=1" key="viewport" />
       <meta property="og:image" content="/share.jpg" />

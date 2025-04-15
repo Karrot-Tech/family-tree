@@ -7,7 +7,7 @@
 }
 .button:hover,
 .button:focus {
-  color: #4dffdf;
+  color: #1976d2;
   text-decoration: underline;
 }
 .button:not(:last-child) {

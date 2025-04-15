@@ -1,6 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
 :root {
+  --main-background-color: #f6f7fb;
+  --background-color: #ffffff;
+  --main-font-color: #22223b;
+  --font-color: #4b4b6b;
+  --gradient-to-color: #b1e3fa;
+  --gradient-from-color: #6ec1e4;
+}
+
+[data-theme="light"] {
+  --main-background-color: #f6f7fb;
+  --background-color: #ffffff;
+  --main-font-color: #22223b;
+  --font-color: #4b4b6b;
+  --gradient-to-color: #b1e3fa;
+  --gradient-from-color: #6ec1e4;
+}
+
+[data-theme="dark"]  {
   --main-background-color: #05050f;
   --background-color: #191932;
   --main-font-color: #ffffff;
@@ -8,6 +26,7 @@
   --gradient-to-color: #4dffdf;
   --gradient-from-color: #4da1ff;
 }
+
 html {
   font-size: 10px;
 }

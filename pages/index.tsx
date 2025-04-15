@@ -19,17 +19,17 @@ const HomePage: NextPage = () => {
       <div className={s.content}>
         <div className={s.descriptionContainer}>
           <div className={classNames(s.logoContainer, s.descriptionItem)}>
-            <Image src="/LogoBig.png" width={120} height={110} alt="Logo of the Dhani Tree" />
-            <span className={s.logoTitle}>👨‍👩‍👧‍👦 Family Tree 🌳</span>
+            <Image src="/LogoBig.png" width={120} height={110} alt="Family Tree" />
+            <span className={s.logoTitle}>Tree 📘</span>
           </div>
           <span className={classNames(s.description, s.descriptionItem)}>
-            Grace of 🙏 Karkala Dhani ✨ has given raise to 👨‍👩‍👧‍👦 Family Tree 🌳 (Vamsa Vruksham)... a digital record of Karkala Vasudaiva Kutumbakam.
+          This is a digital record of Vasudaiva Kutumbakam of Konkani speaking Gaud Saraswat Brahmin&apos;s.
           </span>
           <span className={classNames(s.description, s.descriptionItem)}>
-            This open group project provides information about the origins of Konkani speaking Gaud Saraswat Brahmin&apos;s family from the Town of Karkala (Padutirupati), Udupi District, Karnataka, India (Bharatvarsha). 
+            This open group project provides information about the origins of Pai family that moved from Ankola to the Town of Karkala (Padutirupati), Udupi District, Karnataka, India (Bharatvarsha) in 18th century. 
           </span>
           <span className={classNames(s.description, s.descriptionItem)}>
-            This 🌳 also provides relationship of individuals from Karkala family with other<Link href="/families"><a className={f.familyLink} style={{paddingLeft: '0.5rem', fontSize: '2.4rem'}}>Families</a></Link>.
+            This 🌳 also provides relationship of individuals from Karkala Pai family with other<Link href="/families"><a className={f.familyLink} style={{paddingLeft: '0.5rem', fontSize: '2.4rem'}}>Families</a></Link>.
           </span>
           <span className={classNames(s.description, s.descriptionItem)}>
             If you have any information or materials and would like to contribute to the project, please contact us on WhatsApp.

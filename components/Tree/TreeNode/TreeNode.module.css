@@ -17,7 +17,7 @@
   text-align: center;
   background: radial-gradient(96% 96% at 70.4% 31.2%, #3244e8 0%, rgba(0, 2, 16, 0) 100%),
     linear-gradient(0deg, #030092, #030092);
-  color: var(--main-font-color);
+  color: #fff;
   border-radius: 50%;
   padding: 8px;
   font-size: 14px;

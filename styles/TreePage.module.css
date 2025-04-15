@@ -18,23 +18,23 @@
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   color: #a1a8c2;
-  background-color: #05050fca;
-  border: 2px solid #7517f8;
+  background-color: #f5f5f7ca;
+  border: 2px solid #4da1ff;
 }
 .homeTreeLink:hover,
 .homeTreeLink:focus {
-  color: var(--main-font-color);
-  border: 2px solid #e323ff;
+  /* color: var(--main-font-color); */
+  border: 2px solid #1976d2;
 }
 .treeRootNameContainer {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  background-color: #05050fca;
-  box-shadow: 0px 0px 100px 100px #05050fca;
+  background-color: #f5f5f7ca;
+  box-shadow: 0px 0px 100px 100px #f5f5f7ca;
 }
 .treeRootName {
-  color: #ffffffc4;
+  color: #a1a8c2;
   font-size: 2rem;
 }
 .treeRootTitle {

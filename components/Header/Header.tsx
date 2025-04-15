@@ -17,21 +17,22 @@ const navigation: Navigation[] = [
   { id: 1, title: "Overview 📘", path: "/" },
   { id: 2, title: "Tree 🌳", path: "/tree" },
   { id: 3, title: "Families 👨‍👩‍👧‍👦", path: "/families" },
-  { id: 4, title: "Acknowledgements 🙏", path: "/credits" },
-  { id: 5, title: "Questions ❔", path: "/faq" },
+  { id: 4, title: "Questions 🙋🏼‍♂️", path: "/faq" },
 ];
-
+// { id: 5, title: "Acknowledgements 🙏", path: "/credits" },
 const Header: FC = () => {
   const router = useRouter();
   const [isMenuOpen, setMenuOpen] = useState(false);
   const [selectedMenuItemId, setSelectedMenuItemId] = useState<number>(1);
+  const [theme, setTheme] = useState("light");
 
   useEffect(() => {
+    document.body.setAttribute("data-theme", theme);
     const selectedMenuItem = navigation.find((nav) => nav.path === router.pathname);
     if (selectedMenuItem) {
       setSelectedMenuItemId(selectedMenuItem.id);
     }
-  }, [router.pathname]);
+  }, [theme, router.pathname]);
 
   const openMenu = () => {
     setMenuOpen(true);
@@ -45,9 +46,12 @@ const Header: FC = () => {
   return (
     <header className={s.navbar}>
       <div className={s.logoContainer}>
-        <Image src="/favicon.ico" width={40} height={34} alt="Dhani Project Logo" />
-        <Link href="/"><a><span className={s.logoTitle}>🙏 Karkala Dhani ✨</span></a></Link>
+        <Image src="/favicon.ico" width={40} height={34} alt="Family Tree" />
+        <Link href="/"><a><span className={s.logoTitle}>Vamsa Vruksham</span></a></Link>
       </div>
+    {/* <button onClick={() => setTheme(theme === "light" ? "dark" : "light")}>
+      Switch to {theme === "light" ? "dark" : "light"} theme
+    </button> */}
       <nav className={s.navigation}>
         {navigation.map(({ id, title, path }) => {
           let fullPath = path;
