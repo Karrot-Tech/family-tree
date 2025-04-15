@@ -142,8 +142,8 @@
   {
     "id": "10",
     "lastName": "Mamu",
-    "firstName": "Niddodi",
-    "patronym": "Pai?",
+    "firstName": "Panduranga",
+    "patronym": "Bhat",
     "gender": "male",
     "nationality": "Indian",
     "occupation": "Shop Owner (Business)",
@@ -154,7 +154,7 @@
     "id": "11",
     "lastName": "Pai",
     "firstName": "Anasuya",
-    "patronym": "Pai?",
+    "patronym": "Bhat",
     "gender": "female",
     "birthYear": 1943,
     "birthMonth": 7,
@@ -206,7 +206,7 @@
   {
     "id": "14",
     "lastName": "Mamu",
-    "firstName": "Mittabail",
+    "firstName": "Raghavendra",
     "patronym": "Pai?",
     "gender": "male",
     "nationality": "Indian",
@@ -328,7 +328,7 @@
     "id": "19",
     "lastName": "K",
     "firstName": "Pachhi 1",
-    "patronym": "Pai?",
+    "patronym": "Pai",
     "gender": "female",
     "nationality": "Indian",
     "occupation": "House Maker",
@@ -339,7 +339,7 @@
     "id": "21",
     "lastName": "K",
     "firstName": "Pachhi 2",
-    "patronym": "Pai?",
+    "patronym": "Pai",
     "gender": "female",
     "nationality": "Indian",
     "occupation": "Mataji (School Teacher)",
@@ -349,8 +349,8 @@
   {
     "id": "22",
     "lastName": "Mamu",
-    "firstName": "Losonu",
-    "patronym": "Pai?",
+    "firstName": "Lakshman",
+    "patronym": "Nayak",
     "gender": "male",
     "nationality": "Indian",
     "occupation": "Professional Cook (Catering Business)",
@@ -361,7 +361,7 @@
     "id": "23",
     "lastName": "Pai",
     "firstName": "Ranjani",
-    "patronym": "Pai?",
+    "patronym": "Nayak",
     "gender": "female",
     "birthYear": 1957,
     "birthMonth": 4,
@@ -380,8 +380,8 @@
   {
     "id": "24",
     "lastName": "Mamu",
-    "firstName": "Chinnule Anu",
-    "patronym": "Pai?",
+    "firstName": "Kamalaksh",
+    "patronym": "Bhandarkar",
     "gender": "male",
     "nationality": "Indian",
     "occupation": "Shop Owner (Business)",
@@ -389,10 +389,24 @@
     "isFamilyRoot": true
   },
   {
+    "id": "62",
+    "lastName": "Perdoor",
+    "firstName": "Ganesh",
+    "patronym": "Mallya",
+    "gender": "male",
+    "birthYear": 1954,
+    "birthMonth": 8,
+    "birthDay": 22,
+    "nationality": "Indian",
+    "occupation": "Business",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
     "id": "25",
     "lastName": "Pai",
     "firstName": "Premalatha",
-    "patronym": "Pai?",
+    "patronym": "Bhandarkar",
     "gender": "female",
     "birthYear": 1961,
     "birthMonth": 5,
@@ -435,6 +449,20 @@
     "firstName": "Ashwini",
     "patronym": "Pai",
     "gender": "female",
+    "nationality": "Indian",
+    "occupation": "House Maker",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "63",
+    "lastName": "Perdoor",
+    "firstName": "Malathi",
+    "patronym": "Mallya",
+    "gender": "female",
+    "birthYear": 1961,
+    "birthMonth": 3,
+    "birthDay": 28,
     "nationality": "Indian",
     "occupation": "House Maker",
     "families": [],
@@ -554,8 +582,8 @@
   },
   {
     "id": "34",
-    "lastName": "K",
-    "firstName": "Nayana Husband",
+    "lastName": "Udupi",
+    "firstName": "Srinivas",
     "patronym": "Mallya",
     "gender": "male",
     "nationality": "Indian",
@@ -581,28 +609,28 @@
   },
   {
     "id": "36",
-    "lastName": "K",
+    "lastName": "Srinivas",
     "firstName": "Nayana Kid1",
     "patronym": "Mallya",
     "nationality": "Indian",
     "families": [
       {
         "id": "34",
-        "lastName": "Nayana Husband Mallya"
+        "lastName": "Srinivas Mallya"
       }
     ],
     "isFamilyRoot": false
   },
   {
     "id": "37",
-    "lastName": "K",
+    "lastName": "Srinivas",
     "firstName": "Nayana Kid2",
     "patronym": "Mallya",
     "nationality": "Indian",
     "families": [
       {
         "id": "34",
-        "lastName": "Nayana Husband Mallya"
+        "lastName": "Srinivas Mallya"
       }
     ],
     "isFamilyRoot": false
@@ -693,8 +721,8 @@
   },
   {
     "id": "44",
-    "lastName": "Husband",
-    "firstName": "Savitri",
+    "lastName": "Kalasa",
+    "firstName": "Satyanarayana",
     "patronym": "Pai?",
     "gender": "male",
     "nationality": "Indian",
@@ -712,7 +740,7 @@
     "families": [
       {
         "id": "14",
-        "lastName": "Mittabail Pai?"
+        "lastName": "Raghavendra Pai?"
       }
     ],
     "isFamilyRoot": false
@@ -727,7 +755,7 @@
     "families": [
       {
         "id": "14",
-        "lastName": "Mittabail Pai?"
+        "lastName": "Raghavendra Pai?"
       }
     ],
     "isFamilyRoot": false
@@ -742,7 +770,7 @@
     "families": [
       {
         "id": "14",
-        "lastName": "Mittabail Pai?"
+        "lastName": "Raghavendra Pai?"
       }
     ],
     "isFamilyRoot": false
@@ -760,8 +788,8 @@
   },
   {
     "id": "49",
-    "lastName": "Husband",
-    "firstName": "Rajashree",
+    "lastName": "Bere",
+    "firstName": "Rajashree - Husband",
     "patronym": "Pai?",
     "gender": "male",
     "nationality": "Indian",
@@ -789,7 +817,7 @@
     "families": [
       {
         "id": "22",
-        "lastName": "Losonu Pai?"
+        "lastName": "Lakshman Nayak"
       }
     ],
     "isFamilyRoot": false
@@ -806,16 +834,16 @@
   },
   {
     "id": "53",
-    "lastName": "Losonu",
+    "lastName": "Lakshman",
     "firstName": "Giridhar",
-    "patronym": "Pai?",
+    "patronym": "Nayak",
     "gender": "male",
     "nationality": "Indian",
     "occupation": "Customer Support - Swapna Book House",
     "families": [
       {
         "id": "22",
-        "lastName": "Losonu Pai?"
+        "lastName": "Lakshman Nayak"
       }
     ],
     "isFamilyRoot": false
@@ -824,7 +852,7 @@
     "id": "54",
     "lastName": "Wife",
     "firstName": "Giridhar",
-    "patronym": "Pai?",
+    "patronym": "Nayak",
     "gender": "female",
     "nationality": "Indian",
     "occupation": "Customer Support - Swapna Book House",
@@ -835,13 +863,13 @@
     "id": "55",
     "lastName": "Suratkal",
     "firstName": "Chinmay",
-    "patronym": "Pai?",
+    "patronym": "Bhandarkar",
     "gender": "male",
     "nationality": "Indian",
     "families": [
       {
         "id": "24",
-        "lastName": "Chinnule Anu Pai?"
+        "lastName": "Kamalaksh Bhandarkar"
       }
     ],
     "isFamilyRoot": false
@@ -850,14 +878,14 @@
     "id": "56",
     "lastName": "Son",
     "firstName": "Giridhar",
-    "patronym": "Pai?",
+    "patronym": "Nayak",
     "gender": "male",
     "birthPlace": "Mudubidre",
     "nationality": "Indian",
     "families": [
       {
         "id": "53",
-        "lastName": "Giridhar Pai?"
+        "lastName": "Giridhar Nayak"
       }
     ],
     "isFamilyRoot": false
@@ -874,7 +902,7 @@
     "families": [
       {
         "id": "73",
-        "lastName": "Vaman Sharma"
+        "lastName": "Vaman Bhat"
       }
     ],
     "isFamilyRoot": false
@@ -947,34 +975,6 @@
     "isFamilyRoot": false
   },
   {
-    "id": "62",
-    "lastName": "Perdoor",
-    "firstName": "Ganesh",
-    "patronym": "Mallya",
-    "gender": "male",
-    "birthYear": 1954,
-    "birthMonth": 8,
-    "birthDay": 22,
-    "nationality": "Indian",
-    "occupation": "Business",
-    "families": [],
-    "isFamilyRoot": true
-  },
-  {
-    "id": "63",
-    "lastName": "Perdoor",
-    "firstName": "Malathi",
-    "patronym": "Mallya",
-    "gender": "female",
-    "birthYear": 1961,
-    "birthMonth": 3,
-    "birthDay": 28,
-    "nationality": "Indian",
-    "occupation": "House Maker",
-    "families": [],
-    "isFamilyRoot": true
-  },
-  {
     "id": "64",
     "lastName": "Perdoor",
     "firstName": "Rakesh",
@@ -1012,13 +1012,18 @@
     "patronym": "Nayak",
     "gender": "male",
     "nationality": "Indian",
-    "families": [],
-    "isFamilyRoot": true
+    "families": [
+      {
+        "id": "124",
+        "lastName": "Gundraya DAD Nayak"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "67",
-    "lastName": "Wife",
-    "firstName": "Gundraya",
+    "lastName": "Bai",
+    "firstName": "Narayani",
     "patronym": "Nayak",
     "gender": "female",
     "nationality": "Indian",
@@ -1030,7 +1035,7 @@
     "id": "68",
     "lastName": "Nayak",
     "firstName": "Jaya",
-    "patronym": "?",
+    "patronym": "Kamath",
     "gender": "female",
     "birthPlace": "Mangalore",
     "nationality": "Indian",
@@ -1046,7 +1051,7 @@
     "id": "69",
     "lastName": "Nayak",
     "firstName": "Maya",
-    "patronym": "?",
+    "patronym": "Bhakta",
     "gender": "female",
     "birthPlace": "Mangalore",
     "nationality": "Indian",
@@ -1061,9 +1066,9 @@
   },
   {
     "id": "70",
-    "lastName": "Husband",
-    "firstName": "Jaya",
-    "patronym": "?",
+    "lastName": "M",
+    "firstName": "Surendra",
+    "patronym": "Kamath",
     "gender": "male",
     "nationality": "Indian",
     "occupation": "Bank Officer",
@@ -1072,25 +1077,25 @@
   },
   {
     "id": "71",
-    "lastName": "Son",
-    "firstName": "Jaya",
-    "patronym": "?",
+    "lastName": "Surendra",
+    "firstName": "Druv",
+    "patronym": "Kamath",
     "gender": "male",
     "nationality": "Indian",
     "education": "BE",
     "families": [
       {
         "id": "70",
-        "lastName": "Jaya ?"
+        "lastName": "Surendra Kamath"
       }
     ],
     "isFamilyRoot": false
   },
   {
     "id": "72",
-    "lastName": "Husband",
-    "firstName": "Maya",
-    "patronym": "?",
+    "lastName": "K",
+    "firstName": "Ramachandra",
+    "patronym": "Bhakta",
     "gender": "male",
     "nationality": "Indian",
     "occupation": "Business (hotel)",
@@ -1099,9 +1104,9 @@
   },
   {
     "id": "73",
-    "lastName": "Bhat",
+    "lastName": "Sharma",
     "firstName": "Vaman",
-    "patronym": "Sharma",
+    "patronym": "Bhat",
     "gender": "male",
     "nationality": "Indian",
     "occupation": "Priest",
@@ -1109,7 +1114,7 @@
     "families": [
       {
         "id": "104",
-        "lastName": "Raghuveer Sharma"
+        "lastName": "Srinivas Bhat"
       }
     ],
     "isFamilyRoot": false
@@ -1118,7 +1123,7 @@
     "id": "74",
     "lastName": "Ajji",
     "firstName": "Vaman Wife",
-    "patronym": "Sharma",
+    "patronym": "Bhat",
     "gender": "female",
     "nationality": "Indian",
     "occupation": "House Maker",
@@ -1137,7 +1142,7 @@
     "families": [
       {
         "id": "73",
-        "lastName": "Vaman Sharma"
+        "lastName": "Vaman Bhat"
       }
     ],
     "isFamilyRoot": false
@@ -1154,9 +1159,9 @@
   },
   {
     "id": "77",
-    "lastName": "Bhat",
+    "lastName": "Sharma",
     "firstName": "Vaman",
-    "patronym": "Sharma",
+    "patronym": "Bhat",
     "gender": "male",
     "nationality": "Indian",
     "occupation": "Bank Officer & Priest",
@@ -1173,7 +1178,7 @@
     "id": "78",
     "lastName": "Wife",
     "firstName": "Vaman",
-    "patronym": "Sharma",
+    "patronym": "Bhat",
     "gender": "female",
     "nationality": "Indian",
     "families": [],
@@ -1453,7 +1458,7 @@
     "families": [
       {
         "id": "73",
-        "lastName": "Vaman Sharma"
+        "lastName": "Vaman Bhat"
       }
     ],
     "isFamilyRoot": false
@@ -1467,7 +1472,7 @@
     "families": [
       {
         "id": "73",
-        "lastName": "Vaman Sharma"
+        "lastName": "Vaman Bhat"
       }
     ],
     "isFamilyRoot": false
@@ -1499,7 +1504,7 @@
     "families": [
       {
         "id": "73",
-        "lastName": "Vaman Sharma"
+        "lastName": "Vaman Bhat"
       }
     ],
     "isFamilyRoot": false
@@ -1513,25 +1518,263 @@
     "families": [
       {
         "id": "73",
-        "lastName": "Vaman Sharma"
+        "lastName": "Vaman Bhat"
       }
     ],
     "isFamilyRoot": false
   },
   {
     "id": "104",
-    "lastName": "Bhat",
-    "firstName": "Raghuveer",
-    "patronym": "Sharma",
+    "lastName": "Vedamurthi",
+    "firstName": "Srinivas",
+    "patronym": "Bhat",
+    "gender": "male",
+    "bio": "Srimath Anantheshwara Deva Darshana Patri (Possessed Individuals)",
+    "families": [
+      {
+        "id": "106",
+        "lastName": "Raghu Bhat"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "105",
+    "lastName": "Pijji",
+    "firstName": "Srinivas Wife",
+    "patronym": "Bhat",
+    "gender": "female",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "106",
+    "lastName": "Vedamurthi",
+    "firstName": "Raghu",
+    "patronym": "Bhat",
+    "gender": "male",
+    "bio": "Srimath Anantheshwara Deva Darshana Patri (Possessed Individuals)",
+    "families": [
+      {
+        "id": "108",
+        "lastName": "Dayanand (vasudev) Bhat"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "107",
+    "lastName": "Pijji",
+    "firstName": "Raghu Wife",
+    "patronym": "Bhat",
+    "gender": "female",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "108",
+    "lastName": "Vedamurthi",
+    "firstName": "Dayanand (vasudev)",
+    "patronym": "Bhat",
+    "gender": "male",
+    "bio": "Srimath Anantheshwara Deva Darshana Patri (Possessed Individuals)",
+    "families": [
+      {
+        "id": "110",
+        "lastName": "Ramakrishna Bhat"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "109",
+    "lastName": "Pijji",
+    "firstName": "Dayanan Wife",
+    "patronym": "Bhat",
+    "gender": "female",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "110",
+    "lastName": "Vedamurthi",
+    "firstName": "Ramakrishna",
+    "patronym": "Bhat",
+    "gender": "male",
+    "bio": "Srimath Anantheshwara Deva Darshana Patri (Possessed Individuals)",
+    "families": [
+      {
+        "id": "112",
+        "lastName": "Raghu Bhat"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "111",
+    "lastName": "Pijji",
+    "firstName": "Ramakrishna Wife",
+    "patronym": "Bhat",
+    "gender": "female",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "112",
+    "lastName": "Vedamurthi",
+    "firstName": "Raghu",
+    "patronym": "Bhat",
+    "gender": "male",
+    "bio": "Srimath Anantheshwara Deva Darshana Patri (Possessed Individuals)",
+    "families": [
+      {
+        "id": "114",
+        "lastName": "Narasimha Bhat"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "113",
+    "lastName": "Pijji",
+    "firstName": "Raghu Wife",
+    "patronym": "Bhat",
+    "gender": "female",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "114",
+    "lastName": "Vedamurthi",
+    "firstName": "Narasimha",
+    "patronym": "Bhat",
+    "gender": "male",
+    "bio": "Srimath Anantheshwara Deva Darshana Patri (Possessed Individuals)",
+    "families": [
+      {
+        "id": "116",
+        "lastName": "Anant Bhat"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "115",
+    "lastName": "Pijji",
+    "firstName": "Narasimha Wife",
+    "patronym": "Bhat",
+    "gender": "female",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "116",
+    "lastName": "Vedamurthi",
+    "firstName": "Anant",
+    "patronym": "Bhat",
+    "gender": "male",
+    "bio": "Srimath Anantheshwara Deva Darshana Patri (Possessed Individuals)",
+    "families": [
+      {
+        "id": "118",
+        "lastName": "Subbaiah Bhat"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "117",
+    "lastName": "Pijji",
+    "firstName": "Anant Wife",
+    "patronym": "Bhat",
+    "gender": "female",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "118",
+    "lastName": "Vedamurthi",
+    "firstName": "Subbaiah",
+    "patronym": "Bhat",
+    "gender": "male",
+    "bio": "Srimath Anantheshwara Deva Darshana Patri (Possessed Individuals)",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "119",
+    "lastName": "Pijji",
+    "firstName": "Subbaiah Wife",
+    "patronym": "Bhat",
+    "gender": "female",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "120",
+    "lastName": "Mangalore",
+    "firstName": "Narashima",
+    "patronym": "Nayak",
+    "gender": "male",
+    "families": [
+      {
+        "id": "124",
+        "lastName": "Gundraya DAD Nayak"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "121",
+    "lastName": "Bai",
+    "firstName": "Narashima wife",
+    "patronym": "Nayak",
+    "gender": "female",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "122",
+    "lastName": "Mangalore",
+    "firstName": "Subraya",
+    "patronym": "Nayak",
+    "gender": "male",
+    "families": [
+      {
+        "id": "120",
+        "lastName": "Narashima Nayak"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "123",
+    "lastName": "Mangalore",
+    "firstName": "Ramanand",
+    "patronym": "Nayak",
+    "gender": "male",
+    "families": [
+      {
+        "id": "120",
+        "lastName": "Narashima Nayak"
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "124",
+    "lastName": "Mangalore",
+    "firstName": "Gundraya DAD",
+    "patronym": "Nayak",
     "gender": "male",
     "families": [],
     "isFamilyRoot": true
   },
   {
-    "id": "105",
-    "lastName": "Pijji",
-    "firstName": "Raghuveer Wife",
-    "patronym": "Sharma",
+    "id": "125",
+    "lastName": "Bai",
+    "firstName": "Gundraya MOM",
+    "patronym": "Nayak",
     "gender": "female",
     "families": [],
     "isFamilyRoot": true
