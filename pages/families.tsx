@@ -36,7 +36,7 @@ const FamiliesPage: NextPage = () => {
         </div>
         <div className={classNames(s.titleContainer)}>
           <div className={s.subTitle}>
-          <span><label for={"cheese"}>Search for your Branch </label></span>
+          <span><label>Search for your Branch </label></span>
           <input
             type="text"
             placeholder="Type a name..."
