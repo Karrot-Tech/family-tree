@@ -65,8 +65,8 @@ const questions = [
           <Image src={tree} layout="responsive" />
         </div>
         <br />
-        By default, the Karkala Pai family tree is shown, but you can also see trees for other families.{" "}
-        <BioLink href="/families" text="Family page" newTab={true} /> you can see a list of links to trees of other families. 
+        Any selected Person&apos;s root family tree is shown, but you can also see trees for other families.{" "}
+        <BioLink href="/families" text="Family page" newTab={true} /> you can see a list of links to trees of all individuals. 
         And on the card with detailed information about a person there is a Family tab with a list of those families of which this person is a descendant.
         <br />
         <br />
@@ -152,7 +152,7 @@ const questions = [
     question: "Can I share a link to a specific tree?",
     answer: (
       <span>
-        Of course! By default, the Karkala Pai family tree always opens, but if you open another family tree and copy the link from the browser line, this link will always lead to this tree.
+        Of course! The family tree page opens for any selected indivudual. You can copy the link from the browser, this link will always lead to the same tree.
       </span>
     ),
   },

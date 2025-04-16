@@ -2,7 +2,7 @@ import NextHead from "next/head";
 import Script from "next/script";
 import React from "react";
 
-const description = `🙏 Karkala Dhani ✨ is an open group project to restore genealogical connections and collect information about the origins of the Karkala Konkani family and their relationship with other families`;
+const description = `🌳 Vamsa Vruksham is a digital record of Vasudaiva Kutumbakam of Konkani speaking Gaud Saraswat Brahmin's.`;
 
 export const PageHead = () => (
   <>
