@@ -918,7 +918,7 @@
       {
         "id": "104",
         "lastName": "Vedamurthi",
-        "firstName": "Srinivas",
+        "firstName": "Raghu",
         "patronym": "Bhat",
         "root": false,
         "end": false
@@ -1731,7 +1731,7 @@
       {
         "id": "104",
         "lastName": "Vedamurthi",
-        "firstName": "Srinivas",
+        "firstName": "Raghu",
         "patronym": "Bhat",
         "root": false,
         "end": false
@@ -1845,7 +1845,7 @@
       {
         "id": "104",
         "lastName": "Vedamurthi",
-        "firstName": "Srinivas",
+        "firstName": "Raghu",
         "patronym": "Bhat",
         "root": false,
         "end": false
@@ -2151,7 +2151,7 @@
       {
         "id": "104",
         "lastName": "Vedamurthi",
-        "firstName": "Srinivas",
+        "firstName": "Raghu",
         "patronym": "Bhat",
         "root": false,
         "end": false
@@ -2239,7 +2239,7 @@
       {
         "id": "104",
         "lastName": "Vedamurthi",
-        "firstName": "Srinivas",
+        "firstName": "Raghu",
         "patronym": "Bhat",
         "root": false,
         "end": false
@@ -2342,7 +2342,7 @@
       {
         "id": "104",
         "lastName": "Vedamurthi",
-        "firstName": "Srinivas",
+        "firstName": "Raghu",
         "patronym": "Bhat",
         "root": false,
         "end": false
@@ -2847,7 +2847,7 @@
       {
         "id": "104",
         "lastName": "Vedamurthi",
-        "firstName": "Srinivas",
+        "firstName": "Raghu",
         "patronym": "Bhat",
         "root": false,
         "end": false
@@ -2929,7 +2929,7 @@
       {
         "id": "104",
         "lastName": "Vedamurthi",
-        "firstName": "Srinivas",
+        "firstName": "Raghu",
         "patronym": "Bhat",
         "root": false,
         "end": false
@@ -3029,7 +3029,7 @@
       {
         "id": "104",
         "lastName": "Vedamurthi",
-        "firstName": "Srinivas",
+        "firstName": "Raghu",
         "patronym": "Bhat",
         "root": false,
         "end": false
@@ -3111,7 +3111,7 @@
       {
         "id": "104",
         "lastName": "Vedamurthi",
-        "firstName": "Srinivas",
+        "firstName": "Raghu",
         "patronym": "Bhat",
         "root": false,
         "end": false
@@ -3170,7 +3170,7 @@
   {
     "id": "104",
     "lastName": "Vedamurthi",
-    "firstName": "Srinivas",
+    "firstName": "Raghu",
     "patronym": "Bhat",
     "gender": "male",
     "bio": "Srimath Anantheshwara Deva Darshana Patri (Possessed Individuals)",
@@ -3229,7 +3229,7 @@
   {
     "id": "105",
     "lastName": "Pijji",
-    "firstName": "Srinivas Wife",
+    "firstName": "Raghu Wife",
     "patronym": "Bhat",
     "gender": "female",
     "families": [],
@@ -3238,7 +3238,7 @@
   {
     "id": "106",
     "lastName": "Vedamurthi",
-    "firstName": "Raghu",
+    "firstName": "Srinivas",
     "patronym": "Bhat",
     "gender": "male",
     "bio": "Srimath Anantheshwara Deva Darshana Patri (Possessed Individuals)",
@@ -3254,7 +3254,7 @@
       {
         "id": "106",
         "lastName": "Vedamurthi",
-        "firstName": "Raghu",
+        "firstName": "Srinivas",
         "patronym": "Bhat",
         "root": false,
         "end": true
@@ -3305,7 +3305,7 @@
   {
     "id": "107",
     "lastName": "Pijji",
-    "firstName": "Raghu Wife",
+    "firstName": "Srinivas Wife",
     "patronym": "Bhat",
     "gender": "female",
     "families": [],
