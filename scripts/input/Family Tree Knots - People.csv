@@ -55,7 +55,7 @@ Id,Last name,Name,patronym,Gender,Mother,Father,Stepmother,Stepfather,spouses,We
 54,Wife,Giridhar,Nayak,f,,,,,53,,,,,,,,,,,,Indian,,Customer Support - Swapna Book House,,
 55,Suratkal,Chinmay,Bhandarkar,m,25,24,,,,,,,,,,,,,,,Indian,,,,
 56,Son,Giridhar,Nayak,m,54,53,,,,,,,,,,Mudubidre,,,,,Indian,,,,
-57,Majeshwar,Raghuveer,Bhat,m,74,73,,,58,,,,,,,,,,,,Indian,,Bank Clerk & Priest,,Manjeshwar Ananteshwara Temple Pradhana Archaka
+57,Vaman,Raghuveer,Bhat,m,74,73,,,58,,,,,,,,,,,,Indian,,Bank Clerk & Priest,,Manjeshwar Ananteshwara Temple Pradhana Archaka
 58,Nayak,Geetha,Bhat,f,67,66,,,57,,,,,,,,,,,,Indian,,Bank Clerk & House Maker,,
 59,Bhat,Shilpa,Mallya,f,58,57,,,60,,,,,,,Mangalore,,,,,Indian,BE,Engineer,,
 60,Perdoor,Pritheesh,Mallya,m,63,62,,,59,,,,,,,,,,,,Indian,BE,Engineer,,
@@ -71,11 +71,11 @@ Id,Last name,Name,patronym,Gender,Mother,Father,Stepmother,Stepfather,spouses,We
 70,M,Surendra,Kamath,m,,,,,68,,,,,,,,,,,,Indian,,Bank Officer,,
 71,Surendra,Druv,Kamath,m,68,70,,,,,,,,,,,,,,,Indian,BE,,,
 72,K,Ramachandra,Bhakta,m,,,,,69,,,,,,,,,,,,Indian,,Business (hotel),,
-73,Sharma,Vaman,Bhat,m,105,104,,,74,,,,,,,,,,,,Indian,,Priest,,Manjeshwar Ananteshwara Temple Pradhana Archaka
+73,Raghu,Vaman,Bhat,m,105,104,,,74,,,,,,,,,,,,Indian,,Priest,,Manjeshwar Ananteshwara Temple Pradhana Archaka
 74,Ajji,Vaman Wife,Bhat,f,,,,,73,,,,,,,,,,,,Indian,,House Maker,,
 75,Manjeshwar,Suresh,Bhat,m,74,73,,,76,,,,,,,,,,,,Indian,,Priest,,Manjeshwar Ananteshwara Temple Pradhana Archaka
 76,Wife,Suresh,Bhat,f,,,,,75,,,,,,,,,,,,Indian,,,,
-77,Sharma,Vaman,Bhat,m,76,75,,,78,,,,,,,,,,,,Indian,,Bank Officer & Priest,,Manjeshwar Ananteshwara Temple Pradhana Archaka
+77,Suresh,Vaman,Bhat,m,76,75,,,78,,,,,,,,,,,,Indian,,Bank Officer & Priest,,Manjeshwar Ananteshwara Temple Pradhana Archaka
 78,Wife,Vaman,Bhat,f,,,,,77,,,,,,,,,,,,Indian,,,,
 79,Perdoor,Shravani,Mallya,f,65,64,,,,,,,2014,8,1,,,,,,Indian,,,,
 80,Ram,Giridhar,Kamath,m,,,,,81,,,,,,,,,,,,Indian,,School Teacher,,

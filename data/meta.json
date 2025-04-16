@@ -217,14 +217,6 @@
       "end": true
     },
     {
-      "id": "57",
-      "lastName": "Majeshwar",
-      "firstName": "Raghuveer",
-      "patronym": "Bhat",
-      "root": false,
-      "end": false
-    },
-    {
       "id": "66",
       "lastName": "Mangalore",
       "firstName": "Gundraya",
@@ -338,19 +330,11 @@
     },
     {
       "id": "73",
-      "lastName": "Sharma",
+      "lastName": "Raghu",
       "firstName": "Vaman",
       "patronym": "Bhat",
       "root": false,
       "end": false
-    },
-    {
-      "id": "77",
-      "lastName": "Sharma",
-      "firstName": "Vaman",
-      "patronym": "Bhat",
-      "root": false,
-      "end": true
     },
     {
       "id": "90",
@@ -409,10 +393,26 @@
       "end": true
     },
     {
+      "id": "77",
+      "lastName": "Suresh",
+      "firstName": "Vaman",
+      "patronym": "Bhat",
+      "root": false,
+      "end": true
+    },
+    {
       "id": "82",
       "lastName": "Udupi",
       "firstName": "Venkatesh",
       "patronym": "Kamath",
+      "root": false,
+      "end": false
+    },
+    {
+      "id": "57",
+      "lastName": "Vaman",
+      "firstName": "Raghuveer",
+      "patronym": "Bhat",
       "root": false,
       "end": false
     },
