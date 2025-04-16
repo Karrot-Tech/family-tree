@@ -55,10 +55,10 @@ const questions = [
     question: "What do I see on the Tree page?",
     answer: (
       <span>
-        At <BioLink href="/tree" text="Tree page" newTab={true} /> you can see information about the representatives of a particular family and the type of tree. 
+        On the <BioLink href="/tree" text="Tree page" newTab={true} /> you can see information about the representatives of the family. 
         The tree consists of nodes in the form of balls, each node is a separate person. 
         The tree is built from top to bottom, that is, the older generations are located above. 
-        Children are located from left to right - from the eldest to the youngest.
+        {/* Children are located from left to right - from the eldest to the youngest. */}
         <br />
         <br />
         <div className={s.pictureWrapper}>
@@ -66,8 +66,7 @@ const questions = [
         </div>
         <br />
         Any selected Person&apos;s root family tree is shown, but you can also see trees for other families.{" "}
-        <BioLink href="/families" text="Family page" newTab={true} /> you can see a list of links to trees of all individuals. 
-        And on the card with detailed information about a person there is a Family tab with a list of those families of which this person is a descendant.
+        On the card with detailed information about a person there is a Family tab with a list of those families of which this person is a descendant.
         <br />
         <br />
         <div className={s.pictureWrapper}>
