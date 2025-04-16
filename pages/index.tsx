@@ -4,6 +4,7 @@ import Widget from "@/components/Widget/Widget";
 import ballS from "@/styles/Ball.module.css";
 import s from "@/styles/HomePage.module.css";
 import f from "@/components/FamilyLink/FamilyLink.module.css";
+import FamilyLink from "@/components/FamilyLink/FamilyLink";
 import classNames from "classnames";
 import type { NextPage } from "next";
 import Image from "next/image";
@@ -49,6 +50,20 @@ const HomePage: NextPage = () => {
               isSecondary={true}
               newTab={true}
             />
+          </div>
+        </div>
+        <div className={s.descriptionContainer2}>
+          <div className={classNames(s.titleContainer, s.descriptionItem)}>
+            {/* <div className={s.logoContainer}>
+              <Image src="/LogoBig.png" width={120} height={110} alt="Family Tree" />
+            </div> */}
+            <span className={s.logoSubTitle}>Prominent Roots</span>
+          </div>
+          <div className={s.rootFamilyLinks}>
+            <FamilyLink key={118} href={`/tree?root=118`} familyName={"Vedamurthi Subbaiah Bhat, with 11 generations"} />
+          </div>
+          <div className={s.rootFamilyLinks}>
+            <FamilyLink key={1} href={`/tree?root=1`} familyName={"Karkala Venkatesh (Venku) Pai, with 7 generations"} />
           </div>
         </div>
         <div className={s.widgets}>

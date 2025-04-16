@@ -12,7 +12,10 @@ const credits = [
     description: "for engineering & building the digital tree" 
 
   },
-  { name: "Ved P Pai", description: "for the spirit of eternal Vasudaiva Kutumbakam" },
+  { 
+    name: "Laxmi Bhat Pai & Ved Pavan Pai", 
+    description: "for the spirit of eternal Vasudaiva Kutumbakam" 
+  },
 ];
 
 const CreditsPage: NextPage = () => {

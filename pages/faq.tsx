@@ -142,7 +142,7 @@ const questions = [
           Pavan K Pai for engineering & building the digital tree
           </li>
           <li>
-          Ved P Pai for the spirit of eternal Vasudaiva Kutumbakam
+          Laxmi Bhat Pai & Ved Pavan Pai for the spirit of eternal Vasudaiva Kutumbakam
           </li>
         </nav>
       </span>

@@ -37,7 +37,7 @@ const TreePage: NextPage = () => {
         <div className={s.absoluteContainer}>
           <div className={s.treeRootNameContainer}>
             {/* <span className={s.treeRootTitle}>👉 Root of the tree 🌳</span> */}
-            <span className={s.treeRootName}>Root Brach: {rootName}</span>
+            <span className={s.treeRootName}>🌳 for {rootName}</span>
           </div>
           {/* {rootId !== DEFAULT_ROOT_ID && (
             <Link href="/tree">
