@@ -25,14 +25,6 @@
       "end": true
     },
     {
-      "id": "91",
-      "lastName": "boy",
-      "firstName": "Nikku",
-      "patronym": "?",
-      "root": false,
-      "end": true
-    },
-    {
       "id": "95",
       "lastName": "Ganesh",
       "firstName": "Vivek",
@@ -257,6 +249,22 @@
       "end": false
     },
     {
+      "id": "90",
+      "lastName": "Mohan",
+      "firstName": "Nikku - Sister",
+      "patronym": "Nayak",
+      "root": false,
+      "end": true
+    },
+    {
+      "id": "91",
+      "lastName": "Mohan",
+      "firstName": "Nikku",
+      "patronym": "Nayak",
+      "root": false,
+      "end": true
+    },
+    {
       "id": "45",
       "lastName": "N",
       "firstName": "Jayashshree",
@@ -335,14 +343,6 @@
       "patronym": "Bhat",
       "root": false,
       "end": false
-    },
-    {
-      "id": "90",
-      "lastName": "Sister",
-      "firstName": "Nikku",
-      "patronym": "?",
-      "root": false,
-      "end": true
     },
     {
       "id": "56",
@@ -501,15 +501,15 @@
     {
       "id": "89",
       "lastName": "Husband",
-      "firstName": "Vidyarani",
-      "patronym": "?",
+      "firstName": "Mohan",
+      "patronym": "Nayak",
       "root": true,
       "end": false
     },
     {
       "id": "38",
       "lastName": "K",
-      "firstName": "Ashwini Husband",
+      "firstName": "Kiran",
       "patronym": "Rao",
       "root": true,
       "end": false

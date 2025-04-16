@@ -1302,7 +1302,7 @@
   {
     "id": "38",
     "lastName": "K",
-    "firstName": "Ashwini Husband",
+    "firstName": "Kiran",
     "patronym": "Rao",
     "gender": "male",
     "nationality": "Indian",
@@ -1372,7 +1372,7 @@
       {
         "id": "38",
         "lastName": "K",
-        "firstName": "Ashwini Husband",
+        "firstName": "Kiran",
         "patronym": "Rao",
         "root": true,
         "end": false
@@ -2566,7 +2566,7 @@
     "id": "88",
     "lastName": "Kamath",
     "firstName": "Vidyarani",
-    "patronym": "?",
+    "patronym": "Nayak",
     "gender": "female",
     "nationality": "Indian, American (USA)",
     "education": "BTech-Architecture",
@@ -2594,8 +2594,8 @@
   {
     "id": "89",
     "lastName": "Husband",
-    "firstName": "Vidyarani",
-    "patronym": "?",
+    "firstName": "Mohan",
+    "patronym": "Nayak",
     "gender": "male",
     "nationality": "Indian, American (USA)",
     "education": "BE",
@@ -2605,25 +2605,25 @@
   },
   {
     "id": "90",
-    "lastName": "Sister",
-    "firstName": "Nikku",
-    "patronym": "?",
+    "lastName": "Mohan",
+    "firstName": "Nikku - Sister",
+    "patronym": "Nayak",
     "gender": "female",
     "nationality": "Indian",
     "families": [
       {
         "id": "89",
         "lastName": "Husband",
-        "firstName": "Vidyarani",
-        "patronym": "?",
+        "firstName": "Mohan",
+        "patronym": "Nayak",
         "root": true,
         "end": false
       },
       {
         "id": "90",
-        "lastName": "Sister",
-        "firstName": "Nikku",
-        "patronym": "?",
+        "lastName": "Mohan",
+        "firstName": "Nikku - Sister",
+        "patronym": "Nayak",
         "root": false,
         "end": true
       }
@@ -2632,25 +2632,25 @@
   },
   {
     "id": "91",
-    "lastName": "boy",
+    "lastName": "Mohan",
     "firstName": "Nikku",
-    "patronym": "?",
+    "patronym": "Nayak",
     "gender": "male",
     "nationality": "Indian",
     "families": [
       {
         "id": "89",
         "lastName": "Husband",
-        "firstName": "Vidyarani",
-        "patronym": "?",
+        "firstName": "Mohan",
+        "patronym": "Nayak",
         "root": true,
         "end": false
       },
       {
         "id": "91",
-        "lastName": "boy",
+        "lastName": "Mohan",
         "firstName": "Nikku",
-        "patronym": "?",
+        "patronym": "Nayak",
         "root": false,
         "end": true
       }
