@@ -36,10 +36,10 @@ const FamiliesPage: NextPage = () => {
         </div>
         <div className={classNames(s.titleContainer)}>
           <div className={s.subTitle}>
-          <span><label>Search for your Branch </label></span>
+          <span><label>Search for the branch </label></span>
           <input
             type="text"
-            placeholder="Type a name..."
+            placeholder="Type your name..."
             value={query}
             onChange={e => setQuery(e.target.value)}
             className={s.searchBox}
