@@ -63,7 +63,7 @@ const HomePage: NextPage = () => {
             <FamilyLink key={118} href={`/tree?root=118`} familyName={"Vedamurthi Subbaiah Bhat, with 11 generations"} />
           </div>
           <div className={s.rootFamilyLinks}>
-            <FamilyLink key={1} href={`/tree?root=1`} familyName={"Karkala Venkatesh (Venku) Pai, with 7 generations"} />
+            <FamilyLink key={1} href={`/tree?root=1`} familyName={"Ankola Venkatesh (Venku) Pai, with 7 generations"} />
           </div>
         </div>
         <div className={s.widgets}>
