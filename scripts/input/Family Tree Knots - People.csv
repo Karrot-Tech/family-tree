@@ -1,6 +1,6 @@
 Id,Last name,Name,patronym,Gender,Mother,Father,Stepmother,Stepfather,spouses,Wedding year,Wedding month,Wedding day,Year of birth,Month of birth,Birthday,City of birth,Year of death,Month of death,Day of death,City of death,Nationality,Education,Profession,Awards,"Biography (free text, any notable facts)"
-1,Devu,Venkatramana,Dhani,m,,,,,2,,,,,,,Karkala (Padutirupati),,,,,Indian,,,,LORD
-2,Devi,Laxmi,Dhani,f,,,,,1,,,,,,,Karkala (Padutirupati),,,,,Indian,,,,LORD
+1,Ankola,Venkatramana,Pai,m,,,,,2,,,,,,,Karkala (Padutirupati),,,,,Indian,,,,LORD
+2,Bai,Venku Wife,Pai,f,,,,,1,,,,,,,Karkala (Padutirupati),,,,,Indian,,,,LORD
 3,K,Keshav,Pai,m,2,1,,,4,,,,,,,,,,,,Indian,,,,
 4,Pijji-Amma,Keshav-Wife,Pai,f,,,,,3,,,,,,,,,,,,Indian,,,,
 5,K,Ramakrishna,Pai,m,4,3,,,6,,,,,,,,,,,,Indian,,,,
@@ -102,7 +102,7 @@ Id,Last name,Name,patronym,Gender,Mother,Father,Stepmother,Stepfather,spouses,We
 101,M,Deepa,Bhat,f,,,,,99,,,,,,,,,,,,,,,,
 102,M,Kanthi,Bhat,f,74,73,,,,,,,,,,,,,,,,,,,
 103,M,Shobha,Bhat,f,74,73,,,,,,,,,,,,,,,,,,,
-104,Vedamurthi,Srinivas,Bhat,m,107,106,,,105,,,,,,,,,,,,,,,,Srimath Anantheshwara Deva Darshana Patri (Possessed Individuals)
+104,Vedamurthi,Srinivas,Bhat,m,109,108,,,105,,,,,,,,,,,,,,,,Srimath Anantheshwara Deva Darshana Patri (Possessed Individuals)
 105,Pijji,Srinivas Wife,Bhat,f,,,,,104,,,,,,,,,,,,,,,,
 106,Vedamurthi,Raghu,Bhat,m,109,108,,,107,,,,,,,,,,,,,,,,Srimath Anantheshwara Deva Darshana Patri (Possessed Individuals)
 107,Pijji,Raghu Wife,Bhat,f,,,,,106,,,,,,,,,,,,,,,,

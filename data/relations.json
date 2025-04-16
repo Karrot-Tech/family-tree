@@ -3268,20 +3268,25 @@
     "parents": [
       {
         "type": "blood",
-        "id": "107"
+        "id": "109"
       },
       {
         "type": "blood",
-        "id": "106"
+        "id": "108"
       }
     ],
     "ancestors": [
       {
         "type": "blood",
+        "id": "108"
+      }
+    ],
+    "siblings": [
+      {
+        "type": "blood",
         "id": "106"
       }
     ],
-    "siblings": [],
     "spouses": [
       {
         "type": "married",
@@ -3331,19 +3336,19 @@
         "id": "108"
       }
     ],
-    "siblings": [],
+    "siblings": [
+      {
+        "type": "blood",
+        "id": "104"
+      }
+    ],
     "spouses": [
       {
         "type": "married",
         "id": "107"
       }
     ],
-    "children": [
-      {
-        "type": "blood",
-        "id": "104"
-      }
-    ]
+    "children": []
   },
   {
     "id": "107",
@@ -3356,12 +3361,7 @@
         "id": "106"
       }
     ],
-    "children": [
-      {
-        "type": "blood",
-        "id": "104"
-      }
-    ]
+    "children": []
   },
   {
     "id": "108",
@@ -3391,6 +3391,10 @@
     "children": [
       {
         "type": "blood",
+        "id": "104"
+      },
+      {
+        "type": "blood",
         "id": "106"
       }
     ]
@@ -3407,6 +3411,10 @@
       }
     ],
     "children": [
+      {
+        "type": "blood",
+        "id": "104"
+      },
       {
         "type": "blood",
         "id": "106"

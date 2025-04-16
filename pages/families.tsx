@@ -1,13 +1,27 @@
 import FamilyLink from "@/components/FamilyLink/FamilyLink";
-import { getFamiliesArray } from "@/data";
+import { getFamiliesArray, getRootFamiliesArray } from "@/data";
 import ballS from "@/styles/Ball.module.css";
 import s from "@/styles/FamiliesPage.module.css";
 import classNames from "classnames";
 import type { NextPage } from "next";
 import Image from "next/image";
+import React, { useState, useMemo } from "react";
 
 const FamiliesPage: NextPage = () => {
-  const familiesMap = getFamiliesArray();
+  const families = getFamiliesArray();
+  const rootFamilies = getRootFamiliesArray();
+
+  const [query, setQuery] = useState("");
+  const filteredFamilies = useMemo(() => {
+    if (!query.trim()) return [];
+    const q = query.trim().toLowerCase();
+    return families.filter(family =>
+      [family.lastName, family.firstName, family.patronym]
+        .join(" ")
+        .toLowerCase()
+        .includes(q)
+    );
+  }, [query, families]);
 
   return (
     <div className={s.pageContainer}>
@@ -20,13 +34,42 @@ const FamiliesPage: NextPage = () => {
             <span className={s.logoTitle}>Families</span>
           </div>
         </div>
+        <div className={classNames(s.titleContainer)}>
+          <div className={s.subTitle}>
+          <span><label for={"cheese"}>Search for your Branch </label></span>
+          <input
+            type="text"
+            placeholder="Type a name..."
+            value={query}
+            onChange={e => setQuery(e.target.value)}
+            className={s.searchBox}
+          />
+          </div>
+        </div>
+        <div className={classNames(s.titleContainer, s.descriptionItem)}>
+          {query && (
+            <div className={s.searchResults}>
+              {filteredFamilies.length > 0 ? (
+                filteredFamilies.map((family, index) => (
+                  <FamilyLink
+                    key={index}
+                    href={`/tree?root=${family.id}`}
+                    familyName={[family.lastName, family.firstName, family.patronym].join(" ")}
+                  />
+                ))
+              ) : (
+                <span className={s.noResults}>No branches found.</span>
+              )}
+            </div>
+          )}
+        </div>
         <div className={s.familiesContainer}>
-          {familiesMap
-            .filter((family) => !family.lastName.startsWith("от ("))
-            .filter((family) => !family.lastName.startsWith("from ("))
+          <span className={s.subTitle}>Select from the root</span>
+          {rootFamilies
             .map((family, index) => (
-              <FamilyLink key={index} href={`/tree?root=${family.id}`} familyName={family.lastName} />
+            <FamilyLink key={index} href={`/tree?root=${family.id}`} familyName={[family.lastName,family.firstName,family.patronym].join(" ")} />
             ))}
+          <br />
         </div>
       </div>
       <div className={s.imageContainer}>

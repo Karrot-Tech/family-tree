@@ -1,5 +1,5 @@
 import Button from "@/components/Button/Button";
-import { getFamiliesCount, getNodesCount, getTreeDepth } from "@/components/Widget/utils";
+import { getTotalFamiliesCount, getNodesCount, getTreeDepth } from "@/components/Widget/utils";
 import Widget from "@/components/Widget/Widget";
 import ballS from "@/styles/Ball.module.css";
 import s from "@/styles/HomePage.module.css";
@@ -8,34 +8,40 @@ import classNames from "classnames";
 import type { NextPage } from "next";
 import Image from "next/image";
 import Link from 'next/link'
+import { getFamiliesMap } from "@/data";
 
 const HomePage: NextPage = () => {
   const nodesCount = getNodesCount();
   const treeDepth = getTreeDepth();
-  const familiesCount = getFamiliesCount();
+  const familiesCount = getTotalFamiliesCount();
+  const families = getFamiliesMap();
 
   return (
     <div className={s.pageContainer}>
       <div className={s.content}>
-        <div className={s.descriptionContainer}>
-          <div className={classNames(s.logoContainer, s.descriptionItem)}>
-            <Image src="/LogoBig.png" width={120} height={110} alt="Family Tree" />
-            <span className={s.logoTitle}>Tree 📘</span>
+        <div className={s.descriptionContainer1}>
+          <div className={classNames(s.titleContainer, s.descriptionItem)}>
+            <div className={s.logoContainer}>
+              <Image src="/LogoBig.png" width={120} height={110} alt="Family Tree" />
+            </div>
+            <span className={s.logoTitle}>Family Tree</span>
           </div>
+        </div>
+        <div className={s.descriptionContainer}>
           <span className={classNames(s.description, s.descriptionItem)}>
           This is a digital record of Vasudaiva Kutumbakam of Konkani speaking Gaud Saraswat Brahmin&apos;s.
           </span>
           <span className={classNames(s.description, s.descriptionItem)}>
-            This open group project provides information about the origins of Pai family that moved from Ankola to the Town of Karkala (Padutirupati), Udupi District, Karnataka, India (Bharatvarsha) in 18th century. 
+            This open group project provides family tree of GSB community which traces its origins to the migration of Saraswat Brahmins from the region of Gaud (modern-day Bengal and Bihar) to the Konkan region of India. 
           </span>
           <span className={classNames(s.description, s.descriptionItem)}>
-            This 🌳 also provides relationship of individuals from Karkala Pai family with other<Link href="/families"><a className={f.familyLink} style={{paddingLeft: '0.5rem', fontSize: '2.4rem'}}>Families</a></Link>.
+            This 🌳 also provides relationship of individuals from GSB family with other families.
           </span>
           <span className={classNames(s.description, s.descriptionItem)}>
             If you have any information or materials and would like to contribute to the project, please contact us on WhatsApp.
           </span>
           <div className={s.buttonsContainer}>
-            <Button href="/tree" text="👉 View the tree 🌳" className={s.descriptionItem} />
+            <Button href="/families" text="👉 Trace your Family 🧑‍🧑‍🧒‍🧒" className={s.descriptionItem} />
             <Button
               href="https://wa.me/+12242292932?text=Hello%21%20I%E2%80%99m%20writing%20regarding%20the%20DHANI%20project"
               text="📲 on WhatsApp"
@@ -47,8 +53,8 @@ const HomePage: NextPage = () => {
         </div>
         <div className={s.widgets}>
           <Widget title="Total number of people in the tree" value={nodesCount.toString()} />
-          <Widget title="Number of generations in the tree" value={treeDepth.toString()} />
-          <Widget title="Number of distinct families in the tree" value={familiesCount.toString()} />
+          {/* <Widget title="Number of generations in the tree" value={treeDepth.toString()} /> */}
+          <Widget title="Number of root families in the tree" value={familiesCount.toString()} />
         </div>
       </div>
       <div className={s.imageContainer}>

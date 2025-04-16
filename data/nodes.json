@@ -1,9 +1,9 @@
 [
   {
     "id": "1",
-    "lastName": "Devu",
+    "lastName": "Ankola",
     "firstName": "Venkatramana",
-    "patronym": "Dhani",
+    "patronym": "Pai",
     "gender": "male",
     "birthPlace": "Karkala (Padutirupati)",
     "nationality": "Indian",
@@ -13,9 +13,9 @@
   },
   {
     "id": "2",
-    "lastName": "Devi",
-    "firstName": "Laxmi",
-    "patronym": "Dhani",
+    "lastName": "Bai",
+    "firstName": "Venku Wife",
+    "patronym": "Pai",
     "gender": "female",
     "birthPlace": "Karkala (Padutirupati)",
     "nationality": "Indian",
@@ -33,7 +33,11 @@
     "families": [
       {
         "id": "1",
-        "lastName": "Venkatramana Dhani"
+        "lastName": "Ankola",
+        "firstName": "Venkatramana",
+        "patronym": "Pai",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -58,7 +62,19 @@
     "families": [
       {
         "id": "3",
-        "lastName": "Keshav Pai"
+        "lastName": "K",
+        "firstName": "Keshav",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "1",
+        "lastName": "Ankola",
+        "firstName": "Venkatramana",
+        "patronym": "Pai",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -92,7 +108,27 @@
     "families": [
       {
         "id": "5",
-        "lastName": "Ramakrishna Pai"
+        "lastName": "K",
+        "firstName": "Ramakrishna",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "3",
+        "lastName": "K",
+        "firstName": "Keshav",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "1",
+        "lastName": "Ankola",
+        "firstName": "Venkatramana",
+        "patronym": "Pai",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -134,7 +170,43 @@
     "families": [
       {
         "id": "7",
-        "lastName": "Narashihma Pai"
+        "lastName": "K",
+        "firstName": "Narashihma",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "9",
+        "lastName": "K",
+        "firstName": "Sulochana",
+        "patronym": "Pai",
+        "root": false,
+        "end": true
+      },
+      {
+        "id": "5",
+        "lastName": "K",
+        "firstName": "Ramakrishna",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "3",
+        "lastName": "K",
+        "firstName": "Keshav",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "1",
+        "lastName": "Ankola",
+        "firstName": "Venkatramana",
+        "patronym": "Pai",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -164,7 +236,43 @@
     "families": [
       {
         "id": "7",
-        "lastName": "Narashihma Pai"
+        "lastName": "K",
+        "firstName": "Narashihma",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "11",
+        "lastName": "Pai",
+        "firstName": "Anasuya",
+        "patronym": "Bhat",
+        "root": false,
+        "end": true
+      },
+      {
+        "id": "5",
+        "lastName": "K",
+        "firstName": "Ramakrishna",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "3",
+        "lastName": "K",
+        "firstName": "Keshav",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "1",
+        "lastName": "Ankola",
+        "firstName": "Venkatramana",
+        "patronym": "Pai",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -198,7 +306,35 @@
     "families": [
       {
         "id": "7",
-        "lastName": "Narashihma Pai"
+        "lastName": "K",
+        "firstName": "Narashihma",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "5",
+        "lastName": "K",
+        "firstName": "Ramakrishna",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "3",
+        "lastName": "K",
+        "firstName": "Keshav",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "1",
+        "lastName": "Ankola",
+        "firstName": "Venkatramana",
+        "patronym": "Pai",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -229,7 +365,35 @@
     "families": [
       {
         "id": "7",
-        "lastName": "Narashihma Pai"
+        "lastName": "K",
+        "firstName": "Narashihma",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "5",
+        "lastName": "K",
+        "firstName": "Ramakrishna",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "3",
+        "lastName": "K",
+        "firstName": "Keshav",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "1",
+        "lastName": "Ankola",
+        "firstName": "Venkatramana",
+        "patronym": "Pai",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -256,7 +420,35 @@
     "families": [
       {
         "id": "7",
-        "lastName": "Narashihma Pai"
+        "lastName": "K",
+        "firstName": "Narashihma",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "5",
+        "lastName": "K",
+        "firstName": "Ramakrishna",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "3",
+        "lastName": "K",
+        "firstName": "Keshav",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "1",
+        "lastName": "Ankola",
+        "firstName": "Venkatramana",
+        "patronym": "Pai",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -276,7 +468,35 @@
     "families": [
       {
         "id": "7",
-        "lastName": "Narashihma Pai"
+        "lastName": "K",
+        "firstName": "Narashihma",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "5",
+        "lastName": "K",
+        "firstName": "Ramakrishna",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "3",
+        "lastName": "K",
+        "firstName": "Keshav",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "1",
+        "lastName": "Ankola",
+        "firstName": "Venkatramana",
+        "patronym": "Pai",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -296,7 +516,35 @@
     "families": [
       {
         "id": "7",
-        "lastName": "Narashihma Pai"
+        "lastName": "K",
+        "firstName": "Narashihma",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "5",
+        "lastName": "K",
+        "firstName": "Ramakrishna",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "3",
+        "lastName": "K",
+        "firstName": "Keshav",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "1",
+        "lastName": "Ankola",
+        "firstName": "Venkatramana",
+        "patronym": "Pai",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -319,7 +567,11 @@
     "families": [
       {
         "id": "80",
-        "lastName": "Giridhar Kamath"
+        "lastName": "Ram",
+        "firstName": "Giridhar",
+        "patronym": "Kamath",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -372,7 +624,35 @@
     "families": [
       {
         "id": "7",
-        "lastName": "Narashihma Pai"
+        "lastName": "K",
+        "firstName": "Narashihma",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "5",
+        "lastName": "K",
+        "firstName": "Ramakrishna",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "3",
+        "lastName": "K",
+        "firstName": "Keshav",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "1",
+        "lastName": "Ankola",
+        "firstName": "Venkatramana",
+        "patronym": "Pai",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -417,7 +697,35 @@
     "families": [
       {
         "id": "7",
-        "lastName": "Narashihma Pai"
+        "lastName": "K",
+        "firstName": "Narashihma",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "5",
+        "lastName": "K",
+        "firstName": "Ramakrishna",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "3",
+        "lastName": "K",
+        "firstName": "Keshav",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "1",
+        "lastName": "Ankola",
+        "firstName": "Venkatramana",
+        "patronym": "Pai",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -438,7 +746,43 @@
     "families": [
       {
         "id": "16",
-        "lastName": "Ramakrishna Pai"
+        "lastName": "K",
+        "firstName": "Ramakrishna",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "7",
+        "lastName": "K",
+        "firstName": "Narashihma",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "5",
+        "lastName": "K",
+        "firstName": "Ramakrishna",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "3",
+        "lastName": "K",
+        "firstName": "Keshav",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "1",
+        "lastName": "Ankola",
+        "firstName": "Venkatramana",
+        "patronym": "Pai",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -484,7 +828,51 @@
     "families": [
       {
         "id": "16",
-        "lastName": "Ramakrishna Pai"
+        "lastName": "K",
+        "firstName": "Ramakrishna",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "28",
+        "lastName": "K",
+        "firstName": "Pavan",
+        "patronym": "Pai",
+        "root": false,
+        "end": true
+      },
+      {
+        "id": "7",
+        "lastName": "K",
+        "firstName": "Narashihma",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "5",
+        "lastName": "K",
+        "firstName": "Ramakrishna",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "3",
+        "lastName": "K",
+        "firstName": "Keshav",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "1",
+        "lastName": "Ankola",
+        "firstName": "Venkatramana",
+        "patronym": "Pai",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -505,7 +893,83 @@
     "families": [
       {
         "id": "57",
-        "lastName": "Raghuveer Bhat"
+        "lastName": "Majeshwar",
+        "firstName": "Raghuveer",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "29",
+        "lastName": "Bhat",
+        "firstName": "Laxmi",
+        "patronym": "Pai",
+        "root": false,
+        "end": true
+      },
+      {
+        "id": "73",
+        "lastName": "Sharma",
+        "firstName": "Vaman",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "104",
+        "lastName": "Vedamurthi",
+        "firstName": "Srinivas",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "108",
+        "lastName": "Vedamurthi",
+        "firstName": "Dayanand (vasudev)",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "110",
+        "lastName": "Vedamurthi",
+        "firstName": "Ramakrishna",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "112",
+        "lastName": "Vedamurthi",
+        "firstName": "Raghu",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "114",
+        "lastName": "Vedamurthi",
+        "firstName": "Narasimha",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "116",
+        "lastName": "Vedamurthi",
+        "firstName": "Anant",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "118",
+        "lastName": "Vedamurthi",
+        "firstName": "Subbaiah",
+        "patronym": "Bhat",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -520,7 +984,59 @@
     "families": [
       {
         "id": "26",
-        "lastName": "Laxminarayana Pai"
+        "lastName": "K",
+        "firstName": "Laxminarayana",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "30",
+        "lastName": "K",
+        "firstName": "Tiya",
+        "patronym": "Pai",
+        "root": false,
+        "end": true
+      },
+      {
+        "id": "16",
+        "lastName": "K",
+        "firstName": "Ramakrishna",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "7",
+        "lastName": "K",
+        "firstName": "Narashihma",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "5",
+        "lastName": "K",
+        "firstName": "Ramakrishna",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "3",
+        "lastName": "K",
+        "firstName": "Keshav",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "1",
+        "lastName": "Ankola",
+        "firstName": "Venkatramana",
+        "patronym": "Pai",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -543,7 +1059,43 @@
     "families": [
       {
         "id": "20",
-        "lastName": "Sarvothma Pai"
+        "lastName": "K",
+        "firstName": "Sarvothma",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "7",
+        "lastName": "K",
+        "firstName": "Narashihma",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "5",
+        "lastName": "K",
+        "firstName": "Ramakrishna",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "3",
+        "lastName": "K",
+        "firstName": "Keshav",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "1",
+        "lastName": "Ankola",
+        "firstName": "Venkatramana",
+        "patronym": "Pai",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -575,7 +1127,59 @@
     "families": [
       {
         "id": "31",
-        "lastName": "Naveen Pai"
+        "lastName": "K",
+        "firstName": "Naveen",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "33",
+        "lastName": "K",
+        "firstName": "Avyay",
+        "patronym": "Pai",
+        "root": false,
+        "end": true
+      },
+      {
+        "id": "20",
+        "lastName": "K",
+        "firstName": "Sarvothma",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "7",
+        "lastName": "K",
+        "firstName": "Narashihma",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "5",
+        "lastName": "K",
+        "firstName": "Ramakrishna",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "3",
+        "lastName": "K",
+        "firstName": "Keshav",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "1",
+        "lastName": "Ankola",
+        "firstName": "Venkatramana",
+        "patronym": "Pai",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -602,7 +1206,43 @@
     "families": [
       {
         "id": "20",
-        "lastName": "Sarvothma Pai"
+        "lastName": "K",
+        "firstName": "Sarvothma",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "7",
+        "lastName": "K",
+        "firstName": "Narashihma",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "5",
+        "lastName": "K",
+        "firstName": "Ramakrishna",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "3",
+        "lastName": "K",
+        "firstName": "Keshav",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "1",
+        "lastName": "Ankola",
+        "firstName": "Venkatramana",
+        "patronym": "Pai",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -616,7 +1256,19 @@
     "families": [
       {
         "id": "34",
-        "lastName": "Srinivas Mallya"
+        "lastName": "Udupi",
+        "firstName": "Srinivas",
+        "patronym": "Mallya",
+        "root": true,
+        "end": false
+      },
+      {
+        "id": "36",
+        "lastName": "Srinivas",
+        "firstName": "Nayana Kid1",
+        "patronym": "Mallya",
+        "root": false,
+        "end": true
       }
     ],
     "isFamilyRoot": false
@@ -630,7 +1282,19 @@
     "families": [
       {
         "id": "34",
-        "lastName": "Srinivas Mallya"
+        "lastName": "Udupi",
+        "firstName": "Srinivas",
+        "patronym": "Mallya",
+        "root": true,
+        "end": false
+      },
+      {
+        "id": "37",
+        "lastName": "Srinivas",
+        "firstName": "Nayana Kid2",
+        "patronym": "Mallya",
+        "root": false,
+        "end": true
       }
     ],
     "isFamilyRoot": false
@@ -657,7 +1321,43 @@
     "families": [
       {
         "id": "18",
-        "lastName": "Suresh Pai"
+        "lastName": "K",
+        "firstName": "Suresh",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "7",
+        "lastName": "K",
+        "firstName": "Narashihma",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "5",
+        "lastName": "K",
+        "firstName": "Ramakrishna",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "3",
+        "lastName": "K",
+        "firstName": "Keshav",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "1",
+        "lastName": "Ankola",
+        "firstName": "Venkatramana",
+        "patronym": "Pai",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -671,7 +1371,19 @@
     "families": [
       {
         "id": "38",
-        "lastName": "Ashwini Husband Rao"
+        "lastName": "K",
+        "firstName": "Ashwini Husband",
+        "patronym": "Rao",
+        "root": true,
+        "end": false
+      },
+      {
+        "id": "40",
+        "lastName": "K",
+        "firstName": "Ashwini Kid1",
+        "patronym": "Rao",
+        "root": false,
+        "end": true
       }
     ],
     "isFamilyRoot": false
@@ -687,7 +1399,19 @@
     "families": [
       {
         "id": "12",
-        "lastName": "Saguna Pai?"
+        "lastName": "Husband",
+        "firstName": "Saguna",
+        "patronym": "Pai?",
+        "root": true,
+        "end": false
+      },
+      {
+        "id": "41",
+        "lastName": "Akka",
+        "firstName": "Gayatri",
+        "patronym": "Pai?",
+        "root": false,
+        "end": true
       }
     ],
     "isFamilyRoot": false
@@ -703,7 +1427,19 @@
     "families": [
       {
         "id": "12",
-        "lastName": "Saguna Pai?"
+        "lastName": "Husband",
+        "firstName": "Saguna",
+        "patronym": "Pai?",
+        "root": true,
+        "end": false
+      },
+      {
+        "id": "42",
+        "lastName": "Akka",
+        "firstName": "Savitri",
+        "patronym": "Pai?",
+        "root": false,
+        "end": true
       }
     ],
     "isFamilyRoot": false
@@ -740,7 +1476,19 @@
     "families": [
       {
         "id": "14",
-        "lastName": "Raghavendra Pai?"
+        "lastName": "Mamu",
+        "firstName": "Raghavendra",
+        "patronym": "Pai?",
+        "root": true,
+        "end": false
+      },
+      {
+        "id": "45",
+        "lastName": "N",
+        "firstName": "Jayashshree",
+        "patronym": "Pai?",
+        "root": false,
+        "end": true
       }
     ],
     "isFamilyRoot": false
@@ -755,7 +1503,19 @@
     "families": [
       {
         "id": "14",
-        "lastName": "Raghavendra Pai?"
+        "lastName": "Mamu",
+        "firstName": "Raghavendra",
+        "patronym": "Pai?",
+        "root": true,
+        "end": false
+      },
+      {
+        "id": "46",
+        "lastName": "N",
+        "firstName": "Rajashree",
+        "patronym": "Pai?",
+        "root": false,
+        "end": true
       }
     ],
     "isFamilyRoot": false
@@ -770,7 +1530,19 @@
     "families": [
       {
         "id": "14",
-        "lastName": "Raghavendra Pai?"
+        "lastName": "Mamu",
+        "firstName": "Raghavendra",
+        "patronym": "Pai?",
+        "root": true,
+        "end": false
+      },
+      {
+        "id": "47",
+        "lastName": "N",
+        "firstName": "Roopashree",
+        "patronym": "Bhat",
+        "root": false,
+        "end": true
       }
     ],
     "isFamilyRoot": false
@@ -817,7 +1589,19 @@
     "families": [
       {
         "id": "22",
-        "lastName": "Lakshman Nayak"
+        "lastName": "Mamu",
+        "firstName": "Lakshman",
+        "patronym": "Nayak",
+        "root": true,
+        "end": false
+      },
+      {
+        "id": "51",
+        "lastName": "Losonu",
+        "firstName": "Lakshmi",
+        "patronym": "Pai?",
+        "root": false,
+        "end": true
       }
     ],
     "isFamilyRoot": false
@@ -843,7 +1627,11 @@
     "families": [
       {
         "id": "22",
-        "lastName": "Lakshman Nayak"
+        "lastName": "Mamu",
+        "firstName": "Lakshman",
+        "patronym": "Nayak",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -869,7 +1657,19 @@
     "families": [
       {
         "id": "24",
-        "lastName": "Kamalaksh Bhandarkar"
+        "lastName": "Mamu",
+        "firstName": "Kamalaksh",
+        "patronym": "Bhandarkar",
+        "root": true,
+        "end": false
+      },
+      {
+        "id": "55",
+        "lastName": "Suratkal",
+        "firstName": "Chinmay",
+        "patronym": "Bhandarkar",
+        "root": false,
+        "end": true
       }
     ],
     "isFamilyRoot": false
@@ -885,7 +1685,27 @@
     "families": [
       {
         "id": "53",
-        "lastName": "Giridhar Nayak"
+        "lastName": "Lakshman",
+        "firstName": "Giridhar",
+        "patronym": "Nayak",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "56",
+        "lastName": "Son",
+        "firstName": "Giridhar",
+        "patronym": "Nayak",
+        "root": false,
+        "end": true
+      },
+      {
+        "id": "22",
+        "lastName": "Mamu",
+        "firstName": "Lakshman",
+        "patronym": "Nayak",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -902,7 +1722,67 @@
     "families": [
       {
         "id": "73",
-        "lastName": "Vaman Bhat"
+        "lastName": "Sharma",
+        "firstName": "Vaman",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "104",
+        "lastName": "Vedamurthi",
+        "firstName": "Srinivas",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "108",
+        "lastName": "Vedamurthi",
+        "firstName": "Dayanand (vasudev)",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "110",
+        "lastName": "Vedamurthi",
+        "firstName": "Ramakrishna",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "112",
+        "lastName": "Vedamurthi",
+        "firstName": "Raghu",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "114",
+        "lastName": "Vedamurthi",
+        "firstName": "Narasimha",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "116",
+        "lastName": "Vedamurthi",
+        "firstName": "Anant",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "118",
+        "lastName": "Vedamurthi",
+        "firstName": "Subbaiah",
+        "patronym": "Bhat",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -918,7 +1798,19 @@
     "families": [
       {
         "id": "66",
-        "lastName": "Gundraya Nayak"
+        "lastName": "Mangalore",
+        "firstName": "Gundraya",
+        "patronym": "Nayak",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "124",
+        "lastName": "Mangalore",
+        "firstName": "Gundraya DAD",
+        "patronym": "Nayak",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -936,7 +1828,75 @@
     "families": [
       {
         "id": "57",
-        "lastName": "Raghuveer Bhat"
+        "lastName": "Majeshwar",
+        "firstName": "Raghuveer",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "73",
+        "lastName": "Sharma",
+        "firstName": "Vaman",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "104",
+        "lastName": "Vedamurthi",
+        "firstName": "Srinivas",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "108",
+        "lastName": "Vedamurthi",
+        "firstName": "Dayanand (vasudev)",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "110",
+        "lastName": "Vedamurthi",
+        "firstName": "Ramakrishna",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "112",
+        "lastName": "Vedamurthi",
+        "firstName": "Raghu",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "114",
+        "lastName": "Vedamurthi",
+        "firstName": "Narasimha",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "116",
+        "lastName": "Vedamurthi",
+        "firstName": "Anant",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "118",
+        "lastName": "Vedamurthi",
+        "firstName": "Subbaiah",
+        "patronym": "Bhat",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -953,7 +1913,11 @@
     "families": [
       {
         "id": "62",
-        "lastName": "Ganesh Mallya"
+        "lastName": "Perdoor",
+        "firstName": "Ganesh",
+        "patronym": "Mallya",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -969,7 +1933,27 @@
     "families": [
       {
         "id": "60",
-        "lastName": "Pritheesh Mallya"
+        "lastName": "Perdoor",
+        "firstName": "Pritheesh",
+        "patronym": "Mallya",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "61",
+        "lastName": "Perdoor",
+        "firstName": "Samarth",
+        "patronym": "Mallya",
+        "root": false,
+        "end": true
+      },
+      {
+        "id": "62",
+        "lastName": "Perdoor",
+        "firstName": "Ganesh",
+        "patronym": "Mallya",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -986,7 +1970,11 @@
     "families": [
       {
         "id": "62",
-        "lastName": "Ganesh Mallya"
+        "lastName": "Perdoor",
+        "firstName": "Ganesh",
+        "patronym": "Mallya",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -1015,7 +2003,11 @@
     "families": [
       {
         "id": "124",
-        "lastName": "Gundraya DAD Nayak"
+        "lastName": "Mangalore",
+        "firstName": "Gundraya DAD",
+        "patronym": "Nayak",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -1042,7 +2034,19 @@
     "families": [
       {
         "id": "66",
-        "lastName": "Gundraya Nayak"
+        "lastName": "Mangalore",
+        "firstName": "Gundraya",
+        "patronym": "Nayak",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "124",
+        "lastName": "Mangalore",
+        "firstName": "Gundraya DAD",
+        "patronym": "Nayak",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -1059,7 +2063,27 @@
     "families": [
       {
         "id": "66",
-        "lastName": "Gundraya Nayak"
+        "lastName": "Mangalore",
+        "firstName": "Gundraya",
+        "patronym": "Nayak",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "69",
+        "lastName": "Nayak",
+        "firstName": "Maya",
+        "patronym": "Bhakta",
+        "root": false,
+        "end": true
+      },
+      {
+        "id": "124",
+        "lastName": "Mangalore",
+        "firstName": "Gundraya DAD",
+        "patronym": "Nayak",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -1086,7 +2110,19 @@
     "families": [
       {
         "id": "70",
-        "lastName": "Surendra Kamath"
+        "lastName": "M",
+        "firstName": "Surendra",
+        "patronym": "Kamath",
+        "root": true,
+        "end": false
+      },
+      {
+        "id": "71",
+        "lastName": "Surendra",
+        "firstName": "Druv",
+        "patronym": "Kamath",
+        "root": false,
+        "end": true
       }
     ],
     "isFamilyRoot": false
@@ -1114,7 +2150,59 @@
     "families": [
       {
         "id": "104",
-        "lastName": "Srinivas Bhat"
+        "lastName": "Vedamurthi",
+        "firstName": "Srinivas",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "108",
+        "lastName": "Vedamurthi",
+        "firstName": "Dayanand (vasudev)",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "110",
+        "lastName": "Vedamurthi",
+        "firstName": "Ramakrishna",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "112",
+        "lastName": "Vedamurthi",
+        "firstName": "Raghu",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "114",
+        "lastName": "Vedamurthi",
+        "firstName": "Narasimha",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "116",
+        "lastName": "Vedamurthi",
+        "firstName": "Anant",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "118",
+        "lastName": "Vedamurthi",
+        "firstName": "Subbaiah",
+        "patronym": "Bhat",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -1142,7 +2230,67 @@
     "families": [
       {
         "id": "73",
-        "lastName": "Vaman Bhat"
+        "lastName": "Sharma",
+        "firstName": "Vaman",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "104",
+        "lastName": "Vedamurthi",
+        "firstName": "Srinivas",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "108",
+        "lastName": "Vedamurthi",
+        "firstName": "Dayanand (vasudev)",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "110",
+        "lastName": "Vedamurthi",
+        "firstName": "Ramakrishna",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "112",
+        "lastName": "Vedamurthi",
+        "firstName": "Raghu",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "114",
+        "lastName": "Vedamurthi",
+        "firstName": "Narasimha",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "116",
+        "lastName": "Vedamurthi",
+        "firstName": "Anant",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "118",
+        "lastName": "Vedamurthi",
+        "firstName": "Subbaiah",
+        "patronym": "Bhat",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -1169,7 +2317,83 @@
     "families": [
       {
         "id": "75",
-        "lastName": "Suresh Bhat"
+        "lastName": "Manjeshwar",
+        "firstName": "Suresh",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "77",
+        "lastName": "Sharma",
+        "firstName": "Vaman",
+        "patronym": "Bhat",
+        "root": false,
+        "end": true
+      },
+      {
+        "id": "73",
+        "lastName": "Sharma",
+        "firstName": "Vaman",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "104",
+        "lastName": "Vedamurthi",
+        "firstName": "Srinivas",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "108",
+        "lastName": "Vedamurthi",
+        "firstName": "Dayanand (vasudev)",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "110",
+        "lastName": "Vedamurthi",
+        "firstName": "Ramakrishna",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "112",
+        "lastName": "Vedamurthi",
+        "firstName": "Raghu",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "114",
+        "lastName": "Vedamurthi",
+        "firstName": "Narasimha",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "116",
+        "lastName": "Vedamurthi",
+        "firstName": "Anant",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "118",
+        "lastName": "Vedamurthi",
+        "firstName": "Subbaiah",
+        "patronym": "Bhat",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -1197,7 +2421,27 @@
     "families": [
       {
         "id": "64",
-        "lastName": "Rakesh Mallya"
+        "lastName": "Perdoor",
+        "firstName": "Rakesh",
+        "patronym": "Mallya",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "79",
+        "lastName": "Perdoor",
+        "firstName": "Shravani",
+        "patronym": "Mallya",
+        "root": false,
+        "end": true
+      },
+      {
+        "id": "62",
+        "lastName": "Perdoor",
+        "firstName": "Ganesh",
+        "patronym": "Mallya",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -1235,7 +2479,11 @@
     "families": [
       {
         "id": "80",
-        "lastName": "Giridhar Kamath"
+        "lastName": "Ram",
+        "firstName": "Giridhar",
+        "patronym": "Kamath",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -1251,7 +2499,11 @@
     "families": [
       {
         "id": "80",
-        "lastName": "Giridhar Kamath"
+        "lastName": "Ram",
+        "firstName": "Giridhar",
+        "patronym": "Kamath",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -1268,7 +2520,11 @@
     "families": [
       {
         "id": "80",
-        "lastName": "Giridhar Kamath"
+        "lastName": "Ram",
+        "firstName": "Giridhar",
+        "patronym": "Kamath",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -1318,7 +2574,19 @@
     "families": [
       {
         "id": "82",
-        "lastName": "Venkatesh Kamath"
+        "lastName": "Udupi",
+        "firstName": "Venkatesh",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "80",
+        "lastName": "Ram",
+        "firstName": "Giridhar",
+        "patronym": "Kamath",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -1345,7 +2613,19 @@
     "families": [
       {
         "id": "89",
-        "lastName": "Vidyarani ?"
+        "lastName": "Husband",
+        "firstName": "Vidyarani",
+        "patronym": "?",
+        "root": true,
+        "end": false
+      },
+      {
+        "id": "90",
+        "lastName": "Sister",
+        "firstName": "Nikku",
+        "patronym": "?",
+        "root": false,
+        "end": true
       }
     ],
     "isFamilyRoot": false
@@ -1360,7 +2640,19 @@
     "families": [
       {
         "id": "89",
-        "lastName": "Vidyarani ?"
+        "lastName": "Husband",
+        "firstName": "Vidyarani",
+        "patronym": "?",
+        "root": true,
+        "end": false
+      },
+      {
+        "id": "91",
+        "lastName": "boy",
+        "firstName": "Nikku",
+        "patronym": "?",
+        "root": false,
+        "end": true
       }
     ],
     "isFamilyRoot": false
@@ -1377,7 +2669,27 @@
     "families": [
       {
         "id": "83",
-        "lastName": "Srinivas Kamath"
+        "lastName": "M",
+        "firstName": "Srinivas",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "92",
+        "lastName": "Kamath",
+        "firstName": "Sahana",
+        "patronym": "Pai",
+        "root": false,
+        "end": true
+      },
+      {
+        "id": "80",
+        "lastName": "Ram",
+        "firstName": "Giridhar",
+        "patronym": "Kamath",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -1403,7 +2715,27 @@
     "families": [
       {
         "id": "83",
-        "lastName": "Srinivas Kamath"
+        "lastName": "M",
+        "firstName": "Srinivas",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "94",
+        "lastName": "Srinivas",
+        "firstName": "Saketh",
+        "patronym": "Kamath",
+        "root": false,
+        "end": true
+      },
+      {
+        "id": "80",
+        "lastName": "Ram",
+        "firstName": "Giridhar",
+        "patronym": "Kamath",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -1419,7 +2751,19 @@
     "families": [
       {
         "id": "84",
-        "lastName": "Ganesh Kamath"
+        "lastName": "M",
+        "firstName": "Ganesh",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "80",
+        "lastName": "Ram",
+        "firstName": "Giridhar",
+        "patronym": "Kamath",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -1444,7 +2788,35 @@
     "families": [
       {
         "id": "95",
-        "lastName": "Vivek Kamath"
+        "lastName": "Ganesh",
+        "firstName": "Vivek",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "97",
+        "lastName": "Vivek",
+        "firstName": "Javeed",
+        "patronym": "Kamath",
+        "root": false,
+        "end": true
+      },
+      {
+        "id": "84",
+        "lastName": "M",
+        "firstName": "Ganesh",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "80",
+        "lastName": "Ram",
+        "firstName": "Giridhar",
+        "patronym": "Kamath",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -1458,7 +2830,75 @@
     "families": [
       {
         "id": "73",
-        "lastName": "Vaman Bhat"
+        "lastName": "Sharma",
+        "firstName": "Vaman",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "98",
+        "lastName": "M",
+        "firstName": "Yogesh",
+        "patronym": "Bhat",
+        "root": false,
+        "end": true
+      },
+      {
+        "id": "104",
+        "lastName": "Vedamurthi",
+        "firstName": "Srinivas",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "108",
+        "lastName": "Vedamurthi",
+        "firstName": "Dayanand (vasudev)",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "110",
+        "lastName": "Vedamurthi",
+        "firstName": "Ramakrishna",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "112",
+        "lastName": "Vedamurthi",
+        "firstName": "Raghu",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "114",
+        "lastName": "Vedamurthi",
+        "firstName": "Narasimha",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "116",
+        "lastName": "Vedamurthi",
+        "firstName": "Anant",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "118",
+        "lastName": "Vedamurthi",
+        "firstName": "Subbaiah",
+        "patronym": "Bhat",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -1472,7 +2912,75 @@
     "families": [
       {
         "id": "73",
-        "lastName": "Vaman Bhat"
+        "lastName": "Sharma",
+        "firstName": "Vaman",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "99",
+        "lastName": "M",
+        "firstName": "Dinesh",
+        "patronym": "Bhat",
+        "root": false,
+        "end": true
+      },
+      {
+        "id": "104",
+        "lastName": "Vedamurthi",
+        "firstName": "Srinivas",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "108",
+        "lastName": "Vedamurthi",
+        "firstName": "Dayanand (vasudev)",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "110",
+        "lastName": "Vedamurthi",
+        "firstName": "Ramakrishna",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "112",
+        "lastName": "Vedamurthi",
+        "firstName": "Raghu",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "114",
+        "lastName": "Vedamurthi",
+        "firstName": "Narasimha",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "116",
+        "lastName": "Vedamurthi",
+        "firstName": "Anant",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "118",
+        "lastName": "Vedamurthi",
+        "firstName": "Subbaiah",
+        "patronym": "Bhat",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -1504,7 +3012,75 @@
     "families": [
       {
         "id": "73",
-        "lastName": "Vaman Bhat"
+        "lastName": "Sharma",
+        "firstName": "Vaman",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "102",
+        "lastName": "M",
+        "firstName": "Kanthi",
+        "patronym": "Bhat",
+        "root": false,
+        "end": true
+      },
+      {
+        "id": "104",
+        "lastName": "Vedamurthi",
+        "firstName": "Srinivas",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "108",
+        "lastName": "Vedamurthi",
+        "firstName": "Dayanand (vasudev)",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "110",
+        "lastName": "Vedamurthi",
+        "firstName": "Ramakrishna",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "112",
+        "lastName": "Vedamurthi",
+        "firstName": "Raghu",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "114",
+        "lastName": "Vedamurthi",
+        "firstName": "Narasimha",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "116",
+        "lastName": "Vedamurthi",
+        "firstName": "Anant",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "118",
+        "lastName": "Vedamurthi",
+        "firstName": "Subbaiah",
+        "patronym": "Bhat",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -1518,7 +3094,75 @@
     "families": [
       {
         "id": "73",
-        "lastName": "Vaman Bhat"
+        "lastName": "Sharma",
+        "firstName": "Vaman",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "103",
+        "lastName": "M",
+        "firstName": "Shobha",
+        "patronym": "Bhat",
+        "root": false,
+        "end": true
+      },
+      {
+        "id": "104",
+        "lastName": "Vedamurthi",
+        "firstName": "Srinivas",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "108",
+        "lastName": "Vedamurthi",
+        "firstName": "Dayanand (vasudev)",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "110",
+        "lastName": "Vedamurthi",
+        "firstName": "Ramakrishna",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "112",
+        "lastName": "Vedamurthi",
+        "firstName": "Raghu",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "114",
+        "lastName": "Vedamurthi",
+        "firstName": "Narasimha",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "116",
+        "lastName": "Vedamurthi",
+        "firstName": "Anant",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "118",
+        "lastName": "Vedamurthi",
+        "firstName": "Subbaiah",
+        "patronym": "Bhat",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -1532,8 +3176,52 @@
     "bio": "Srimath Anantheshwara Deva Darshana Patri (Possessed Individuals)",
     "families": [
       {
-        "id": "106",
-        "lastName": "Raghu Bhat"
+        "id": "108",
+        "lastName": "Vedamurthi",
+        "firstName": "Dayanand (vasudev)",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "110",
+        "lastName": "Vedamurthi",
+        "firstName": "Ramakrishna",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "112",
+        "lastName": "Vedamurthi",
+        "firstName": "Raghu",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "114",
+        "lastName": "Vedamurthi",
+        "firstName": "Narasimha",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "116",
+        "lastName": "Vedamurthi",
+        "firstName": "Anant",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "118",
+        "lastName": "Vedamurthi",
+        "firstName": "Subbaiah",
+        "patronym": "Bhat",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -1557,7 +3245,59 @@
     "families": [
       {
         "id": "108",
-        "lastName": "Dayanand (vasudev) Bhat"
+        "lastName": "Vedamurthi",
+        "firstName": "Dayanand (vasudev)",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "106",
+        "lastName": "Vedamurthi",
+        "firstName": "Raghu",
+        "patronym": "Bhat",
+        "root": false,
+        "end": true
+      },
+      {
+        "id": "110",
+        "lastName": "Vedamurthi",
+        "firstName": "Ramakrishna",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "112",
+        "lastName": "Vedamurthi",
+        "firstName": "Raghu",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "114",
+        "lastName": "Vedamurthi",
+        "firstName": "Narasimha",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "116",
+        "lastName": "Vedamurthi",
+        "firstName": "Anant",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "118",
+        "lastName": "Vedamurthi",
+        "firstName": "Subbaiah",
+        "patronym": "Bhat",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -1581,7 +3321,43 @@
     "families": [
       {
         "id": "110",
-        "lastName": "Ramakrishna Bhat"
+        "lastName": "Vedamurthi",
+        "firstName": "Ramakrishna",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "112",
+        "lastName": "Vedamurthi",
+        "firstName": "Raghu",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "114",
+        "lastName": "Vedamurthi",
+        "firstName": "Narasimha",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "116",
+        "lastName": "Vedamurthi",
+        "firstName": "Anant",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "118",
+        "lastName": "Vedamurthi",
+        "firstName": "Subbaiah",
+        "patronym": "Bhat",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -1605,7 +3381,35 @@
     "families": [
       {
         "id": "112",
-        "lastName": "Raghu Bhat"
+        "lastName": "Vedamurthi",
+        "firstName": "Raghu",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "114",
+        "lastName": "Vedamurthi",
+        "firstName": "Narasimha",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "116",
+        "lastName": "Vedamurthi",
+        "firstName": "Anant",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "118",
+        "lastName": "Vedamurthi",
+        "firstName": "Subbaiah",
+        "patronym": "Bhat",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -1629,7 +3433,27 @@
     "families": [
       {
         "id": "114",
-        "lastName": "Narasimha Bhat"
+        "lastName": "Vedamurthi",
+        "firstName": "Narasimha",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "116",
+        "lastName": "Vedamurthi",
+        "firstName": "Anant",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "118",
+        "lastName": "Vedamurthi",
+        "firstName": "Subbaiah",
+        "patronym": "Bhat",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -1653,7 +3477,19 @@
     "families": [
       {
         "id": "116",
-        "lastName": "Anant Bhat"
+        "lastName": "Vedamurthi",
+        "firstName": "Anant",
+        "patronym": "Bhat",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "118",
+        "lastName": "Vedamurthi",
+        "firstName": "Subbaiah",
+        "patronym": "Bhat",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -1677,7 +3513,11 @@
     "families": [
       {
         "id": "118",
-        "lastName": "Subbaiah Bhat"
+        "lastName": "Vedamurthi",
+        "firstName": "Subbaiah",
+        "patronym": "Bhat",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -1719,7 +3559,11 @@
     "families": [
       {
         "id": "124",
-        "lastName": "Gundraya DAD Nayak"
+        "lastName": "Mangalore",
+        "firstName": "Gundraya DAD",
+        "patronym": "Nayak",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -1742,7 +3586,27 @@
     "families": [
       {
         "id": "120",
-        "lastName": "Narashima Nayak"
+        "lastName": "Mangalore",
+        "firstName": "Narashima",
+        "patronym": "Nayak",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "122",
+        "lastName": "Mangalore",
+        "firstName": "Subraya",
+        "patronym": "Nayak",
+        "root": false,
+        "end": true
+      },
+      {
+        "id": "124",
+        "lastName": "Mangalore",
+        "firstName": "Gundraya DAD",
+        "patronym": "Nayak",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false
@@ -1756,7 +3620,27 @@
     "families": [
       {
         "id": "120",
-        "lastName": "Narashima Nayak"
+        "lastName": "Mangalore",
+        "firstName": "Narashima",
+        "patronym": "Nayak",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "123",
+        "lastName": "Mangalore",
+        "firstName": "Ramanand",
+        "patronym": "Nayak",
+        "root": false,
+        "end": true
+      },
+      {
+        "id": "124",
+        "lastName": "Mangalore",
+        "firstName": "Gundraya DAD",
+        "patronym": "Nayak",
+        "root": true,
+        "end": false
       }
     ],
     "isFamilyRoot": false

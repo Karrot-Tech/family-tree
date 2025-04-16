@@ -14,12 +14,13 @@ export type Navigation = {
 };
 
 const navigation: Navigation[] = [
-  { id: 1, title: "Overview 📘", path: "/" },
-  { id: 2, title: "Tree 🌳", path: "/tree" },
+  { id: 1, title: "Overview 📘", path: "/" },  
   { id: 3, title: "Families 👨‍👩‍👧‍👦", path: "/families" },
-  { id: 4, title: "Questions 🙋🏼‍♂️", path: "/faq" },
+  { id: 4, title: "FAQ 🙋🏼‍♂️", path: "/faq" },
+  { id: 5, title: "Credits 🙏", path: "/credits" },
 ];
-// { id: 5, title: "Acknowledgements 🙏", path: "/credits" },
+// { id: 2, title: "Tree 🌳", path: "/tree" },
+
 const Header: FC = () => {
   const router = useRouter();
   const [isMenuOpen, setMenuOpen] = useState(false);

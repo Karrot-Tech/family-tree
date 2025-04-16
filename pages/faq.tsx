@@ -130,7 +130,7 @@ const questions = [
     ),
   },
   {
-    question: "Whom is reposible for this network?",
+    question: "Who created this Family tree?",
     answer: (
       <span>
         Acknowledgements 🙏🏽

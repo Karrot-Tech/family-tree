@@ -1,6 +1,6 @@
 import { Family } from "@/types/family";
 import { TreeNode } from "@/types/tree";
-import { readFamilies, readNodesFromJson } from "./utils";
+import { readFamilies, readRootFamilies, readNodesFromJson } from "./utils";
 
 const TREE_NODES: TreeNode[] = readNodesFromJson();
 export const getTreeNodesArray = () => TREE_NODES;
@@ -11,5 +11,8 @@ export const getTreeNodesMap = () => TREE_NODES_MAP;
 const FAMILIES: Family[] = readFamilies();
 export const getFamiliesArray = () => FAMILIES;
 
-const FAMILIES_MAP = Object.fromEntries(FAMILIES.map((family) => [family.id, family]));
+const ROOT_FAMILIES: Family[] = readRootFamilies();
+export const getRootFamiliesArray = () => ROOT_FAMILIES;
+
+const FAMILIES_MAP = Object.fromEntries([ROOT_FAMILIES, FAMILIES].flat().map((family) => [family.id, family]));
 export const getFamiliesMap = () => FAMILIES_MAP;

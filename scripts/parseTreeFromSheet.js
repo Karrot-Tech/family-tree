@@ -1,8 +1,8 @@
 const { getTransformedNodesFromInputCsv } = require("./utils/transformInput.js");
 const { writeToJson } = require("./utils/common.js");
-const { getNodesData } = require("./utils/nodesData.js");
+const { getNodesData, getNodesDataTopDown } = require("./utils/nodesData.js");
 const { getRelations } = require("./utils/relations.js");
-const { getAllFamilies } = require("./utils/families.js");
+const { getAllFamilies, getRootFamilies } = require("./utils/families.js");
 
 const PATH_TO_INPUT_CSV = "Family Tree Knots - People.csv";
 
@@ -12,10 +12,13 @@ const parseTree = async () => {
   const nodesData = getNodesData(inputTreeNodes, relationsMap);
 
   const families = getAllFamilies(nodesData);
+  const rootFamilies = getRootFamilies(nodesData);
+
+  const nodesDataTopDown = getNodesDataTopDown(inputTreeNodes, relationsMap, rootFamilies);
 
   writeToJson(nodesData, "nodes");
   writeToJson(relations, "relations");
-  writeToJson({ families }, "meta");
+  writeToJson({ families, rootFamilies }, "meta");
 };
 
 parseTree();

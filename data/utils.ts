@@ -31,7 +31,11 @@ export const readNodesFromJson = (): TreeNode[] => {
 };
 
 export const readFamilies = (): Family[] => {
-  return families.families.map((family) => ({ id: family.id, lastName: family.lastName }));
+  return families.families.map((family) => ({ id: family.id, lastName: family.lastName, firstName : family.firstName, patronym: family.patronym, root: family.root}));
+};
+
+export const readRootFamilies = (): Family[] => {
+  return families.rootFamilies.map((family) => ({ id: family.id, lastName: family.lastName, firstName : family.firstName, patronym: family.patronym, root: family.root}));
 };
 
 const getFullName = ({ firstName, lastName, patronym }: TreeNodeDataFromJson): string => {
