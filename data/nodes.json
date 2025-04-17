@@ -570,6 +570,22 @@
         "lastName": "Ram",
         "firstName": "Giridhar",
         "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "148",
+        "lastName": "Majeshwar",
+        "firstName": "Vaman",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "149",
+        "lastName": "Majeshwar",
+        "firstName": "Padmanabh",
+        "patronym": "Kamath",
         "root": true,
         "end": false
       }
@@ -578,8 +594,8 @@
   },
   {
     "id": "19",
-    "lastName": "K",
-    "firstName": "Pachhi 1",
+    "lastName": "Gindi Bhat",
+    "firstName": "Vasudha",
     "patronym": "Pai",
     "gender": "female",
     "nationality": "Indian",
@@ -589,8 +605,8 @@
   },
   {
     "id": "21",
-    "lastName": "K",
-    "firstName": "Pachhi 2",
+    "lastName": "Kokkarne Nayak",
+    "firstName": "Vinaya",
     "patronym": "Pai",
     "gender": "female",
     "nationality": "Indian",
@@ -665,20 +681,6 @@
     "gender": "male",
     "nationality": "Indian",
     "occupation": "Shop Owner (Business)",
-    "families": [],
-    "isFamilyRoot": true
-  },
-  {
-    "id": "62",
-    "lastName": "Perdoor",
-    "firstName": "Ganesh",
-    "patronym": "Mallya",
-    "gender": "male",
-    "birthYear": 1954,
-    "birthMonth": 8,
-    "birthDay": 22,
-    "nationality": "Indian",
-    "occupation": "Business",
     "families": [],
     "isFamilyRoot": true
   },
@@ -793,20 +795,6 @@
     "firstName": "Ashwini",
     "patronym": "Pai",
     "gender": "female",
-    "nationality": "Indian",
-    "occupation": "House Maker",
-    "families": [],
-    "isFamilyRoot": true
-  },
-  {
-    "id": "63",
-    "lastName": "Perdoor",
-    "firstName": "Malathi",
-    "patronym": "Mallya",
-    "gender": "female",
-    "birthYear": 1961,
-    "birthMonth": 3,
-    "birthDay": 28,
     "nationality": "Indian",
     "occupation": "House Maker",
     "families": [],
@@ -1570,8 +1558,8 @@
   },
   {
     "id": "50",
-    "lastName": "Mamu",
-    "firstName": "Roopashree",
+    "lastName": "Maju",
+    "firstName": "Majunath",
     "patronym": "Bhat",
     "gender": "male",
     "nationality": "Indian",
@@ -1581,9 +1569,9 @@
   },
   {
     "id": "51",
-    "lastName": "Losonu",
+    "lastName": "Nayak",
     "firstName": "Lakshmi",
-    "patronym": "Pai?",
+    "patronym": "Padiyar",
     "gender": "female",
     "nationality": "Indian",
     "families": [
@@ -1594,23 +1582,15 @@
         "patronym": "Nayak",
         "root": true,
         "end": false
-      },
-      {
-        "id": "51",
-        "lastName": "Losonu",
-        "firstName": "Lakshmi",
-        "patronym": "Pai?",
-        "root": false,
-        "end": true
       }
     ],
     "isFamilyRoot": false
   },
   {
     "id": "52",
-    "lastName": "Husband",
-    "firstName": "Lakshmi",
-    "patronym": "Pai?",
+    "lastName": "B",
+    "firstName": "Vasudeva",
+    "patronym": "Padiyar",
     "gender": "male",
     "nationality": "Indian",
     "families": [],
@@ -1957,6 +1937,34 @@
       }
     ],
     "isFamilyRoot": false
+  },
+  {
+    "id": "62",
+    "lastName": "Perdoor",
+    "firstName": "Ganesh",
+    "patronym": "Mallya",
+    "gender": "male",
+    "birthYear": 1954,
+    "birthMonth": 8,
+    "birthDay": 22,
+    "nationality": "Indian",
+    "occupation": "Business",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "63",
+    "lastName": "Perdoor",
+    "firstName": "Malathi",
+    "patronym": "Mallya",
+    "gender": "female",
+    "birthYear": 1961,
+    "birthMonth": 3,
+    "birthDay": 28,
+    "nationality": "Indian",
+    "occupation": "House Maker",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "64",
@@ -2454,8 +2462,25 @@
     "gender": "male",
     "nationality": "Indian",
     "occupation": "School Teacher",
-    "families": [],
-    "isFamilyRoot": true
+    "families": [
+      {
+        "id": "148",
+        "lastName": "Majeshwar",
+        "firstName": "Vaman",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "149",
+        "lastName": "Majeshwar",
+        "firstName": "Padmanabh",
+        "patronym": "Kamath",
+        "root": true,
+        "end": false
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "81",
@@ -2465,8 +2490,17 @@
     "gender": "female",
     "nationality": "Indian",
     "occupation": "House Maker",
-    "families": [],
-    "isFamilyRoot": true
+    "families": [
+      {
+        "id": "151",
+        "lastName": "Nileshwar",
+        "firstName": "Purushottama",
+        "patronym": "Nayak",
+        "root": true,
+        "end": false
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "82",
@@ -2481,6 +2515,22 @@
         "id": "80",
         "lastName": "Ram",
         "firstName": "Giridhar",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "148",
+        "lastName": "Majeshwar",
+        "firstName": "Vaman",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "149",
+        "lastName": "Majeshwar",
+        "firstName": "Padmanabh",
         "patronym": "Kamath",
         "root": true,
         "end": false
@@ -2502,6 +2552,22 @@
         "lastName": "Ram",
         "firstName": "Giridhar",
         "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "148",
+        "lastName": "Majeshwar",
+        "firstName": "Vaman",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "149",
+        "lastName": "Majeshwar",
+        "firstName": "Padmanabh",
+        "patronym": "Kamath",
         "root": true,
         "end": false
       }
@@ -2522,6 +2588,22 @@
         "id": "80",
         "lastName": "Ram",
         "firstName": "Giridhar",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "148",
+        "lastName": "Majeshwar",
+        "firstName": "Vaman",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "149",
+        "lastName": "Majeshwar",
+        "firstName": "Padmanabh",
         "patronym": "Kamath",
         "root": true,
         "end": false
@@ -2584,6 +2666,22 @@
         "id": "80",
         "lastName": "Ram",
         "firstName": "Giridhar",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "148",
+        "lastName": "Majeshwar",
+        "firstName": "Vaman",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "149",
+        "lastName": "Majeshwar",
+        "firstName": "Padmanabh",
         "patronym": "Kamath",
         "root": true,
         "end": false
@@ -2688,6 +2786,22 @@
         "lastName": "Ram",
         "firstName": "Giridhar",
         "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "148",
+        "lastName": "Majeshwar",
+        "firstName": "Vaman",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "149",
+        "lastName": "Majeshwar",
+        "firstName": "Padmanabh",
+        "patronym": "Kamath",
         "root": true,
         "end": false
       }
@@ -2734,6 +2848,22 @@
         "lastName": "Ram",
         "firstName": "Giridhar",
         "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "148",
+        "lastName": "Majeshwar",
+        "firstName": "Vaman",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "149",
+        "lastName": "Majeshwar",
+        "firstName": "Padmanabh",
+        "patronym": "Kamath",
         "root": true,
         "end": false
       }
@@ -2761,6 +2891,22 @@
         "id": "80",
         "lastName": "Ram",
         "firstName": "Giridhar",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "148",
+        "lastName": "Majeshwar",
+        "firstName": "Vaman",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "149",
+        "lastName": "Majeshwar",
+        "firstName": "Padmanabh",
         "patronym": "Kamath",
         "root": true,
         "end": false
@@ -2814,6 +2960,22 @@
         "id": "80",
         "lastName": "Ram",
         "firstName": "Giridhar",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "148",
+        "lastName": "Majeshwar",
+        "firstName": "Vaman",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "149",
+        "lastName": "Majeshwar",
+        "firstName": "Padmanabh",
         "patronym": "Kamath",
         "root": true,
         "end": false
@@ -3662,5 +3824,1034 @@
     "gender": "female",
     "families": [],
     "isFamilyRoot": true
+  },
+  {
+    "id": "126",
+    "lastName": "Vasudeva",
+    "firstName": "Srilatha",
+    "patronym": "Padiyar",
+    "gender": "male",
+    "families": [
+      {
+        "id": "52",
+        "lastName": "B",
+        "firstName": "Vasudeva",
+        "patronym": "Padiyar",
+        "root": true,
+        "end": false
+      },
+      {
+        "id": "126",
+        "lastName": "Vasudeva",
+        "firstName": "Srilatha",
+        "patronym": "Padiyar",
+        "root": false,
+        "end": true
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "127",
+    "lastName": "Vasudeva",
+    "firstName": "Alok",
+    "patronym": "Padiyar",
+    "gender": "female",
+    "families": [
+      {
+        "id": "52",
+        "lastName": "B",
+        "firstName": "Vasudeva",
+        "patronym": "Padiyar",
+        "root": true,
+        "end": false
+      },
+      {
+        "id": "127",
+        "lastName": "Vasudeva",
+        "firstName": "Alok",
+        "patronym": "Padiyar",
+        "root": false,
+        "end": true
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "128",
+    "lastName": "Damodhar",
+    "firstName": "Vidhyadhar",
+    "patronym": "Kamath",
+    "gender": "male",
+    "families": [
+      {
+        "id": "133",
+        "lastName": "Manjeshwar",
+        "firstName": "Damodhar",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "128",
+        "lastName": "Damodhar",
+        "firstName": "Vidhyadhar",
+        "patronym": "Kamath",
+        "root": false,
+        "end": true
+      },
+      {
+        "id": "148",
+        "lastName": "Majeshwar",
+        "firstName": "Vaman",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "149",
+        "lastName": "Majeshwar",
+        "firstName": "Padmanabh",
+        "patronym": "Kamath",
+        "root": true,
+        "end": false
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "129",
+    "lastName": "Damodhar",
+    "firstName": "Vandana",
+    "patronym": "Kamath",
+    "gender": "male",
+    "families": [
+      {
+        "id": "133",
+        "lastName": "Manjeshwar",
+        "firstName": "Damodhar",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "129",
+        "lastName": "Damodhar",
+        "firstName": "Vandana",
+        "patronym": "Kamath",
+        "root": false,
+        "end": true
+      },
+      {
+        "id": "148",
+        "lastName": "Majeshwar",
+        "firstName": "Vaman",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "149",
+        "lastName": "Majeshwar",
+        "firstName": "Padmanabh",
+        "patronym": "Kamath",
+        "root": true,
+        "end": false
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "130",
+    "lastName": "Damodhar",
+    "firstName": "Vidyanand",
+    "patronym": "Kamath",
+    "gender": "male",
+    "families": [
+      {
+        "id": "133",
+        "lastName": "Manjeshwar",
+        "firstName": "Damodhar",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "130",
+        "lastName": "Damodhar",
+        "firstName": "Vidyanand",
+        "patronym": "Kamath",
+        "root": false,
+        "end": true
+      },
+      {
+        "id": "148",
+        "lastName": "Majeshwar",
+        "firstName": "Vaman",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "149",
+        "lastName": "Majeshwar",
+        "firstName": "Padmanabh",
+        "patronym": "Kamath",
+        "root": true,
+        "end": false
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "131",
+    "lastName": "Damodhar",
+    "firstName": "Vasudha",
+    "patronym": "Kamath",
+    "gender": "male",
+    "families": [
+      {
+        "id": "133",
+        "lastName": "Manjeshwar",
+        "firstName": "Damodhar",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "131",
+        "lastName": "Damodhar",
+        "firstName": "Vasudha",
+        "patronym": "Kamath",
+        "root": false,
+        "end": true
+      },
+      {
+        "id": "148",
+        "lastName": "Majeshwar",
+        "firstName": "Vaman",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "149",
+        "lastName": "Majeshwar",
+        "firstName": "Padmanabh",
+        "patronym": "Kamath",
+        "root": true,
+        "end": false
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "132",
+    "lastName": "Damodhar",
+    "firstName": "Sudhir",
+    "patronym": "Kamath",
+    "gender": "male",
+    "families": [
+      {
+        "id": "133",
+        "lastName": "Manjeshwar",
+        "firstName": "Damodhar",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "132",
+        "lastName": "Damodhar",
+        "firstName": "Sudhir",
+        "patronym": "Kamath",
+        "root": false,
+        "end": true
+      },
+      {
+        "id": "148",
+        "lastName": "Majeshwar",
+        "firstName": "Vaman",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "149",
+        "lastName": "Majeshwar",
+        "firstName": "Padmanabh",
+        "patronym": "Kamath",
+        "root": true,
+        "end": false
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "133",
+    "lastName": "Manjeshwar",
+    "firstName": "Damodhar",
+    "patronym": "Kamath",
+    "gender": "male",
+    "families": [
+      {
+        "id": "148",
+        "lastName": "Majeshwar",
+        "firstName": "Vaman",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "149",
+        "lastName": "Majeshwar",
+        "firstName": "Padmanabh",
+        "patronym": "Kamath",
+        "root": true,
+        "end": false
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "134",
+    "lastName": "Bai",
+    "firstName": "Ratna",
+    "patronym": "Kamath",
+    "gender": "female",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "135",
+    "lastName": "Manjeshwar",
+    "firstName": "Lakshman",
+    "patronym": "Kamath",
+    "gender": "male",
+    "families": [
+      {
+        "id": "148",
+        "lastName": "Majeshwar",
+        "firstName": "Vaman",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "149",
+        "lastName": "Majeshwar",
+        "firstName": "Padmanabh",
+        "patronym": "Kamath",
+        "root": true,
+        "end": false
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "136",
+    "lastName": "Bai",
+    "firstName": "Padmavati",
+    "patronym": "Kamath",
+    "gender": "female",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "137",
+    "lastName": "Kamath",
+    "firstName": "Hemalatha",
+    "patronym": "Bhat",
+    "gender": "female",
+    "families": [
+      {
+        "id": "135",
+        "lastName": "Manjeshwar",
+        "firstName": "Lakshman",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "148",
+        "lastName": "Majeshwar",
+        "firstName": "Vaman",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "149",
+        "lastName": "Majeshwar",
+        "firstName": "Padmanabh",
+        "patronym": "Kamath",
+        "root": true,
+        "end": false
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "138",
+    "lastName": "Kamath",
+    "firstName": "Premalatha",
+    "patronym": "Nayak",
+    "gender": "female",
+    "families": [
+      {
+        "id": "135",
+        "lastName": "Manjeshwar",
+        "firstName": "Lakshman",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "148",
+        "lastName": "Majeshwar",
+        "firstName": "Vaman",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "149",
+        "lastName": "Majeshwar",
+        "firstName": "Padmanabh",
+        "patronym": "Kamath",
+        "root": true,
+        "end": false
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "139",
+    "lastName": "Kamath",
+    "firstName": "Kasturi",
+    "patronym": "Nayak",
+    "gender": "female",
+    "families": [
+      {
+        "id": "135",
+        "lastName": "Manjeshwar",
+        "firstName": "Lakshman",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "139",
+        "lastName": "Kamath",
+        "firstName": "Kasturi",
+        "patronym": "Nayak",
+        "root": false,
+        "end": true
+      },
+      {
+        "id": "148",
+        "lastName": "Majeshwar",
+        "firstName": "Vaman",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "149",
+        "lastName": "Majeshwar",
+        "firstName": "Padmanabh",
+        "patronym": "Kamath",
+        "root": true,
+        "end": false
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "140",
+    "lastName": "Bhat",
+    "firstName": "Prameela",
+    "patronym": "Mallya",
+    "gender": "female",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "141",
+    "lastName": "M",
+    "firstName": "Prashanth",
+    "patronym": "Bhat",
+    "gender": "male",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "142",
+    "lastName": "M",
+    "firstName": "Ramya",
+    "patronym": "Nayak",
+    "gender": "female",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "143",
+    "lastName": "M",
+    "firstName": "Rashmi",
+    "patronym": "Nayak",
+    "gender": "female",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "144",
+    "lastName": "Majeshwar",
+    "firstName": "Manjunath",
+    "patronym": "Kamath",
+    "gender": "male",
+    "families": [
+      {
+        "id": "135",
+        "lastName": "Manjeshwar",
+        "firstName": "Lakshman",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "148",
+        "lastName": "Majeshwar",
+        "firstName": "Vaman",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "149",
+        "lastName": "Majeshwar",
+        "firstName": "Padmanabh",
+        "patronym": "Kamath",
+        "root": true,
+        "end": false
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "145",
+    "lastName": "Mayi",
+    "firstName": "Manna",
+    "patronym": "Kamath",
+    "gender": "female",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "146",
+    "lastName": "Kamath",
+    "firstName": "Akshatha",
+    "patronym": "Pai?",
+    "gender": "female",
+    "families": [
+      {
+        "id": "144",
+        "lastName": "Majeshwar",
+        "firstName": "Manjunath",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "146",
+        "lastName": "Kamath",
+        "firstName": "Akshatha",
+        "patronym": "Pai?",
+        "root": false,
+        "end": true
+      },
+      {
+        "id": "135",
+        "lastName": "Manjeshwar",
+        "firstName": "Lakshman",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "148",
+        "lastName": "Majeshwar",
+        "firstName": "Vaman",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "149",
+        "lastName": "Majeshwar",
+        "firstName": "Padmanabh",
+        "patronym": "Kamath",
+        "root": true,
+        "end": false
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "147",
+    "lastName": "Manjunath",
+    "firstName": "Ananth",
+    "patronym": "Kamath",
+    "gender": "male",
+    "families": [
+      {
+        "id": "144",
+        "lastName": "Majeshwar",
+        "firstName": "Manjunath",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "147",
+        "lastName": "Manjunath",
+        "firstName": "Ananth",
+        "patronym": "Kamath",
+        "root": false,
+        "end": true
+      },
+      {
+        "id": "135",
+        "lastName": "Manjeshwar",
+        "firstName": "Lakshman",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "148",
+        "lastName": "Majeshwar",
+        "firstName": "Vaman",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "149",
+        "lastName": "Majeshwar",
+        "firstName": "Padmanabh",
+        "patronym": "Kamath",
+        "root": true,
+        "end": false
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "148",
+    "lastName": "Majeshwar",
+    "firstName": "Vaman",
+    "patronym": "Kamath",
+    "gender": "male",
+    "families": [
+      {
+        "id": "149",
+        "lastName": "Majeshwar",
+        "firstName": "Padmanabh",
+        "patronym": "Kamath",
+        "root": true,
+        "end": false
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "149",
+    "lastName": "Majeshwar",
+    "firstName": "Padmanabh",
+    "patronym": "Kamath",
+    "gender": "male",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "150",
+    "lastName": "Bai",
+    "firstName": "Laxmi",
+    "patronym": "Kamath",
+    "gender": "female",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "151",
+    "lastName": "Nileshwar",
+    "firstName": "Purushottama",
+    "patronym": "Nayak",
+    "gender": "male",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "152",
+    "lastName": "Bai",
+    "firstName": "Kanaka",
+    "patronym": "Nayak",
+    "gender": "female",
+    "families": [],
+    "isFamilyRoot": true
+  },
+  {
+    "id": "153",
+    "lastName": "Kasargoad",
+    "firstName": "Devdas",
+    "patronym": "Nayak",
+    "gender": "male",
+    "families": [
+      {
+        "id": "151",
+        "lastName": "Nileshwar",
+        "firstName": "Purushottama",
+        "patronym": "Nayak",
+        "root": true,
+        "end": false
+      },
+      {
+        "id": "153",
+        "lastName": "Kasargoad",
+        "firstName": "Devdas",
+        "patronym": "Nayak",
+        "root": false,
+        "end": true
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "154",
+    "lastName": "Kamath",
+    "firstName": "Sushila",
+    "patronym": "Nayak",
+    "gender": "female",
+    "families": [
+      {
+        "id": "148",
+        "lastName": "Majeshwar",
+        "firstName": "Vaman",
+        "patronym": "Kamath",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "154",
+        "lastName": "Kamath",
+        "firstName": "Sushila",
+        "patronym": "Nayak",
+        "root": false,
+        "end": true
+      },
+      {
+        "id": "149",
+        "lastName": "Majeshwar",
+        "firstName": "Padmanabh",
+        "patronym": "Kamath",
+        "root": true,
+        "end": false
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "155",
+    "lastName": "Suratkal",
+    "firstName": "Vidhya",
+    "patronym": "Bhandarkar",
+    "gender": "female",
+    "families": [
+      {
+        "id": "24",
+        "lastName": "Mamu",
+        "firstName": "Kamalaksh",
+        "patronym": "Bhandarkar",
+        "root": true,
+        "end": false
+      },
+      {
+        "id": "155",
+        "lastName": "Suratkal",
+        "firstName": "Vidhya",
+        "patronym": "Bhandarkar",
+        "root": false,
+        "end": true
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "156",
+    "lastName": "Karkala",
+    "firstName": "Madhav",
+    "patronym": "Pai",
+    "gender": "male",
+    "families": [
+      {
+        "id": "5",
+        "lastName": "K",
+        "firstName": "Ramakrishna",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "3",
+        "lastName": "K",
+        "firstName": "Keshav",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "1",
+        "lastName": "Ankola",
+        "firstName": "Venkatramana (Venku)",
+        "patronym": "Pai",
+        "root": true,
+        "end": false
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "157",
+    "lastName": "Karkala",
+    "firstName": "Bhagirathi",
+    "patronym": "Pai",
+    "gender": "female",
+    "families": [
+      {
+        "id": "5",
+        "lastName": "K",
+        "firstName": "Ramakrishna",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "157",
+        "lastName": "Karkala",
+        "firstName": "Bhagirathi",
+        "patronym": "Pai",
+        "root": false,
+        "end": true
+      },
+      {
+        "id": "3",
+        "lastName": "K",
+        "firstName": "Keshav",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "1",
+        "lastName": "Ankola",
+        "firstName": "Venkatramana (Venku)",
+        "patronym": "Pai",
+        "root": true,
+        "end": false
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "158",
+    "lastName": "Karkala",
+    "firstName": "Narayani",
+    "patronym": "Pai",
+    "gender": "female",
+    "families": [
+      {
+        "id": "5",
+        "lastName": "K",
+        "firstName": "Ramakrishna",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "158",
+        "lastName": "Karkala",
+        "firstName": "Narayani",
+        "patronym": "Pai",
+        "root": false,
+        "end": true
+      },
+      {
+        "id": "3",
+        "lastName": "K",
+        "firstName": "Keshav",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "1",
+        "lastName": "Ankola",
+        "firstName": "Venkatramana (Venku)",
+        "patronym": "Pai",
+        "root": true,
+        "end": false
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "159",
+    "lastName": "Karkala",
+    "firstName": "Venkatesh",
+    "patronym": "Pai",
+    "gender": "male",
+    "families": [
+      {
+        "id": "156",
+        "lastName": "Karkala",
+        "firstName": "Madhav",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "159",
+        "lastName": "Karkala",
+        "firstName": "Venkatesh",
+        "patronym": "Pai",
+        "root": false,
+        "end": true
+      },
+      {
+        "id": "5",
+        "lastName": "K",
+        "firstName": "Ramakrishna",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "3",
+        "lastName": "K",
+        "firstName": "Keshav",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "1",
+        "lastName": "Ankola",
+        "firstName": "Venkatramana (Venku)",
+        "patronym": "Pai",
+        "root": true,
+        "end": false
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "160",
+    "lastName": "Karkala",
+    "firstName": "Sadashiva",
+    "patronym": "Pai",
+    "gender": "male",
+    "families": [
+      {
+        "id": "156",
+        "lastName": "Karkala",
+        "firstName": "Madhav",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "160",
+        "lastName": "Karkala",
+        "firstName": "Sadashiva",
+        "patronym": "Pai",
+        "root": false,
+        "end": true
+      },
+      {
+        "id": "5",
+        "lastName": "K",
+        "firstName": "Ramakrishna",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "3",
+        "lastName": "K",
+        "firstName": "Keshav",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "1",
+        "lastName": "Ankola",
+        "firstName": "Venkatramana (Venku)",
+        "patronym": "Pai",
+        "root": true,
+        "end": false
+      }
+    ],
+    "isFamilyRoot": false
+  },
+  {
+    "id": "161",
+    "lastName": "Karkala",
+    "firstName": "Panduranga",
+    "patronym": "Pai",
+    "gender": "male",
+    "families": [
+      {
+        "id": "156",
+        "lastName": "Karkala",
+        "firstName": "Madhav",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "161",
+        "lastName": "Karkala",
+        "firstName": "Panduranga",
+        "patronym": "Pai",
+        "root": false,
+        "end": true
+      },
+      {
+        "id": "5",
+        "lastName": "K",
+        "firstName": "Ramakrishna",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "3",
+        "lastName": "K",
+        "firstName": "Keshav",
+        "patronym": "Pai",
+        "root": false,
+        "end": false
+      },
+      {
+        "id": "1",
+        "lastName": "Ankola",
+        "firstName": "Venkatramana (Venku)",
+        "patronym": "Pai",
+        "root": true,
+        "end": false
+      }
+    ],
+    "isFamilyRoot": false
   }
 ]
