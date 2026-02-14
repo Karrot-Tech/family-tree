@@ -9,7 +9,8 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
     if (process.env.NODE_ENV !== "production") return;
     if (!("serviceWorker" in navigator)) return;
 
-    navigator.serviceWorker.register("/sw.js").catch(() => {
+    const buildId = (window as Window & { __NEXT_DATA__?: { buildId?: string } }).__NEXT_DATA__?.buildId ?? "unknown";
+    navigator.serviceWorker.register(`/sw.js?buildId=${encodeURIComponent(buildId)}`).catch(() => {
       // Ignore registration failures to avoid blocking app rendering.
     });
   }, []);

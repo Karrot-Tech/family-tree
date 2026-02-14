@@ -1,6 +1,7 @@
-const CACHE_VERSION = "v1";
-const APP_SHELL_CACHE = `app-shell-${CACHE_VERSION}`;
-const RUNTIME_CACHE = `runtime-${CACHE_VERSION}`;
+const BUILD_ID = new URL(self.location.href).searchParams.get("buildId") || "unknown";
+const APP_SHELL_CACHE = `app-shell-${BUILD_ID}`;
+const RUNTIME_CACHE = `runtime-${BUILD_ID}`;
+const CACHE_PREFIXES = ["app-shell-", "runtime-"];
 
 const APP_SHELL_ASSETS = [
   "/",
@@ -27,6 +28,7 @@ self.addEventListener("activate", (event) => {
     caches.keys().then((keys) =>
       Promise.all(
         keys
+          .filter((key) => CACHE_PREFIXES.some((prefix) => key.startsWith(prefix)))
           .filter((key) => ![APP_SHELL_CACHE, RUNTIME_CACHE].includes(key))
           .map((key) => caches.delete(key))
       )
