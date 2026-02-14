@@ -15,8 +15,7 @@ export const hasChildren = (unit: Unit): boolean => unit.nodes.some((node) => no
 export const rightSide = (unit: Unit): number => unit.pos + nodeCount(unit) * SIZE;
 const sortNodeIdsCb = (nodeIdA: string, nodeIdB: string) => +nodeIdA - +nodeIdB;
 export const sameAs = (target: Unit) => (unit: Unit) =>
-  // @ts-ignore
-  nodeIds(target).sort(sortNodeIdsCb).join("") === nodeIds(unit).sort(sortNodeIdsCb).join("");
+  [...nodeIds(target)].sort(sortNodeIdsCb).join("") === [...nodeIds(unit)].sort(sortNodeIdsCb).join("");
 export const getUnitX = (family: Family, unit: Unit) => family.X + unit.pos;
 export const unitsToNodes = (units: readonly Unit[]) => units.map(prop("nodes")).flat();
 

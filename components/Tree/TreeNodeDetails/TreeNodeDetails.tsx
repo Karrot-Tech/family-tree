@@ -56,9 +56,9 @@ const TreeNodeDetails: FC = () => {
         )}
       </div>
       <nav className={s.rootItem}>
-        {navigation.map((item, index) => (
+        {navigation.map((item) => (
           <BioNavItem
-            key={index}
+            key={item.id}
             id={item.id}
             text={item.title}
             isSelected={item.id === selectedNavId}

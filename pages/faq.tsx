@@ -62,7 +62,7 @@ const questions = [
         <br />
         <br />
         <div className={s.pictureWrapper}>
-          <Image src={tree} layout="responsive" />
+          <Image src={tree} layout="responsive" alt="Example family tree view" />
         </div>
         <br />
         Any selected Person&apos;s root family tree is shown, but you can also see trees for other families.{" "}
@@ -70,7 +70,7 @@ const questions = [
         <br />
         <br />
         <div className={s.pictureWrapper}>
-          <Image src={personCard} layout="responsive" />
+          <Image src={personCard} layout="responsive" alt="Person details panel with tabs" />
         </div>
       </span>
     ),
@@ -84,7 +84,7 @@ const questions = [
         <br />
         <br />
         <div className={s.pictureWrapper}>
-          <Image src={tree} layout="responsive" />
+          <Image src={tree} layout="responsive" alt="Family tree nodes and connections" />
         </div>
         <br />
         Also, by clicking on the ball, a card with detailed information about the person opens, where you can see 3 tabs: 
@@ -92,7 +92,7 @@ const questions = [
         <br />
         <br />
         <div className={s.pictureWrapper}>
-          <Image src={personCard} layout="responsive" />
+          <Image src={personCard} layout="responsive" alt="Biography section in person panel" />
         </div>
         <br />
         The Biography tab may contain information about a person’s date and place of birth, date and place of death, and close relatives (parents, spouses, children, brothers and sisters). 
@@ -116,14 +116,14 @@ const questions = [
         <br />
         <br />
         <div className={s.pictureWrapper}>
-          <Image src={yellowCircle} layout="responsive" />
+          <Image src={yellowCircle} layout="responsive" alt="Tree node highlighted with yellow ring" />
         </div>
         <br />
         But you can open the card of a person with such a ball, go to the Families tab and see which families he is a descendant of. Each surname there is a link to the tree of this family.
         <br />
         <br />
         <div className={s.pictureWrapper}>
-          <Image src={personCard2} layout="responsive" />
+          <Image src={personCard2} layout="responsive" alt="Families tab showing branch links" />
         </div>
       </span>
     ),

@@ -1,5 +1,5 @@
 import FamilyLink from "@/components/FamilyLink/FamilyLink";
-import { getFamiliesArray, getRootFamiliesArray } from "@/data";
+import { getFamiliesArray } from "@/data";
 import ballS from "@/styles/Ball.module.css";
 import s from "@/styles/FamiliesPage.module.css";
 import classNames from "classnames";
@@ -8,20 +8,20 @@ import Image from "next/image";
 import React, { useState, useMemo } from "react";
 
 const FamiliesPage: NextPage = () => {
-  const families = getFamiliesArray();
-  const rootFamilies = getRootFamiliesArray();
+  const familiesMap = getFamiliesArray();
+  // const rootFamilies = getRootFamiliesArray();
 
   const [query, setQuery] = useState("");
   const filteredFamilies = useMemo(() => {
     if (!query.trim()) return [];
     const q = query.trim().toLowerCase();
-    return families.filter(family =>
+    return familiesMap.filter(family =>
       [family.lastName, family.firstName, family.patronym]
         .join(" ")
         .toLowerCase()
         .includes(q)
     );
-  }, [query, families]);
+  }, [query, familiesMap]);
 
   return (
     <div className={s.pageContainer}>
@@ -36,8 +36,9 @@ const FamiliesPage: NextPage = () => {
         </div>
         <div className={classNames(s.titleContainer)}>
           <div className={s.subTitle}>
-          <span><label>Search for the branch </label></span>
+          <span><label htmlFor="branch-search">Search for the branch </label></span>
           <input
+            id="branch-search"
             type="text"
             placeholder="Type your name..."
             value={query}
@@ -50,9 +51,9 @@ const FamiliesPage: NextPage = () => {
           {query && (
             <div className={s.searchResults}>
               {filteredFamilies.length > 0 ? (
-                filteredFamilies.map((family, index) => (
+                filteredFamilies.map((family) => (
                   <FamilyLink
-                    key={index}
+                    key={family.id}
                     href={`/tree?root=${family.id}`}
                     familyName={[family.lastName, family.firstName, family.patronym].join(" ")}
                   />
@@ -65,9 +66,9 @@ const FamiliesPage: NextPage = () => {
         </div>
         <div className={s.familiesContainer}>
           <span className={s.subTitle}>Select from the root</span>
-          {rootFamilies
-            .map((family, index) => (
-            <FamilyLink key={index} href={`/tree?root=${family.id}`} familyName={[family.lastName,family.firstName,family.patronym].join(" ")} />
+          {familiesMap
+            .map((family) => (
+            <FamilyLink key={family.id} href={`/tree?root=${family.id}`} familyName={[family.lastName,family.firstName,family.patronym].join(" ")} />
             ))}
           <br />
         </div>

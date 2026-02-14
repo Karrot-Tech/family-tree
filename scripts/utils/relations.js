@@ -36,11 +36,6 @@ const getRelations = (transformedNodes) => {
     if (stepMother) parents.push(getBloodRel(stepMother.id, "adopted"));
     if (stepFather) parents.push(getBloodRel(stepFather.id, "adopted"));
 
-    // Ancestors
-    const ancestors = [];
-    if (father) ancestors.push(getBloodRel(father.id));
-    if (stepFather) ancestors.push(getBloodRel(stepFather.id, "adopted"));
-
     // Siblings
     const siblings = [...motherChildren];
     if (mother) {
@@ -53,11 +48,11 @@ const getRelations = (transformedNodes) => {
     // Update current node
     const currentNode = nodesMap.get(node.id);
     currentNode.parents = parents;
-    currentNode.ancestors = ancestors;
     currentNode.siblings = siblings;
     // Own spouses
     if (node.spouseId) {
       currentNode.spouses = addSpouse(currentNode.spouses, node.spouseId);
+
       const spouseNode = nodesMap.get(node.spouseId);
       spouseNode.spouses = addSpouse(spouseNode.spouses, node.id);
       nodesMap.set(spouseNode.id, spouseNode);
@@ -70,17 +65,12 @@ const getRelations = (transformedNodes) => {
     updateChildren({ nodesMap, node, parent: father });
     updateChildren({ nodesMap, node, parent: stepMother, isStepParent: true });
     updateChildren({ nodesMap, node, parent: stepFather, isStepParent: true });
-    
-    // Update ancestors
-    updateChildren({ nodesMap, node, ancestor: father });
-    updateChildren({ nodesMap, node, ancestor: stepFather, isStepParent: true });
   });
 
   const relations = [...nodesMap.values()].map((node) => {
     return {
       id: node.id,
       parents: node.parents ?? [],
-      ancestors: node.ancestors ?? [],
       siblings: node.siblings ?? [],
       spouses: node.spouses ?? [],
       children: node.children ?? [],
