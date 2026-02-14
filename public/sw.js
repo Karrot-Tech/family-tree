@@ -8,6 +8,7 @@ const APP_SHELL_ASSETS = [
   "/faq",
   "/credits",
   "/tree",
+  "/offline.html",
   "/manifest.webmanifest",
   "/favicon.ico",
   "/favicon_io/android-chrome-192x192.png",
@@ -41,7 +42,11 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
 
-  if (request.mode === "navigate") {
+  const isDataRequest =
+    url.pathname.startsWith("/_next/data/") ||
+    (url.pathname.startsWith("/data/") && url.pathname.endsWith(".json"));
+
+  if (request.mode === "navigate" || isDataRequest) {
     event.respondWith(
       fetch(request)
         .then((response) => {
@@ -52,7 +57,12 @@ self.addEventListener("fetch", (event) => {
         .catch(async () => {
           const cachedPage = await caches.match(request);
           if (cachedPage) return cachedPage;
-          return caches.match("/");
+          if (request.mode === "navigate") {
+            return caches.match("/offline.html");
+          }
+          return new Response("{}", {
+            headers: { "Content-Type": "application/json" },
+          });
         })
     );
     return;

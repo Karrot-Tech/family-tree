@@ -9,8 +9,15 @@ type BeforeInstallPromptEvent = Event & {
 const PwaInstallPrompt: FC = () => {
   const [deferredPrompt, setDeferredPrompt] = useState<BeforeInstallPromptEvent | null>(null);
   const [isInstalled, setIsInstalled] = useState(false);
+  const [isDismissed, setIsDismissed] = useState(false);
 
   useEffect(() => {
+    const dismissed = window.localStorage.getItem("pwa-install-dismissed");
+    if (dismissed === "1") {
+      setIsDismissed(true);
+      return;
+    }
+
     const mediaQuery = window.matchMedia("(display-mode: standalone)");
     setIsInstalled(mediaQuery.matches || (window.navigator as Navigator & { standalone?: boolean }).standalone === true);
 
@@ -22,6 +29,7 @@ const PwaInstallPrompt: FC = () => {
     const onAppInstalled = () => {
       setIsInstalled(true);
       setDeferredPrompt(null);
+      setIsDismissed(true);
     };
 
     window.addEventListener("beforeinstallprompt", onBeforeInstallPrompt);
@@ -33,7 +41,7 @@ const PwaInstallPrompt: FC = () => {
     };
   }, []);
 
-  if (isInstalled || !deferredPrompt) {
+  if (isInstalled || isDismissed || !deferredPrompt) {
     return null;
   }
 
@@ -43,7 +51,11 @@ const PwaInstallPrompt: FC = () => {
         className={s.button}
         onClick={async () => {
           await deferredPrompt.prompt();
-          await deferredPrompt.userChoice;
+          const choice = await deferredPrompt.userChoice;
+          if (choice.outcome !== "accepted") {
+            window.localStorage.setItem("pwa-install-dismissed", "1");
+            setIsDismissed(true);
+          }
           setDeferredPrompt(null);
         }}
       >
