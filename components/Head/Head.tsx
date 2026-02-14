@@ -19,9 +19,26 @@ export const PageHead = () => (
       <link rel="manifest" href="/manifest.webmanifest" />
       <link rel="apple-touch-icon" href="/favicon_io/apple-touch-icon.png" />
     </NextHead>
+    <ServiceWorkerRegistration />
     {process.env.NODE_ENV === "production" && process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID && <GoogleAnalytics />}
   </>
 );
+
+const ServiceWorkerRegistration = () => {
+  if (process.env.NODE_ENV !== "production") return null;
+
+  return (
+    <Script id="sw-register" strategy="afterInteractive">
+      {`
+        (function () {
+          if (!('serviceWorker' in navigator)) return;
+          var buildId = (window.__NEXT_DATA__ && window.__NEXT_DATA__.buildId) || 'unknown';
+          navigator.serviceWorker.register('/sw.js?buildId=' + encodeURIComponent(buildId)).catch(function () {});
+        })();
+      `}
+    </Script>
+  );
+};
 
 const GoogleAnalytics = () => (
   <>
