@@ -3,5 +3,5 @@ export type Family = {
   lastName: string;
   firstName: string;
   patronym: string;
-  root: boolean;
+  root?: boolean;
 };

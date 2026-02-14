@@ -1,41 +1,32 @@
 import { getTreeNodesMap } from "@/data";
-import { RelationInfo, TreeNodeDataWithRelations, TreeNodeRelation } from "@/types/tree";
+import { RelationInfo, TreeNodeDataWithRelations } from "@/types/tree";
+import { Relation } from "@/lib/relatives-tree/types";
 
 const nodesMap = getTreeNodesMap();
+const MONTHS: Record<number, string> = {
+  1: "January",
+  2: "February",
+  3: "March",
+  4: "April",
+  5: "May",
+  6: "June",
+  7: "July",
+  8: "August",
+  9: "September",
+  10: "October",
+  11: "November",
+  12: "December",
+};
 
 export const getMonthString = (month: number, day?: number) => {
-  return day === undefined ? genitiveCaseMonths[month] : nominativeCaseMonths[month];
-};
-const nominativeCaseMonths: Record<number, string> = {
-  1: "January",
-  2: "February",
-  3: "March",
-  4: "April",
-  5: "May",
-  6: "June",
-  7: "July",
-  8: "August",
-  9: "September",
-  10: "October",
-  11: "November",
-  12: "December",
-};
-const genitiveCaseMonths: Record<number, string> = {
-  1: "January",
-  2: "February",
-  3: "March",
-  4: "April",
-  5: "May",
-  6: "June",
-  7: "July",
-  8: "August",
-  9: "September",
-  10: "October",
-  11: "November",
-  12: "December",
+  const monthName = MONTHS[month];
+  return monthName ?? "";
 };
 
 export const getDate = (year?: number, month?: number, day?: number) => {
+  if (!year) return undefined;
+  if (!month || !MONTHS[month]) return `${year}`;
+
   return year
     ? month
       ? day
@@ -45,25 +36,33 @@ export const getDate = (year?: number, month?: number, day?: number) => {
     : undefined;
 };
 
-const getTreeNodeRelationDetails = (relations: TreeNodeRelation[]): RelationInfo[] => {
-  return relations.map((relation) => {
-    return {
+const getTreeNodeRelationDetails = (relations: readonly Relation[]): RelationInfo[] => {
+  return relations.flatMap((relation) => {
+    const relationNode = nodesMap[relation.id];
+    if (!relationNode) return [];
+
+    return [{
       id: relation.id,
-      fullName: nodesMap[relation.id].data.fullName,
+      fullName: relationNode.data.fullName,
       type: relation.type,
-      firstName: nodesMap[relation.id].data.firstName,
-    };
+      firstName: relationNode.data.firstName,
+    }];
   });
 };
+
 export const getTreeNodeDetails = (selectedNodeId?: string): TreeNodeDataWithRelations | undefined => {
   if (selectedNodeId === undefined) {
     return;
   }
+
   const selectedNode = nodesMap[selectedNodeId];
-  const parents = getTreeNodeRelationDetails(selectedNode.parents as TreeNodeRelation[]);
-  const children = getTreeNodeRelationDetails(selectedNode.children as TreeNodeRelation[]);
-  const spouses = getTreeNodeRelationDetails(selectedNode.spouses as TreeNodeRelation[]);
-  const siblings = getTreeNodeRelationDetails(selectedNode.siblings as TreeNodeRelation[]);
+  if (!selectedNode) return undefined;
+
+  const parents = getTreeNodeRelationDetails(selectedNode.parents);
+  const children = getTreeNodeRelationDetails(selectedNode.children);
+  const spouses = getTreeNodeRelationDetails(selectedNode.spouses);
+  const siblings = getTreeNodeRelationDetails(selectedNode.siblings);
+
   return {
     ...selectedNode.data,
     parents,

@@ -2,7 +2,6 @@
   {
     "id": "1",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -20,7 +19,6 @@
   {
     "id": "2",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -47,12 +45,6 @@
         "id": "1"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "1"
-      }
-    ],
     "siblings": [],
     "spouses": [
       {
@@ -70,7 +62,6 @@
   {
     "id": "4",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -92,12 +83,6 @@
         "type": "blood",
         "id": "4"
       },
-      {
-        "type": "blood",
-        "id": "3"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "3"
@@ -132,7 +117,6 @@
   {
     "id": "6",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -166,12 +150,6 @@
         "type": "blood",
         "id": "6"
       },
-      {
-        "type": "blood",
-        "id": "5"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "5"
@@ -239,7 +217,6 @@
   {
     "id": "8",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -298,12 +275,6 @@
         "id": "7"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "7"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -344,7 +315,6 @@
   {
     "id": "10",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -361,12 +331,6 @@
         "type": "blood",
         "id": "8"
       },
-      {
-        "type": "blood",
-        "id": "7"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "7"
@@ -417,7 +381,6 @@
   {
     "id": "12",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -443,12 +406,6 @@
         "type": "blood",
         "id": "8"
       },
-      {
-        "type": "blood",
-        "id": "7"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "7"
@@ -508,7 +465,6 @@
   {
     "id": "14",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -538,12 +494,6 @@
         "type": "blood",
         "id": "8"
       },
-      {
-        "type": "blood",
-        "id": "7"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "7"
@@ -616,12 +566,6 @@
         "id": "7"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "7"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -685,12 +629,6 @@
         "id": "7"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "7"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -745,12 +683,6 @@
         "type": "blood",
         "id": "8"
       },
-      {
-        "type": "blood",
-        "id": "7"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "7"
@@ -819,12 +751,6 @@
         "id": "80"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "80"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -859,7 +785,6 @@
   {
     "id": "19",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -877,7 +802,6 @@
   {
     "id": "21",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -899,7 +823,6 @@
   {
     "id": "22",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -925,12 +848,6 @@
         "type": "blood",
         "id": "8"
       },
-      {
-        "type": "blood",
-        "id": "7"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "7"
@@ -990,7 +907,6 @@
   {
     "id": "24",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -1016,12 +932,6 @@
         "type": "blood",
         "id": "8"
       },
-      {
-        "type": "blood",
-        "id": "7"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "7"
@@ -1090,12 +1000,6 @@
         "id": "16"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "16"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -1118,7 +1022,6 @@
   {
     "id": "27",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -1140,12 +1043,6 @@
         "type": "blood",
         "id": "17"
       },
-      {
-        "type": "blood",
-        "id": "16"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "16"
@@ -1177,12 +1074,6 @@
         "id": "57"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "57"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -1209,12 +1100,6 @@
         "id": "26"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "26"
-      }
-    ],
     "siblings": [],
     "spouses": [],
     "children": []
@@ -1226,12 +1111,6 @@
         "type": "blood",
         "id": "21"
       },
-      {
-        "type": "blood",
-        "id": "20"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "20"
@@ -1259,7 +1138,6 @@
   {
     "id": "32",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -1286,12 +1164,6 @@
         "id": "31"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "31"
-      }
-    ],
     "siblings": [],
     "spouses": [],
     "children": []
@@ -1299,7 +1171,6 @@
   {
     "id": "34",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -1325,12 +1196,6 @@
         "type": "blood",
         "id": "21"
       },
-      {
-        "type": "blood",
-        "id": "20"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "20"
@@ -1371,12 +1236,6 @@
         "id": "34"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "34"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -1398,12 +1257,6 @@
         "id": "34"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "34"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -1416,7 +1269,6 @@
   {
     "id": "38",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -1438,12 +1290,6 @@
         "type": "blood",
         "id": "19"
       },
-      {
-        "type": "blood",
-        "id": "18"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "18"
@@ -1475,12 +1321,6 @@
         "id": "38"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "38"
-      }
-    ],
     "siblings": [],
     "spouses": [],
     "children": []
@@ -1492,12 +1332,6 @@
         "type": "blood",
         "id": "13"
       },
-      {
-        "type": "blood",
-        "id": "12"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "12"
@@ -1529,12 +1363,6 @@
         "id": "12"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "12"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -1552,7 +1380,6 @@
   {
     "id": "43",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -1565,7 +1392,6 @@
   {
     "id": "44",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -1582,12 +1408,6 @@
         "type": "blood",
         "id": "15"
       },
-      {
-        "type": "blood",
-        "id": "14"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "14"
@@ -1623,12 +1443,6 @@
         "id": "14"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "14"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -1659,12 +1473,6 @@
         "id": "14"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "14"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -1686,7 +1494,6 @@
   {
     "id": "48",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -1699,7 +1506,6 @@
   {
     "id": "49",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -1712,7 +1518,6 @@
   {
     "id": "50",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -1729,12 +1534,6 @@
         "type": "blood",
         "id": "23"
       },
-      {
-        "type": "blood",
-        "id": "22"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "22"
@@ -1766,7 +1565,6 @@
   {
     "id": "52",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -1797,12 +1595,6 @@
         "id": "22"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "22"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -1825,7 +1617,6 @@
   {
     "id": "54",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -1852,12 +1643,6 @@
         "id": "24"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "24"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -1879,12 +1664,6 @@
         "id": "53"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "53"
-      }
-    ],
     "siblings": [],
     "spouses": [],
     "children": []
@@ -1896,12 +1675,6 @@
         "type": "blood",
         "id": "74"
       },
-      {
-        "type": "blood",
-        "id": "73"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "73"
@@ -1958,12 +1731,6 @@
         "id": "66"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "66"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -2003,12 +1770,6 @@
         "id": "57"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "57"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -2035,12 +1796,6 @@
         "type": "blood",
         "id": "63"
       },
-      {
-        "type": "blood",
-        "id": "62"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "62"
@@ -2077,12 +1832,6 @@
         "id": "60"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "60"
-      }
-    ],
     "siblings": [],
     "spouses": [],
     "children": []
@@ -2090,7 +1839,6 @@
   {
     "id": "62",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -2112,7 +1860,6 @@
   {
     "id": "63",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -2143,12 +1890,6 @@
         "id": "62"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "62"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -2171,7 +1912,6 @@
   {
     "id": "65",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -2193,12 +1933,6 @@
         "type": "blood",
         "id": "125"
       },
-      {
-        "type": "blood",
-        "id": "124"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "124"
@@ -2234,7 +1968,6 @@
   {
     "id": "67",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -2264,12 +1997,6 @@
         "type": "blood",
         "id": "67"
       },
-      {
-        "type": "blood",
-        "id": "66"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "66"
@@ -2310,12 +2037,6 @@
         "id": "66"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "66"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -2337,7 +2058,6 @@
   {
     "id": "70",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -2364,12 +2084,6 @@
         "id": "70"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "70"
-      }
-    ],
     "siblings": [],
     "spouses": [],
     "children": []
@@ -2377,7 +2091,6 @@
   {
     "id": "72",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -2394,12 +2107,6 @@
         "type": "blood",
         "id": "105"
       },
-      {
-        "type": "blood",
-        "id": "104"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "104"
@@ -2442,7 +2149,6 @@
   {
     "id": "74",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -2489,12 +2195,6 @@
         "id": "73"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "73"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -2533,7 +2233,6 @@
   {
     "id": "76",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -2560,12 +2259,6 @@
         "id": "75"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "75"
-      }
-    ],
     "siblings": [],
     "spouses": [
       {
@@ -2578,7 +2271,6 @@
   {
     "id": "78",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -2600,12 +2292,6 @@
         "id": "64"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "64"
-      }
-    ],
     "siblings": [],
     "spouses": [],
     "children": []
@@ -2617,12 +2303,6 @@
         "type": "blood",
         "id": "150"
       },
-      {
-        "type": "blood",
-        "id": "148"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "148"
@@ -2679,12 +2359,6 @@
         "id": "151"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "151"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -2728,12 +2402,6 @@
         "id": "80"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "80"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -2768,12 +2436,6 @@
         "type": "blood",
         "id": "81"
       },
-      {
-        "type": "blood",
-        "id": "80"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "80"
@@ -2822,12 +2484,6 @@
         "id": "80"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "80"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -2858,7 +2514,6 @@
   {
     "id": "85",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -2876,7 +2531,6 @@
   {
     "id": "86",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -2898,7 +2552,6 @@
   {
     "id": "87",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -2925,12 +2578,6 @@
         "id": "82"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "82"
-      }
-    ],
     "siblings": [],
     "spouses": [
       {
@@ -2952,7 +2599,6 @@
   {
     "id": "89",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -2983,12 +2629,6 @@
         "id": "89"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "89"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -3005,12 +2645,6 @@
         "type": "blood",
         "id": "88"
       },
-      {
-        "type": "blood",
-        "id": "89"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "89"
@@ -3037,12 +2671,6 @@
         "id": "83"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "83"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -3060,7 +2688,6 @@
   {
     "id": "93",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -3077,12 +2704,6 @@
         "type": "blood",
         "id": "86"
       },
-      {
-        "type": "blood",
-        "id": "83"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "83"
@@ -3109,12 +2730,6 @@
         "id": "84"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "84"
-      }
-    ],
     "siblings": [],
     "spouses": [
       {
@@ -3132,7 +2747,6 @@
   {
     "id": "96",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -3159,12 +2773,6 @@
         "id": "95"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "95"
-      }
-    ],
     "siblings": [],
     "spouses": [],
     "children": []
@@ -3176,12 +2784,6 @@
         "type": "blood",
         "id": "74"
       },
-      {
-        "type": "blood",
-        "id": "73"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "73"
@@ -3229,12 +2831,6 @@
         "id": "73"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "73"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -3268,7 +2864,6 @@
   {
     "id": "100",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -3281,7 +2876,6 @@
   {
     "id": "101",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -3298,12 +2892,6 @@
         "type": "blood",
         "id": "74"
       },
-      {
-        "type": "blood",
-        "id": "73"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "73"
@@ -3346,12 +2934,6 @@
         "id": "73"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "73"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -3389,12 +2971,6 @@
         "id": "108"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "108"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -3417,7 +2993,6 @@
   {
     "id": "105",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -3444,12 +3019,6 @@
         "id": "108"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "108"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -3467,7 +3036,6 @@
   {
     "id": "107",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -3484,12 +3052,6 @@
         "type": "blood",
         "id": "111"
       },
-      {
-        "type": "blood",
-        "id": "110"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "110"
@@ -3516,7 +3078,6 @@
   {
     "id": "109",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -3547,12 +3108,6 @@
         "id": "112"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "112"
-      }
-    ],
     "siblings": [],
     "spouses": [
       {
@@ -3570,7 +3125,6 @@
   {
     "id": "111",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -3597,12 +3151,6 @@
         "id": "114"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "114"
-      }
-    ],
     "siblings": [],
     "spouses": [
       {
@@ -3620,7 +3168,6 @@
   {
     "id": "113",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -3647,12 +3194,6 @@
         "id": "116"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "116"
-      }
-    ],
     "siblings": [],
     "spouses": [
       {
@@ -3670,7 +3211,6 @@
   {
     "id": "115",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -3697,12 +3237,6 @@
         "id": "118"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "118"
-      }
-    ],
     "siblings": [],
     "spouses": [
       {
@@ -3720,7 +3254,6 @@
   {
     "id": "117",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -3738,7 +3271,6 @@
   {
     "id": "118",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -3756,7 +3288,6 @@
   {
     "id": "119",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -3778,12 +3309,6 @@
         "type": "blood",
         "id": "125"
       },
-      {
-        "type": "blood",
-        "id": "124"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "124"
@@ -3815,7 +3340,6 @@
   {
     "id": "121",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -3846,12 +3370,6 @@
         "id": "120"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "120"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -3873,12 +3391,6 @@
         "id": "120"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "120"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -3891,7 +3403,6 @@
   {
     "id": "124",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [],
     "children": [
@@ -3908,7 +3419,6 @@
   {
     "id": "125",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [],
     "children": [
@@ -3929,12 +3439,6 @@
         "type": "blood",
         "id": "51"
       },
-      {
-        "type": "blood",
-        "id": "52"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "52"
@@ -3961,12 +3465,6 @@
         "id": "52"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "52"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -3983,12 +3481,6 @@
         "type": "blood",
         "id": "134"
       },
-      {
-        "type": "blood",
-        "id": "133"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "133"
@@ -4027,12 +3519,6 @@
         "id": "133"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "133"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -4061,12 +3547,6 @@
         "type": "blood",
         "id": "134"
       },
-      {
-        "type": "blood",
-        "id": "133"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "133"
@@ -4105,12 +3585,6 @@
         "id": "133"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "133"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -4144,12 +3618,6 @@
         "id": "133"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "133"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -4178,12 +3646,6 @@
         "type": "blood",
         "id": "150"
       },
-      {
-        "type": "blood",
-        "id": "148"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "148"
@@ -4235,7 +3697,6 @@
   {
     "id": "134",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -4273,12 +3734,6 @@
         "type": "blood",
         "id": "150"
       },
-      {
-        "type": "blood",
-        "id": "148"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "148"
@@ -4326,7 +3781,6 @@
   {
     "id": "136",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -4360,12 +3814,6 @@
         "type": "blood",
         "id": "136"
       },
-      {
-        "type": "blood",
-        "id": "135"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "135"
@@ -4409,12 +3857,6 @@
         "id": "135"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "135"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -4453,12 +3895,6 @@
         "id": "135"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "135"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -4484,7 +3920,6 @@
         "id": "138"
       }
     ],
-    "ancestors": [],
     "siblings": [
       {
         "type": "blood",
@@ -4502,7 +3937,6 @@
         "id": "138"
       }
     ],
-    "ancestors": [],
     "siblings": [
       {
         "type": "blood",
@@ -4520,7 +3954,6 @@
         "id": "137"
       }
     ],
-    "ancestors": [],
     "siblings": [
       {
         "type": "blood",
@@ -4538,7 +3971,6 @@
         "id": "137"
       }
     ],
-    "ancestors": [],
     "siblings": [
       {
         "type": "blood",
@@ -4555,12 +3987,6 @@
         "type": "blood",
         "id": "136"
       },
-      {
-        "type": "blood",
-        "id": "135"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "135"
@@ -4600,7 +4026,6 @@
   {
     "id": "145",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -4631,12 +4056,6 @@
         "id": "144"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "144"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -4658,12 +4077,6 @@
         "id": "144"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "144"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -4676,12 +4089,6 @@
   {
     "id": "148",
     "parents": [
-      {
-        "type": "blood",
-        "id": "149"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "149"
@@ -4716,7 +4123,6 @@
   {
     "id": "149",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [],
     "children": [
@@ -4729,7 +4135,6 @@
   {
     "id": "150",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -4759,7 +4164,6 @@
   {
     "id": "151",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -4781,7 +4185,6 @@
   {
     "id": "152",
     "parents": [],
-    "ancestors": [],
     "siblings": [],
     "spouses": [
       {
@@ -4812,12 +4215,6 @@
         "id": "151"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "151"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -4839,12 +4236,6 @@
         "type": "blood",
         "id": "150"
       },
-      {
-        "type": "blood",
-        "id": "148"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "148"
@@ -4884,12 +4275,6 @@
         "id": "24"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "24"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -4906,12 +4291,6 @@
         "type": "blood",
         "id": "6"
       },
-      {
-        "type": "blood",
-        "id": "5"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "5"
@@ -4959,12 +4338,6 @@
         "id": "5"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "5"
-      }
-    ],
     "siblings": [
       {
         "type": "blood",
@@ -4989,12 +4362,6 @@
         "type": "blood",
         "id": "6"
       },
-      {
-        "type": "blood",
-        "id": "5"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "5"
@@ -5025,12 +4392,6 @@
         "id": "156"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "156"
-      }
-    ],
     "siblings": [],
     "spouses": [],
     "children": []
@@ -5043,12 +4404,6 @@
         "id": "156"
       }
     ],
-    "ancestors": [
-      {
-        "type": "blood",
-        "id": "156"
-      }
-    ],
     "siblings": [],
     "spouses": [],
     "children": []
@@ -5056,12 +4411,6 @@
   {
     "id": "161",
     "parents": [
-      {
-        "type": "blood",
-        "id": "156"
-      }
-    ],
-    "ancestors": [
       {
         "type": "blood",
         "id": "156"

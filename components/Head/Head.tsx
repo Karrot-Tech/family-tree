@@ -10,7 +10,14 @@ export const PageHead = () => (
       <title>Vamsa Vruksham</title>
       <meta name="description" content={description} />
       <meta name="viewport" content="width=device-width, initial-scale=1" key="viewport" />
+      <meta name="theme-color" content="#ffffff" />
+      <meta name="mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+      <meta name="apple-mobile-web-app-title" content="Vamsa Vruksham" />
       <meta property="og:image" content="/share.jpg" />
+      <link rel="manifest" href="/manifest.webmanifest" />
+      <link rel="apple-touch-icon" href="/favicon_io/apple-touch-icon.png" />
     </NextHead>
     {process.env.NODE_ENV === "production" && process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID && <GoogleAnalytics />}
   </>
