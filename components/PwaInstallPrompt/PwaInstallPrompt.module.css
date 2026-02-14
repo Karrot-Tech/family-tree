@@ -1,0 +1,21 @@
+.root {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 999;
+}
+
+.button {
+  border: 0;
+  border-radius: 999px;
+  background: #0a7a3f;
+  color: #fff;
+  padding: 10px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+  background: #086634;
+}

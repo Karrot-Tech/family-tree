@@ -1,0 +1,56 @@
+import { FC, useEffect, useState } from "react";
+import s from "./PwaInstallPrompt.module.css";
+
+type BeforeInstallPromptEvent = Event & {
+  prompt: () => Promise<void>;
+  userChoice: Promise<{ outcome: "accepted" | "dismissed"; platform: string }>;
+};
+
+const PwaInstallPrompt: FC = () => {
+  const [deferredPrompt, setDeferredPrompt] = useState<BeforeInstallPromptEvent | null>(null);
+  const [isInstalled, setIsInstalled] = useState(false);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(display-mode: standalone)");
+    setIsInstalled(mediaQuery.matches || (window.navigator as Navigator & { standalone?: boolean }).standalone === true);
+
+    const onBeforeInstallPrompt = (event: Event) => {
+      event.preventDefault();
+      setDeferredPrompt(event as BeforeInstallPromptEvent);
+    };
+
+    const onAppInstalled = () => {
+      setIsInstalled(true);
+      setDeferredPrompt(null);
+    };
+
+    window.addEventListener("beforeinstallprompt", onBeforeInstallPrompt);
+    window.addEventListener("appinstalled", onAppInstalled);
+
+    return () => {
+      window.removeEventListener("beforeinstallprompt", onBeforeInstallPrompt);
+      window.removeEventListener("appinstalled", onAppInstalled);
+    };
+  }, []);
+
+  if (isInstalled || !deferredPrompt) {
+    return null;
+  }
+
+  return (
+    <div className={s.root}>
+      <button
+        className={s.button}
+        onClick={async () => {
+          await deferredPrompt.prompt();
+          await deferredPrompt.userChoice;
+          setDeferredPrompt(null);
+        }}
+      >
+        Install App
+      </button>
+    </div>
+  );
+};
+
+export default PwaInstallPrompt;
